@@ -1,0 +1,102 @@
+{
+  "jefesProyecto": [
+    {
+      "id": "jp1",
+      "nombre": "Camila Fuentes Rojas",
+      "correo": "camila.fuentes@empresa.cl",
+      "contrato": "Indefinido",
+      "cargo": "Jefe de Proyecto",
+      "sigla": "CF",
+      "sistemas": [
+        {
+          "idSistema": "sys1",
+          "nombreSistema": "ERP Ministerial",
+          "dedicacion": "70%",
+          "tipoDesarrollo": "Ambos",
+          "proveedor": "Browse Ingeniería",
+          "tipo": "Proyecto",
+          "fechaInicio": "02-01-2025",
+          "fechaFin": "20-07-2026",
+          "analistaId": "an1",
+          "analista": "Daniela Vega Soto",
+          "dedicacionAnalista": "60%"
+        },
+        {
+          "idSistema": "sys2",
+          "nombreSistema": "Portal de Convenios",
+          "dedicacion": "30%",
+          "tipoDesarrollo": "Interno",
+          "proveedor": "Equipo Interno",
+          "tipo": "Mantención",
+          "fechaInicio": "10-03-2025",
+          "fechaFin": "31-12-2026",
+          "analistaId": "an2",
+          "analista": "Luis Herrera Díaz",
+          "dedicacionAnalista": "40%"
+        }
+      ]
+    },
+    {
+      "id": "jp2",
+      "nombre": "Matías Leiva González",
+      "correo": "matias.leiva@empresa.cl",
+      "contrato": "Honorarios",
+      "cargo": "Jefe de Proyecto",
+      "sigla": "ML",
+      "sistemas": [
+        {
+          "idSistema": "sys3",
+          "nombreSistema": "Sistema de Activos",
+          "dedicacion": "55%",
+          "tipoDesarrollo": "Externo",
+          "proveedor": "Tech Solutions",
+          "tipo": "Proyecto",
+          "fechaInicio": "05-05-2025",
+          "fechaFin": "30-11-2026",
+          "analistaId": "an3",
+          "analista": "Paula Medina Castro",
+          "dedicacionAnalista": "45%"
+        },
+        {
+          "idSistema": "sys4",
+          "nombreSistema": "Mesa de Servicios",
+          "dedicacion": "45%",
+          "tipoDesarrollo": "Ambos",
+          "proveedor": "Service Cloud",
+          "tipo": "Mantención",
+          "fechaInicio": "01-08-2024",
+          "fechaFin": "31-12-2026",
+          "analistaId": "an1",
+          "analista": "Daniela Vega Soto",
+          "dedicacionAnalista": "30%"
+        }
+      ]
+    }
+  ],
+  "analistas": [
+    {
+      "id": "an1",
+      "nombre": "Daniela Vega Soto",
+      "correo": "daniela.vega@empresa.cl",
+      "contrato": "Indefinido",
+      "cargo": "Analista",
+      "sigla": "DV"
+    },
+    {
+      "id": "an2",
+      "nombre": "Luis Herrera Díaz",
+      "correo": "luis.herrera@empresa.cl",
+      "contrato": "Contrata",
+      "cargo": "Analista",
+      "sigla": "LH"
+    },
+    {
+      "id": "an3",
+      "nombre": "Paula Medina Castro",
+      "correo": "paula.medina@empresa.cl",
+      "contrato": "Honorarios",
+      "cargo": "Analista",
+      "sigla": "PM"
+    }
+  ]
+}
