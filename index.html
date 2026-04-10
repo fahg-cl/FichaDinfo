@@ -652,8 +652,7 @@
         selectedSystemId: null
     };
 
-    const tipoBadge = getTipoBadge(item.tipo);
-const desarrolloBadge = getDesarrolloBadge(item.tipoDesarrollo);
+
 
     function getAnalystProjects(analystId) {
         const rows = [];
@@ -867,11 +866,11 @@ function getDesarrolloBadge(tipo) {
             } else {
                 const projects = Array.isArray(item.proyectos) ? item.proyectos : getAnalystProjects(item.id);
                 const totalDedicacionAnalista = projects.reduce(
-                    (sum, proyecto) => sum + parsePercent(proyecto.dedicacionAnalista ? ? proyecto.dedicacion),
+                    (sum, proyecto) => sum + parsePercent(proyecto.dedicacionAnalista ?? proyecto.dedicacion),
                     0
                 );
                 const totalIncidentes = projects.reduce(
-                    (sum, proyecto) => sum + parsePercent(proyecto.camposExtra ? .incidentes),
+                    (sum, proyecto) => sum + parsePercent(proyecto.camposExtra?.incidentes),
                     0
                 );
                 const totalAnalista = totalDedicacionAnalista + totalIncidentes;
@@ -972,52 +971,57 @@ function getDesarrolloBadge(tipo) {
     }
 
     function renderJPTable(person) {
-        if (!person.sistemas ? .length) {
+        if (!person.sistemas?.length) {
             return '<div class="empty-state">No hay sistemas asociados en esta versión del prototipo.</div>';
         }
 
         return `
         <div class="systems-cards-wrap">
           <div class="systems-grid">
-            ${person.sistemas.map(item => `
-              <article class="system-card">
-                <div class="system-card-header">
-                  <div>
-                    <h4><button class="link-button" onclick="openSystem('${item.idSistema}')">${item.nombreSistema}</button></h4>
-                  </div>
-                  <div class="badge-row">
-<span class="badge ${tipoBadge.css}">${tipoBadge.label}</span>
-<span class="badge ${desarrolloBadge.css}">${desarrolloBadge.label}</span>
-                  </div>
-                </div>
-                <div class="system-card-meta">
-                  <div class="system-card-item">
-                    <span>% dedicación</span>
-                    <strong>${item.dedicacion}</strong>
-                  </div>
-                  <div class="system-card-item">
-                    <span>Proveedor</span>
-                    <strong>${item.proveedor}</strong>
-                  </div>
-                  <div class="system-card-item">
-                    <span>Fecha de inicio</span>
-                    <strong>${item.fechaInicio}</strong>
-                  </div>
-                  <div class="system-card-item">
-                    <span>Fecha de fin</span>
-                    <strong>${item.fechaFin}</strong>
-                  </div>
-                  <div class="system-card-item">
-                    <span>Analista</span>
-                    <strong><button class="link-button" onclick="renderDetail('analista', '${item.analistaId}')">${item.analista}</button></strong>
-                  </div>
-                  <div class="system-card-item">
-                    <span>% dedicación del analista</span>
-                    <strong>${item.dedicacionAnalista}</strong>
-                  </div>
-                </div>
-              </article>
-            `).join('')}
+${person.sistemas.map(item => {
+  const tipoBadge = getTipoBadge(item.tipo);
+  const desarrolloBadge = getDesarrolloBadge(item.tipoDesarrollo);
+
+  return `
+    <article class="system-card">
+      <div class="system-card-header">
+        <div>
+          <h4><button class="link-button" onclick="openSystem('${item.idSistema}')">${item.nombreSistema}</button></h4>
+        </div>
+        <div class="badge-row">
+          <span class="badge ${tipoBadge.css}">${tipoBadge.label}</span>
+          <span class="badge ${desarrolloBadge.css}">${desarrolloBadge.label}</span>
+        </div>
+      </div>
+      <div class="system-card-meta">
+        <div class="system-card-item">
+          <span>% dedicación</span>
+          <strong>${item.dedicacion}</strong>
+        </div>
+        <div class="system-card-item">
+          <span>Proveedor</span>
+          <strong>${item.proveedor}</strong>
+        </div>
+        <div class="system-card-item">
+          <span>Fecha de inicio</span>
+          <strong>${item.fechaInicio}</strong>
+        </div>
+        <div class="system-card-item">
+          <span>Fecha de fin</span>
+          <strong>${item.fechaFin}</strong>
+        </div>
+        <div class="system-card-item">
+          <span>Analista</span>
+          <strong><button class="link-button" onclick="renderDetail('analista', '${item.analistaId}')">${item.analista}</button></strong>
+        </div>
+        <div class="system-card-item">
+          <span>% dedicación del analista</span>
+          <strong>${item.dedicacionAnalista}</strong>
+        </div>
+      </div>
+    </article>
+  `;
+}).join('')}
           </div>
         </div>
       `;
@@ -1032,45 +1036,50 @@ function getDesarrolloBadge(tipo) {
         return `
         <div class="systems-cards-wrap">
           <div class="systems-grid">
-            ${projects.map(item => `
-              <article class="system-card">
-                <div class="system-card-header">
-                  <div>
-                    <h4><button class="link-button" onclick="openSystem('${item.idSistema}')">${item.nombreSistema}</button></h4>
-                  </div>
-                  <div class="badge-row">
-<span class="badge ${tipoBadge.css}">${tipoBadge.label}</span>
-<span class="badge ${desarrolloBadge.css}">${desarrolloBadge.label}</span>
-                  </div>
-                </div>
-                <div class="system-card-meta">
-                  <div class="system-card-item">
-                    <span>% dedicación</span>
-                    <strong>${item.dedicacion}</strong>
-                  </div>
-                  <div class="system-card-item">
-                    <span>Proveedor</span>
-                    <strong>${item.proveedor}</strong>
-                  </div>
-                  <div class="system-card-item">
-                    <span>Fecha de inicio</span>
-                    <strong>${item.fechaInicio}</strong>
-                  </div>
-                  <div class="system-card-item">
-                    <span>Fecha de fin</span>
-                    <strong>${item.fechaFin}</strong>
-                  </div>
-                  <div class="system-card-item">
-                    <span>Jefe de Proyecto</span>
-                    <strong><button class="link-button" onclick="renderDetail('jp', '${item.jefeProyectoId}')">${item.jefeProyecto}</button></strong>
-                  </div>
-                  <div class="system-card-item">
-                    <span>% dedicación del JP</span>
-                    <strong>${item.dedicacionJefe}</strong>
-                  </div>
-                </div>
-              </article>
-            `).join('')}
+${projects.map(item => {
+  const tipoBadge = getTipoBadge(item.tipo);
+  const desarrolloBadge = getDesarrolloBadge(item.tipoDesarrollo);
+
+  return `
+    <article class="system-card">
+      <div class="system-card-header">
+        <div>
+          <h4><button class="link-button" onclick="openSystem('${item.idSistema}')">${item.nombreSistema}</button></h4>
+        </div>
+        <div class="badge-row">
+          <span class="badge ${tipoBadge.css}">${tipoBadge.label}</span>
+          <span class="badge ${desarrolloBadge.css}">${desarrolloBadge.label}</span>
+        </div>
+      </div>
+      <div class="system-card-meta">
+        <div class="system-card-item">
+          <span>% dedicación</span>
+          <strong>${item.dedicacion}</strong>
+        </div>
+        <div class="system-card-item">
+          <span>Proveedor</span>
+          <strong>${item.proveedor}</strong>
+        </div>
+        <div class="system-card-item">
+          <span>Fecha de inicio</span>
+          <strong>${item.fechaInicio}</strong>
+        </div>
+        <div class="system-card-item">
+          <span>Fecha de fin</span>
+          <strong>${item.fechaFin}</strong>
+        </div>
+        <div class="system-card-item">
+          <span>Jefe de Proyecto</span>
+          <strong><button class="link-button" onclick="renderDetail('jp', '${item.jefeProyectoId}')">${item.jefeProyecto}</button></strong>
+        </div>
+        <div class="system-card-item">
+          <span>% dedicación del JP</span>
+          <strong>${item.dedicacionJefe}</strong>
+        </div>
+      </div>
+    </article>
+  `;
+}).join('')}
           </div>
         </div>
       `;
