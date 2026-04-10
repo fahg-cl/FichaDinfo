@@ -141,7 +141,7 @@
           "tipo": "Proyecto Mantención",
           "fechaInicio": "05-11-2025",
           "fechaFin": "23-01-2026",
-          "analistaId": "an7",
+          "analistaId": "",
           "analista": "No Aplica",
           "dedicacionAnalista": ""
         },
@@ -180,7 +180,7 @@
           "tipo": "Mantención",
           "fechaInicio": "",
           "fechaFin": "",
-          "analistaId": "an8",
+          "analistaId": "an7",
           "analista": "Claudio Lara Moreno",
           "dedicacionAnalista": "10%"
         },
@@ -193,7 +193,7 @@
           "tipo": "Mantención",
           "fechaInicio": "",
           "fechaFin": "",
-          "analistaId": "an9",
+          "analistaId": "an8",
           "analista": "Marco Acevedo Acevedo",
           "dedicacionAnalista": "10%"
         },
@@ -206,7 +206,7 @@
           "tipo": "Mantención",
           "fechaInicio": "",
           "fechaFin": "",
-          "analistaId": "an8",
+          "analistaId": "an7",
           "analista": "Claudio Lara Moreno",
           "dedicacionAnalista": "5%"
         },
@@ -219,7 +219,7 @@
           "tipo": "Mantención",
           "fechaInicio": "",
           "fechaFin": "",
-          "analistaId": "an8",
+          "analistaId": "an7",
           "analista": "Claudio Lara Moreno",
           "dedicacionAnalista": "5%"
         }
@@ -242,7 +242,7 @@
           "tipo": "Mantención",
           "fechaInicio": "07-01-2026",
           "fechaFin": "Permanente",
-          "analistaId": "an10",
+          "analistaId": "an9",
           "analista": "Francisco Carrasco (DDU)",
           "dedicacionAnalista": "50%"
         },
@@ -278,7 +278,7 @@
           "tipo": "Mantención",
           "fechaInicio": "",
           "fechaFin": "Permanente",
-          "analistaId": "an11",
+          "analistaId": "an10",
           "analista": "Felipe Ahumada Romero",
           "dedicacionAnalista": "80%"
         },
@@ -291,7 +291,7 @@
           "tipo": "Proyecto",
           "fechaInicio": "01-04-2026",
           "fechaFin": "13-04-2026",
-          "analistaId": "an11",
+          "analistaId": "an10",
           "analista": "Felipe Ahumada Romero",
           "dedicacionAnalista": "20%"
         },
@@ -317,7 +317,7 @@
           "tipo": "Proyecto",
           "fechaInicio": "06-04-2026",
           "fechaFin": "20-04-2026",
-          "analistaId": "an12",
+          "analistaId": "an11",
           "analista": "Hernan Silva Jimenez",
           "dedicacionAnalista": "80%"
         },
@@ -330,7 +330,7 @@
           "tipo": "Mantención",
           "fechaInicio": "",
           "fechaFin": "Permanente",
-          "analistaId": "an12",
+          "analistaId": "an11",
           "analista": "Hernan Silva Jimenez",
           "dedicacionAnalista": "20%"
         },
@@ -343,7 +343,7 @@
           "tipo": "Proyecto",
           "fechaInicio": "06-04-2026",
           "fechaFin": "06-05-2026",
-          "analistaId": "an8",
+          "analistaId": "an7",
           "analista": "Claudio Lara Moreno",
           "dedicacionAnalista": "80%"
         }
@@ -366,7 +366,7 @@
           "tipo": "Proyecto Mantención",
           "fechaInicio": "16-03-2026",
           "fechaFin": "28-04-2026",
-          "analistaId": "an13",
+          "analistaId": "an12",
           "analista": "Francisco Lemus Cordova",
           "dedicacionAnalista": "80%"
         },
@@ -379,7 +379,7 @@
           "tipo": "Proyecto Mantención",
           "fechaInicio": "08-04-2026",
           "fechaFin": "13-05-2026",
-          "analistaId": "an14",
+          "analistaId": "an13",
           "analista": "Ciro Ponce Rodriguez",
           "dedicacionAnalista": "80%"
         },
@@ -392,7 +392,7 @@
           "tipo": "Proyecto Mantención",
           "fechaInicio": "13-11-2025",
           "fechaFin": "30-05-2026",
-          "analistaId": "an15",
+          "analistaId": "an14",
           "analista": "Diego Alcayaga Atria",
           "dedicacionAnalista": "80%"
         },
@@ -405,7 +405,7 @@
           "tipo": "Proyecto Mantención",
           "fechaInicio": "20-11-2025",
           "fechaFin": "17-04-2026",
-          "analistaId": "an16",
+          "analistaId": "an15",
           "analista": "Marcelo Parra Velasquez",
           "dedicacionAnalista": "100%"
         },
@@ -418,7 +418,7 @@
           "tipo": "Proyecto Mantención",
           "fechaInicio": "13-04-2026",
           "fechaFin": "30-12-2026",
-          "analistaId": "an17",
+          "analistaId": "an16",
           "analista": "Jonathan Vasquez Subiabre",
           "dedicacionAnalista": "80%"
         },
@@ -431,7 +431,7 @@
           "tipo": "Mantención",
           "fechaInicio": "09-03-2026",
           "fechaFin": "15-04-2026",
-          "analistaId": "an17",
+          "analistaId": "an16",
           "analista": "Jonathan Vasquez Subiabre",
           "dedicacionAnalista": "20%"
         },
@@ -444,7 +444,7 @@
           "tipo": "Mantención",
           "fechaInicio": "02-01-2026",
           "fechaFin": "30-06-2026",
-          "analistaId": "an9",
+          "analistaId": "an8",
           "analista": "Marco Acevedo Acevedo",
           "dedicacionAnalista": "10%"
         }
@@ -493,7 +493,7 @@
           "tipo": "Proyecto Mantención",
           "fechaInicio": "18-11-2025",
           "fechaFin": "20-04-2026",
-          "analistaId": "an18",
+          "analistaId": "an17",
           "analista": "Cristian Huerta",
           "dedicacionAnalista": "80%"
         }
@@ -542,7 +542,7 @@
           "tipo": "Proyecto",
           "fechaInicio": "",
           "fechaFin": "",
-          "analistaId": "an9",
+          "analistaId": "an8",
           "analista": "Marco Acevedo Acevedo",
           "dedicacionAnalista": "80%"
         }
@@ -565,7 +565,7 @@
           "tipo": "Mantención",
           "fechaInicio": "En tramite",
           "fechaFin": "",
-          "analistaId": "an19",
+          "analistaId": "an18",
           "analista": "Miguel Mamani",
           "dedicacionAnalista": "60%"
         },
@@ -578,7 +578,7 @@
           "tipo": "Mantención",
           "fechaInicio": "En tramite",
           "fechaFin": "",
-          "analistaId": "an19",
+          "analistaId": "an18",
           "analista": "Miguel Mamani",
           "dedicacionAnalista": "20%"
         },
@@ -591,7 +591,7 @@
           "tipo": "Mantención",
           "fechaInicio": "En tramite",
           "fechaFin": "",
-          "analistaId": "an20",
+          "analistaId": "an19",
           "analista": "Bastian Prieto Puga",
           "dedicacionAnalista": "80%"
         },
@@ -604,7 +604,7 @@
           "tipo": "Mantención",
           "fechaInicio": "En tramite",
           "fechaFin": "",
-          "analistaId": "an21",
+          "analistaId": "an20",
           "analista": "Jean Paul Astudillo",
           "dedicacionAnalista": "50%"
         },
@@ -617,7 +617,7 @@
           "tipo": "Mantención",
           "fechaInicio": "En tramite",
           "fechaFin": "",
-          "analistaId": "an21",
+          "analistaId": "an20",
           "analista": "Jean Paul Astudillo",
           "dedicacionAnalista": "30%"
         },
@@ -630,7 +630,7 @@
           "tipo": "Proyecto",
           "fechaInicio": "02-03-2026",
           "fechaFin": "31-12-2026",
-          "analistaId": "an22",
+          "analistaId": "an21",
           "analista": "Sion Jei Mamani",
           "dedicacionAnalista": "80%"
         }
@@ -647,7 +647,7 @@
         {
           "idSistema": "sys43",
           "nombreSistema": "Plataforma Única de Postulación",
-          "dedicacion": "",
+          "dedicacion": "100%",
           "tipoDesarrollo": "Externo",
           "proveedor": "CODERHUB",
           "tipo": "Proyecto",
@@ -711,14 +711,6 @@
     },
     {
       "id": "an7",
-      "nombre": "No Aplica",
-      "correo": "",
-      "contrato": "",
-      "cargo": "Analista",
-      "sigla": "NA"
-    },
-    {
-      "id": "an8",
       "nombre": "Claudio Lara Moreno",
       "correo": "clara@minvu.cl",
       "contrato": "Contrata",
@@ -726,7 +718,7 @@
       "sigla": "CL"
     },
     {
-      "id": "an9",
+      "id": "an8",
       "nombre": "Marco Acevedo Acevedo",
       "correo": "macevedoa@minvu.cl",
       "contrato": "Contrata",
@@ -734,7 +726,7 @@
       "sigla": "MA"
     },
     {
-      "id": "an10",
+      "id": "an9",
       "nombre": "Francisco Carrasco (DDU)",
       "correo": "fcarrascoa@minvu.cl",
       "contrato": "Por Producto",
@@ -742,7 +734,7 @@
       "sigla": "FC"
     },
     {
-      "id": "an11",
+      "id": "an10",
       "nombre": "Felipe Ahumada Romero",
       "correo": "faahumadar@minvu.cl",
       "contrato": "Contrata",
@@ -750,7 +742,7 @@
       "sigla": "FA"
     },
     {
-      "id": "an12",
+      "id": "an11",
       "nombre": "Hernan Silva Jimenez",
       "correo": "hsilvaj@minvu.cl",
       "contrato": "Contrata",
@@ -758,7 +750,7 @@
       "sigla": "HS"
     },
     {
-      "id": "an13",
+      "id": "an12",
       "nombre": "Francisco Lemus Cordova",
       "correo": "flemus@minvu.cl",
       "contrato": "Contrata",
@@ -766,7 +758,7 @@
       "sigla": "FL"
     },
     {
-      "id": "an14",
+      "id": "an13",
       "nombre": "Ciro Ponce Rodriguez",
       "correo": "cponcer@minvu.cl",
       "contrato": "Suma Alzada",
@@ -774,7 +766,7 @@
       "sigla": "CP"
     },
     {
-      "id": "an15",
+      "id": "an14",
       "nombre": "Diego Alcayaga Atria",
       "correo": "dalcayaga@minvu.cl",
       "contrato": "Contrata",
@@ -782,7 +774,7 @@
       "sigla": "DA"
     },
     {
-      "id": "an16",
+      "id": "an15",
       "nombre": "Marcelo Parra Velasquez",
       "correo": "mparrav@minvu.cl",
       "contrato": "Contrata",
@@ -790,7 +782,7 @@
       "sigla": "MP"
     },
     {
-      "id": "an17",
+      "id": "an16",
       "nombre": "Jonathan Vasquez Subiabre",
       "correo": "jvasquezs@minvu.cl",
       "contrato": "Contrata",
@@ -798,7 +790,7 @@
       "sigla": "JV"
     },
     {
-      "id": "an18",
+      "id": "an17",
       "nombre": "Cristian Huerta",
       "correo": "chuerta@minvu.cl",
       "contrato": "Contrata",
@@ -806,7 +798,7 @@
       "sigla": "CH"
     },
     {
-      "id": "an19",
+      "id": "an18",
       "nombre": "Miguel Mamani",
       "correo": "mmamani@minvu.cl",
       "contrato": "Contrata",
@@ -814,7 +806,7 @@
       "sigla": "MM"
     },
     {
-      "id": "an20",
+      "id": "an19",
       "nombre": "Bastian Prieto Puga",
       "correo": "bprietop@minvu.cl",
       "contrato": "Contrata",
@@ -822,7 +814,7 @@
       "sigla": "BP"
     },
     {
-      "id": "an21",
+      "id": "an20",
       "nombre": "Jean Paul Astudillo",
       "correo": "jpastudillo@minvu.cl",
       "contrato": "Contrata",
@@ -830,7 +822,7 @@
       "sigla": "JP"
     },
     {
-      "id": "an22",
+      "id": "an21",
       "nombre": "Sion Jei Mamani",
       "correo": "smamanil@minvu.cl",
       "contrato": "Por Producto",
