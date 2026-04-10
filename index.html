@@ -28,6 +28,42 @@
       color: var(--text);
     }
 
+.email-copy {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.copy-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  padding: 0;
+  border-radius: 10px;
+  background: #eff6ff;
+  border: 1px solid #bfdbfe;
+  color: #1d4ed8;
+  cursor: pointer;
+}
+
+.copy-btn:hover {
+  background: #dbeafe;
+}
+
+.copy-btn svg {
+  width: 16px;
+  height: 16px;
+}
+
+.copy-ok {
+  font-size: 12px;
+  color: #166534;
+  font-weight: bold;
+}
+
     .app {
       max-width: 1400px;
       margin: 0 auto;
@@ -710,7 +746,24 @@
       if (total > 100) return { label: `Dedicación ${total}%`, css: 'is-warning' };
       return { label: `Dedicación ${total}%`, css: 'is-danger' };
     }
+async function copyToClipboard(text, feedbackId) {
+  try {
+    await navigator.clipboard.writeText(text);
 
+    if (feedbackId) {
+      const feedback = document.getElementById(feedbackId);
+      if (feedback) {
+        feedback.textContent = 'Copiado';
+        setTimeout(() => {
+          feedback.textContent = '';
+        }, 1800);
+      }
+    }
+  } catch (error) {
+    console.error('No se pudo copiar el texto:', error);
+    alert('No fue posible copiar el correo.');
+  }
+}
     function renderCards() {
       const grid = document.getElementById('cardsGrid');
       const isJP = state.mode === 'jp';
@@ -767,7 +820,24 @@
             </div>
           </div>
           <div class="meta">
-            <div><strong>Correo:</strong> ${item.correo || ''}</div>
+            <div>
+  <strong>Correo:</strong>
+  <span class="email-copy">
+    <span>${item.correo || ''}</span>
+    <button
+      class="copy-btn"
+      type="button"
+      title="Copiar correo"
+      onclick="copyToClipboard('${item.correo || ''}', 'copy-feedback-card-${item.id}')"
+    >
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <rect x="9" y="9" width="13" height="13" rx="2"></rect>
+        <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+      </svg>
+    </button>
+    <span class="copy-ok" id="copy-feedback-card-${item.id}"></span>
+  </span>
+</div>
             <div><strong>Contrato:</strong> ${item.contrato || ''}</div>
           </div>
           ${chipsHtml}
@@ -793,7 +863,24 @@
         <h3>${person.nombre}</h3>
         <div class="profile-role">${person.cargo}</div>
         <div class="meta">
-          <div><strong>Correo:</strong> ${person.correo}</div>
+          <div>
+  <strong>Correo:</strong>
+  <span class="email-copy">
+    <span>${person.correo}</span>
+    <button
+      class="copy-btn"
+      type="button"
+      title="Copiar correo"
+      onclick="copyToClipboard('${person.correo}', 'copy-feedback-detail')"
+    >
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <rect x="9" y="9" width="13" height="13" rx="2"></rect>
+        <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+      </svg>
+    </button>
+    <span class="copy-ok" id="copy-feedback-detail"></span>
+  </span>
+</div>
           <div><strong>Tipo de contrato:</strong> ${person.contrato}</div>
         </div>
       `;
