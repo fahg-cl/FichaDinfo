@@ -639,6 +639,11 @@
         <div class="status-box" id="dataStatus">
             <strong>Origen de datos:</strong> cargando archivo <code>estructura_sistemas_jp_analistas.json</code>...
         </div>
+        <div style="margin-top:12px; display:flex; gap:10px; flex-wrap:wrap; align-items:center;">
+            <button class="btn-secondary" type="button" onclick="triggerJsonPicker()">Cargar JSON manualmente</button>
+            <input id="jsonFilePicker" type="file" accept=".json,application/json" class="hidden" onchange="handleJsonFileSelected(event)" />
+            <span style="font-size:12px;color:#6b7280;">Úsalo si abriste el HTML localmente y el navegador no permite leer el archivo JSON automáticamente.</span>
+        </div>
     </footer>
     <script>
     let data = {
@@ -712,6 +717,185 @@
         }
         return null;
     }
+
+
+    function slugifyText(value) {
+        return String(value || '')
+            .normalize('NFD')
+            .replace(/[\u0300-\u036f]/g, '')
+            .toLowerCase()
+            .replace(/[^a-z0-9]+/g, '-')
+            .replace(/^-+|-+$/g, '');
+    }
+
+    function getInitials(name) {
+        const words = String(name || '')
+            .trim()
+            .split(/\s+/)
+            .filter(Boolean);
+
+        if (!words.length) return '?';
+        return words.slice(0, 2).map(word => word[0].toUpperCase()).join('');
+    }
+
+    function isMeaningfulName(value) {
+        const normalized = String(value || '').trim().toLowerCase();
+        return normalized !== '' && normalized !== 'no aplica';
+    }
+
+    function normalizeIncomingData(payload) {
+        const systems = Array.isArray(payload?.sistemas) ? payload.sistemas : [];
+        const jpMap = new Map();
+        const analystMap = new Map();
+        const normalizedSystems = [];
+
+        systems.forEach(system => {
+            const jp = system?.jpTitular || {};
+            const suplenteNombre = system?.jpSuplente?.nombre || '';
+            const jpId = jp.id || `jp-${slugifyText(jp.nombre || system.nombre || 'sin-jp')}`;
+
+            if (!jpMap.has(jpId)) {
+                jpMap.set(jpId, {
+                    id: jpId,
+                    nombre: jp.nombre || 'No informado',
+                    correo: jp.correo || '',
+                    contrato: jp.tipoContrato || '',
+                    sigla: getInitials(jp.nombre),
+                    cargo: 'Jefe de Proyecto',
+                    suplente: suplenteNombre,
+                    sistemas: []
+                });
+            } else if (suplenteNombre && !jpMap.get(jpId).suplente) {
+                jpMap.get(jpId).suplente = suplenteNombre;
+            }
+
+            const analysts = Array.isArray(system?.analistas) && system.analistas.length
+                ? system.analistas
+                : [{}];
+
+            const normalizedAnalystsForSystem = [];
+
+            analysts.forEach(analyst => {
+                const analystName = analyst?.nombre || '';
+                const analystId = analyst?.id || (isMeaningfulName(analystName) ? `an-${slugifyText(analystName)}` : '');
+                const analystMeaningful = isMeaningfulName(analystName);
+
+                const systemRow = {
+                    idSistema: system.id || `sistema-${slugifyText(system.nombre || 'sin-nombre')}`,
+                    nombreSistema: system.nombre || 'No informado',
+                    dedicacion: jp.dedicacionSistema || '',
+                    dedicacionJP: jp.dedicacionSistema || '',
+                    proveedor: system.proveedor || '',
+                    tipo: system.tipo || '',
+                    tipoDesarrollo: system.desarrolloInterno || '',
+                    desarrolloInterno: system.desarrolloInterno || '',
+                    fechaInicio: system.fechaInicio || '',
+                    fechaFin: system.fechaTermino || '',
+                    analistaId: analystId,
+                    analista: analystMeaningful ? analystName : 'No informado',
+                    dedicacionAnalista: analyst.dedicacionSistema || '',
+                    camposExtra: {
+                        incidentes: analyst.incidentes || '',
+                        jpSuplenteNombre: suplenteNombre
+                    }
+                };
+
+                jpMap.get(jpId).sistemas.push(systemRow);
+
+                if (analystMeaningful) {
+                    if (!analystMap.has(analystId)) {
+                        analystMap.set(analystId, {
+                            id: analystId,
+                            nombre: analystName,
+                            correo: analyst.correo || '',
+                            contrato: analyst.tipoContrato || '',
+                            sigla: getInitials(analystName),
+                            cargo: 'Analista',
+                            proyectos: []
+                        });
+                    }
+
+                    analystMap.get(analystId).proyectos.push({
+                        idSistema: systemRow.idSistema,
+                        nombreSistema: systemRow.nombreSistema,
+                        dedicacion: analyst.dedicacionSistema || '',
+                        dedicacionAnalista: analyst.dedicacionSistema || '',
+                        tipoDesarrollo: system.desarrolloInterno || '',
+                        desarrolloInterno: system.desarrolloInterno || '',
+                        proveedor: system.proveedor || '',
+                        tipo: system.tipo || '',
+                        fechaInicio: system.fechaInicio || '',
+                        fechaFin: system.fechaTermino || '',
+                        jefeProyectoId: jpId,
+                        jefeProyecto: jp.nombre || 'No informado',
+                        dedicacionJefe: jp.dedicacionSistema || '',
+                        camposExtra: {
+                            incidentes: analyst.incidentes || '',
+                            jpSuplenteNombre: suplenteNombre
+                        }
+                    });
+
+                    normalizedAnalystsForSystem.push({
+                        analistaId: analystId,
+                        analista: analystName,
+                        dedicacion: analyst.dedicacionSistema || ''
+                    });
+                }
+            });
+
+            normalizedSystems.push({
+                idSistema: system.id || `sistema-${slugifyText(system.nombre || 'sin-nombre')}`,
+                nombreSistema: system.nombre || 'No informado',
+                proveedor: system.proveedor || '',
+                tipo: system.tipo || '',
+                tipoDesarrollo: system.desarrolloInterno || '',
+                desarrolloInterno: system.desarrolloInterno || '',
+                fechaInicio: system.fechaInicio || '',
+                fechaFin: system.fechaTermino || '',
+                jefeProyectoId: jpId,
+                jefeProyecto: jp.nombre || 'No informado',
+                jefeCorreo: jp.correo || '',
+                jefeProyectoSuplente: suplenteNombre,
+                suplente: suplenteNombre,
+                analistas: normalizedAnalystsForSystem
+            });
+        });
+
+        return {
+            jefesProyecto: Array.from(jpMap.values()),
+            analistas: Array.from(analystMap.values()),
+            sistemas: normalizedSystems
+        };
+    }
+
+    function triggerJsonPicker() {
+        const picker = document.getElementById('jsonFilePicker');
+        if (picker) picker.click();
+    }
+
+    async function handleJsonFileSelected(event) {
+        const file = event?.target?.files?.[0];
+        if (!file) return;
+
+        try {
+            const raw = await file.text();
+            const payload = JSON.parse(raw);
+
+            if (!validateDataStructure(payload)) {
+                throw new Error('La estructura del archivo JSON no es válida.');
+            }
+
+            data = normalizeIncomingData(payload);
+            updateDataStatus(`archivo <code>${file.name}</code> cargado manualmente correctamente.`);
+            goHome();
+        } catch (error) {
+            console.error('Error cargando archivo JSON manualmente:', error);
+            updateDataStatus('el archivo seleccionado no pudo ser leído o no tiene una estructura válida.', true);
+        } finally {
+            event.target.value = '';
+        }
+    }
+
 
     function updateDataStatus(message, isFallback = false) {
         const box = document.getElementById('dataStatus');
