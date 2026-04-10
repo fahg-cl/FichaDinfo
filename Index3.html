@@ -645,7 +645,7 @@
             <strong>Origen de datos:</strong> cargando archivo <code>estructura_sistemas_jp_analistas.json</code>...
         </div>
         <div style="margin-top:12px; display:flex; gap:10px; flex-wrap:wrap; align-items:center;">
-            <button class="btn-secondary" type="button" onclick="triggerJsonPicker()">Cargar JSON manualmente</button>
+            <button id="btnCargaManualFooter" class="btn-secondary" type="button" style="display:none;" onclick="triggerJsonPicker()">Cargar JSON manualmente</button>
             <input id="jsonFilePicker" type="file" accept=".json,application/json" class="hidden" onchange="handleJsonFileSelected(event)" />
             <span style="font-size:12px;color:#6b7280;">Úsalo si abriste el HTML localmente y el navegador no permite leer el archivo JSON automáticamente.</span>
         </div>
@@ -1365,7 +1365,7 @@ items = items.slice().sort((a, b) => {
     });
     </script>
 
-<div style="display:none; text-align:center; margin-top:10px;">
+<div style="text-align:center; margin-top:10px;">
     <button id="btnCargaManual" style="display:none;" onclick="document.getElementById('fileInput').click()">
         Cargar JSON manualmente
     </button>
@@ -1396,10 +1396,11 @@ function handleFileUpload(event) {
 
 <script>
 document.addEventListener("DOMContentLoaded", () => {
-    alert(window.location.protocol);
     if (window.location.protocol === "file:") {
         const manualBtn = document.getElementById("btnCargaManual");
+        const manualBtnFooter = document.getElementById("btnCargaManualFooter");
         if (manualBtn) manualBtn.style.display = "inline-block";
+        if (manualBtnFooter) manualBtnFooter.style.display = "inline-block";
     }
 });
 </script>
