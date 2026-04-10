@@ -1317,6 +1317,45 @@
         goHome();
     });
     </script>
+
+<div style="text-align:center; margin-top:10px;">
+    <button id="btnCargaManual" style="display:none;" onclick="document.getElementById('fileInput').click()">
+        Cargar JSON manualmente
+    </button>
+    <input type="file" id="fileInput" style="display:none;" accept=".json"
+        onchange="handleFileUpload(event)">
+</div>
+
+<script>
+function handleFileUpload(event) {
+    const file = event.target.files[0];
+    if (!file) return;
+
+    const reader = new FileReader();
+    reader.onload = function(e) {
+        try {
+            const payload = JSON.parse(e.target.result);
+            data = normalizeIncomingData(payload);
+            updateDataStatus('JSON cargado manualmente correctamente.');
+            goHome();
+        } catch (err) {
+            console.error(err);
+            alert('Error al cargar JSON manual');
+        }
+    };
+    reader.readAsText(file);
+}
+</script>
+
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+    if (window.location.protocol === "file:") {
+        const manualBtn = document.getElementById("btnCargaManual");
+        if (manualBtn) manualBtn.style.display = "inline-block";
+    }
+});
+</script>
+
 </body>
 
 </html>
