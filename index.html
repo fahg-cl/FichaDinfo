@@ -524,6 +524,30 @@
         border-color: #bae6fd;
     }
 
+    .badge-yellow {
+  background: #fef3c7;
+  color: #92400e;
+  border-color: #fde68a;
+}
+
+.badge-red {
+  background: #fee2e2;
+  color: #991b1b;
+  border-color: #fecaca;
+}
+
+.badge-orange {
+  background: #ffedd5;
+  color: #9a3412;
+  border-color: #fdba74;
+}
+
+.badge-green {
+  background: #dcfce7;
+  color: #166534;
+  border-color: #bbf7d0;
+}
+
     @media (max-width: 1050px) {
 
         .detail-layout,
@@ -627,6 +651,9 @@
         selectedPersonId: null,
         selectedSystemId: null
     };
+
+    const tipoBadge = getTipoBadge(item.tipo);
+const desarrolloBadge = getDesarrolloBadge(item.tipoDesarrollo);
 
     function getAnalystProjects(analystId) {
         const rows = [];
@@ -781,6 +808,40 @@
         }
     }
 
+
+
+    function getTipoBadge(tipo) {
+  const t = (tipo || '').toLowerCase();
+
+  if (t.includes('mantención') && t.includes('proyecto')) {
+    return { label: 'Proyecto de Mantención', css: 'badge-orange' };
+  }
+
+  if (t.includes('mantención')) {
+    return { label: 'Mantención', css: 'badge-yellow' };
+  }
+
+  if (t.includes('proyecto')) {
+    return { label: 'Proyecto', css: 'badge-red' };
+  }
+
+  return { label: tipo, css: 'badge-neutral' };
+}
+
+function getDesarrolloBadge(tipo) {
+  const t = (tipo || '').toLowerCase();
+
+  if (t.includes('interno')) {
+    return { label: 'Desarrollo Interno', css: 'badge-green' };
+  }
+
+  if (t.includes('externo')) {
+    return { label: 'Desarrollo Externo', css: 'badge-yellow' };
+  }
+
+  return { label: tipo, css: 'badge-neutral' };
+}
+
     function renderCards() {
         const grid = document.getElementById('cardsGrid');
         const isJP = state.mode === 'jp';
@@ -925,8 +986,8 @@
                     <h4><button class="link-button" onclick="openSystem('${item.idSistema}')">${item.nombreSistema}</button></h4>
                   </div>
                   <div class="badge-row">
-                    <span class="badge badge-primary">${item.tipo}</span>
-                    <span class="badge badge-neutral">${item.tipoDesarrollo}</span>
+<span class="badge ${tipoBadge.css}">${tipoBadge.label}</span>
+<span class="badge ${desarrolloBadge.css}">${desarrolloBadge.label}</span>
                   </div>
                 </div>
                 <div class="system-card-meta">
@@ -978,8 +1039,8 @@
                     <h4><button class="link-button" onclick="openSystem('${item.idSistema}')">${item.nombreSistema}</button></h4>
                   </div>
                   <div class="badge-row">
-                    <span class="badge badge-primary">${item.tipo}</span>
-                    <span class="badge badge-neutral">${item.tipoDesarrollo}</span>
+<span class="badge ${tipoBadge.css}">${tipoBadge.label}</span>
+<span class="badge ${desarrolloBadge.css}">${desarrolloBadge.label}</span>
                   </div>
                 </div>
                 <div class="system-card-meta">
