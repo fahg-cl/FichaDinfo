@@ -445,6 +445,34 @@
       border-color: #b6cbe7;
     }
 
+    .mini-card.is-contrata-analista {
+      background: linear-gradient(180deg, #edf3f9 0%, #dde8f4 100%);
+      border-color: #bfd0e3;
+    }
+
+    .mini-card.is-contrata-analista .avatar {
+      background: linear-gradient(135deg, #cadef0 0%, #d7e1ec 100%);
+      border-color: #b0c4dc;
+    }
+
+    .chip.is-success {
+      background: #dcfce7;
+      color: #166534;
+      border-color: #bbf7d0;
+    }
+
+    .chip.is-warning {
+      background: #fef3c7;
+      color: #92400e;
+      border-color: #fde68a;
+    }
+
+    .chip.is-danger {
+      background: #fee2e2;
+      color: #991b1b;
+      border-color: #fecaca;
+    }
+
     @media (max-width: 1050px) {
       .detail-layout,
       .system-layout {
@@ -536,109 +564,6 @@
       analistas: []
     };
 
-    const demoData = {
-      jefesProyecto: [
-        {
-          id: 'jp1',
-          nombre: 'Camila Fuentes Rojas',
-          correo: 'camila.fuentes@empresa.cl',
-          contrato: 'Indefinido',
-          cargo: 'Jefe de Proyecto',
-          sigla: 'CF',
-          sistemas: [
-            {
-              idSistema: 'sys1',
-              nombreSistema: 'ERP Ministerial',
-              dedicacion: '70%',
-              tipoDesarrollo: 'Ambos',
-              proveedor: 'Browse Ingeniería',
-              tipo: 'Proyecto',
-              fechaInicio: '02-01-2025',
-              fechaFin: '20-07-2026',
-              analistaId: 'an1',
-              analista: 'Daniela Vega Soto',
-              dedicacionAnalista: '60%'
-            },
-            {
-              idSistema: 'sys2',
-              nombreSistema: 'Portal de Convenios',
-              dedicacion: '30%',
-              tipoDesarrollo: 'Interno',
-              proveedor: 'Equipo Interno',
-              tipo: 'Mantención',
-              fechaInicio: '10-03-2025',
-              fechaFin: '31-12-2026',
-              analistaId: 'an2',
-              analista: 'Luis Herrera Díaz',
-              dedicacionAnalista: '40%'
-            }
-          ]
-        },
-        {
-          id: 'jp2',
-          nombre: 'Matías Leiva González',
-          correo: 'matias.leiva@empresa.cl',
-          contrato: 'Honorarios',
-          cargo: 'Jefe de Proyecto',
-          sigla: 'ML',
-          sistemas: [
-            {
-              idSistema: 'sys3',
-              nombreSistema: 'Sistema de Activos',
-              dedicacion: '55%',
-              tipoDesarrollo: 'Externo',
-              proveedor: 'Tech Solutions',
-              tipo: 'Proyecto',
-              fechaInicio: '05-05-2025',
-              fechaFin: '30-11-2026',
-              analistaId: 'an3',
-              analista: 'Paula Medina Castro',
-              dedicacionAnalista: '45%'
-            },
-            {
-              idSistema: 'sys4',
-              nombreSistema: 'Mesa de Servicios',
-              dedicacion: '45%',
-              tipoDesarrollo: 'Ambos',
-              proveedor: 'Service Cloud',
-              tipo: 'Mantención',
-              fechaInicio: '01-08-2024',
-              fechaFin: '31-12-2026',
-              analistaId: 'an1',
-              analista: 'Daniela Vega Soto',
-              dedicacionAnalista: '30%'
-            }
-          ]
-        }
-      ],
-      analistas: [
-        {
-          id: 'an1',
-          nombre: 'Daniela Vega Soto',
-          correo: 'daniela.vega@empresa.cl',
-          contrato: 'Indefinido',
-          cargo: 'Analista',
-          sigla: 'DV'
-        },
-        {
-          id: 'an2',
-          nombre: 'Luis Herrera Díaz',
-          correo: 'luis.herrera@empresa.cl',
-          contrato: 'Contrata',
-          cargo: 'Analista',
-          sigla: 'LH'
-        },
-        {
-          id: 'an3',
-          nombre: 'Paula Medina Castro',
-          correo: 'paula.medina@empresa.cl',
-          contrato: 'Honorarios',
-          cargo: 'Analista',
-          sigla: 'PM'
-        }
-      ]
-    };
-
     const state = {
       mode: null,
       selectedPersonId: null,
@@ -715,15 +640,15 @@
 
         const payload = await response.json();
         if (!validateDataStructure(payload)) {
-          throw new Error('La estructura de data.json no es válida.');
+          throw new Error('La estructura de data_new.json no es válida.');
         }
 
         data = payload;
         updateDataStatus('archivo <code>data_new.json</code> cargado correctamente.');
       } catch (error) {
         console.error('Error cargando data_new.json:', error);
-        data = demoData;
-        updateDataStatus('no se pudo cargar <code>data.json</code>. Se está usando información de ejemplo embebida.', true);
+        data = { jefesProyecto: [], analistas: [] };
+        updateDataStatus('no se pudo cargar <code>data_new.json</code>. La aplicación quedó sin datos disponibles.', true);
       }
     }
 
@@ -766,30 +691,58 @@
       renderDetail(state.mode, state.selectedPersonId);
     }
 
+
+    function parsePercent(value) {
+      if (value === null || value === undefined) return 0;
+      const match = String(value).replace(',', '.').match(/-?\d+(?:\.\d+)?/);
+      return match ? Number(match[0]) : 0;
+    }
+
+    function getDedicationStatus(total) {
+      if (total === 100) return { label: 'Dedicación 100%', css: 'is-success' };
+      if (total > 100) return { label: `Dedicación ${total}%`, css: 'is-warning' };
+      return { label: `Dedicación ${total}%`, css: 'is-danger' };
+    }
+
     function renderCards() {
       const grid = document.getElementById('cardsGrid');
       const isJP = state.mode === 'jp';
       const items = isJP ? data.jefesProyecto : data.analistas;
 
       grid.innerHTML = items.map(item => {
-        const cardClass = state.mode === 'jp' && item.contrato === 'Contrata' ? 'mini-card is-contrata' : 'mini-card';
+        let cardClass = 'mini-card';
+
+        if (isJP && item.contrato === 'Contrata') {
+          cardClass += ' is-contrata';
+        }
+
+        if (!isJP && item.contrato === 'Contrata') {
+          cardClass += ' is-contrata-analista';
+        }
+
+        const dedicationChip = isJP
+          ? (() => {
+              const total = (item.sistemas || []).reduce((sum, sistema) => sum + parsePercent(sistema.dedicacion), 0);
+              const status = getDedicationStatus(total);
+              return `<span class="chip ${status.css}">${status.label}</span>`;
+            })()
+          : '';
+
         return `
         <article class="${cardClass}">
           <div class="mini-card-header">
-            <div class="avatar">${item.sigla}</div>
+            <div class="avatar">${item.sigla || ''}</div>
             <div>
-              <h3>${item.nombre}</h3>
-              <p>${item.cargo}</p>
+              <h3>${item.nombre || ''}</h3>
+              <p>${item.cargo || ''}</p>
             </div>
           </div>
           <div class="meta">
-            <div><strong>Correo:</strong> ${item.correo}</div>
-            <div><strong>Contrato:</strong> ${item.contrato}</div>
+            <div><strong>Correo:</strong> ${item.correo || ''}</div>
+            <div><strong>Contrato:</strong> ${item.contrato || ''}</div>
           </div>
-          <!--div class="chips">
-            <span class="chip">${item.cargo}</span>
-          </div-->
-          <button class="btn-primary" onclick="renderDetail('${state.mode}', '${item.id}')">Ver detalle</button>
+          ${isJP ? `<div class="chips">${dedicationChip}</div>` : ''}
+          <button class="btn-primary" onclick="renderDetail('${"${state.mode}"}', '${"${item.id}"}')">Ver detalle</button>
         </article>
       `;
       }).join('');
