@@ -473,6 +473,12 @@
       border-color: #fecaca;
     }
 
+    .chip.is-info {
+      background: #e0f2fe;
+      color: #075985;
+      border-color: #bae6fd;
+    }
+
     @media (max-width: 1050px) {
       .detail-layout,
       .system-layout {
@@ -586,7 +592,8 @@
               fechaFin: s.fechaFin,
               jefeProyectoId: jp.id,
               jefeProyecto: jp.nombre,
-              dedicacionJefe: s.dedicacion
+              dedicacionJefe: s.dedicacion,
+              camposExtra: s.camposExtra || {}
             });
           }
         });
@@ -720,13 +727,29 @@
           cardClass += ' is-contrata-analista';
         }
 
-        const dedicationChip = isJP
-          ? (() => {
-              const total = (item.sistemas || []).reduce((sum, sistema) => sum + parsePercent(sistema.dedicacion), 0);
-              const status = getDedicationStatus(total);
-              return `<span class="chip ${status.css}">${status.label}</span>`;
-            })()
-          : '';
+        let chipsHtml = '';
+
+        if (isJP) {
+          const total = (item.sistemas || []).reduce((sum, sistema) => sum + parsePercent(sistema.dedicacion), 0);
+          const status = getDedicationStatus(total);
+          chipsHtml = `<div class="chips"><span class="chip ${status.css}">${status.label}</span></div>`;
+        } else {
+          const projects = Array.isArray(item.proyectos) ? item.proyectos : getAnalystProjects(item.id);
+          const totalDedicacion = projects.reduce((sum, proyecto) => sum + parsePercent(proyecto.dedicacion), 0);
+          const totalIncidentes = projects.reduce((sum, proyecto) => sum + parsePercent(proyecto.camposExtra?.incidentes), 0);
+          const totalAnalista = totalDedicacion + totalIncidentes;
+          const status = getDedicationStatus(totalAnalista);
+
+          const chips = [
+            `<span class="chip ${status.css}">Carga ${totalAnalista}%</span>`
+          ];
+
+          if (totalIncidentes > 0) {
+            chips.push(`<span class="chip is-info">Incidentes ${totalIncidentes}%</span>`);
+          }
+
+          chipsHtml = `<div class="chips">${chips.join('')}</div>`;
+        }
 
         return `
         <article class="${cardClass}">
@@ -741,7 +764,7 @@
             <div><strong>Correo:</strong> ${item.correo || ''}</div>
             <div><strong>Contrato:</strong> ${item.contrato || ''}</div>
           </div>
-          ${isJP ? `<div class="chips">${dedicationChip}</div>` : ''}
+          ${chipsHtml}
           <button class="btn-primary" onclick="renderDetail('${state.mode}', '${item.id}')">Ver detalle</button>
         </article>
       `;
