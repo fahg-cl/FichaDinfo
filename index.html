@@ -451,7 +451,7 @@
       <h1>DINFO - Equipo de Desarrollo</h1>
       <p>Portal de consulta interna para visualizar Jefes de Proyecto, Analistas y Sistemas.</p>
       <div class="status-box" id="dataStatus">
-        <strong>Origen de datos:</strong> cargando archivo <code>data.json</code>...
+        <strong>Origen de datos:</strong> cargando archivo <code>data_new.json</code>...
       </div>
     </section>
 
@@ -688,9 +688,9 @@
 
     async function loadData() {
       try {
-        const response = await fetch('./data.json', { cache: 'no-store' });
+        const response = await fetch('./data_new.json', { cache: 'no-store' });
         if (!response.ok) {
-          throw new Error(`No fue posible leer data.json (${response.status})`);
+          throw new Error(`No fue posible leer data_new.json (${response.status})`);
         }
 
         const payload = await response.json();
@@ -699,9 +699,9 @@
         }
 
         data = payload;
-        updateDataStatus('archivo <code>data.json</code> cargado correctamente.');
+        updateDataStatus('archivo <code>data_new.json</code> cargado correctamente.');
       } catch (error) {
-        console.error('Error cargando data.json:', error);
+        console.error('Error cargando data_new.json:', error);
         data = demoData;
         updateDataStatus('no se pudo cargar <code>data.json</code>. Se está usando información de ejemplo embebida.', true);
       }
