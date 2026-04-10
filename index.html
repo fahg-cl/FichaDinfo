@@ -525,28 +525,28 @@
     }
 
     .badge-yellow {
-  background: #fef3c7;
-  color: #92400e;
-  border-color: #fde68a;
-}
+        background: #fef3c7;
+        color: #92400e;
+        border-color: #fde68a;
+    }
 
-.badge-red {
-  background: #fee2e2;
-  color: #991b1b;
-  border-color: #fecaca;
-}
+    .badge-red {
+        background: #fee2e2;
+        color: #991b1b;
+        border-color: #fecaca;
+    }
 
-.badge-orange {
-  background: #ffedd5;
-  color: #9a3412;
-  border-color: #fdba74;
-}
+    .badge-orange {
+        background: #ffedd5;
+        color: #9a3412;
+        border-color: #fdba74;
+    }
 
-.badge-green {
-  background: #dcfce7;
-  color: #166534;
-  border-color: #bbf7d0;
-}
+    .badge-green {
+        background: #dcfce7;
+        color: #166534;
+        border-color: #bbf7d0;
+    }
 
     @media (max-width: 1050px) {
 
@@ -810,36 +810,36 @@
 
 
     function getTipoBadge(tipo) {
-  const t = (tipo || '').toLowerCase();
+        const t = (tipo || '').toLowerCase();
 
-  if (t.includes('mantención') && t.includes('proyecto')) {
-    return { label: 'Proyecto de Mantención', css: 'badge-orange' };
-  }
+        if (t.includes('mantención') && t.includes('proyecto')) {
+            return { label: 'Proyecto de Mantención', css: 'badge-orange' };
+        }
 
-  if (t.includes('mantención')) {
-    return { label: 'Mantención', css: 'badge-yellow' };
-  }
+        if (t.includes('mantención')) {
+            return { label: 'Mantención', css: 'badge-yellow' };
+        }
 
-  if (t.includes('proyecto')) {
-    return { label: 'Proyecto', css: 'badge-red' };
-  }
+        if (t.includes('proyecto')) {
+            return { label: 'Proyecto', css: 'badge-red' };
+        }
 
-  return { label: tipo, css: 'badge-neutral' };
-}
+        return { label: tipo, css: 'badge-neutral' };
+    }
 
-function getDesarrolloBadge(tipo) {
-  const t = (tipo || '').toLowerCase();
+    function getDesarrolloBadge(tipo) {
+        const t = (tipo || '').toLowerCase();
 
-  if (t.includes('interno')) {
-    return { label: 'Desarrollo Interno', css: 'badge-green' };
-  }
+        if (t.includes('interno')) {
+            return { label: 'Desarrollo Interno', css: 'badge-green' };
+        }
 
-  if (t.includes('externo')) {
-    return { label: 'Desarrollo Externo', css: 'badge-yellow' };
-  }
+        if (t.includes('externo')) {
+            return { label: 'Desarrollo Externo', css: 'badge-yellow' };
+        }
 
-  return { label: tipo, css: 'badge-neutral' };
-}
+        return { label: tipo, css: 'badge-neutral' };
+    }
 
     function renderCards() {
         const grid = document.getElementById('cardsGrid');
@@ -866,11 +866,11 @@ function getDesarrolloBadge(tipo) {
             } else {
                 const projects = Array.isArray(item.proyectos) ? item.proyectos : getAnalystProjects(item.id);
                 const totalDedicacionAnalista = projects.reduce(
-                    (sum, proyecto) => sum + parsePercent(proyecto.dedicacionAnalista ?? proyecto.dedicacion),
+                    (sum, proyecto) => sum + parsePercent(proyecto.dedicacionAnalista ? ? proyecto.dedicacion),
                     0
                 );
                 const totalIncidentes = projects.reduce(
-                    (sum, proyecto) => sum + parsePercent(proyecto.camposExtra?.incidentes),
+                    (sum, proyecto) => sum + parsePercent(proyecto.camposExtra ? .incidentes),
                     0
                 );
                 const totalAnalista = totalDedicacionAnalista + totalIncidentes;
@@ -888,42 +888,36 @@ function getDesarrolloBadge(tipo) {
             }
 
             return `
-        <article class="${cardClass}">
-          <div class="mini-card-header">
-            <div class="avatar">${item.sigla || ''}</div>
-            <div>
-              <h3>${item.nombre || ''}</h3>
-              <p>${item.cargo || ''}</p>
-            </div>
-          </div>
-          <div class="meta">
-            <div>
-  <strong>Correo:</strong>
-  <span class="email-copy">
-    <span>${item.correo || ''}</span>
-    <button
-      class="copy-btn"
-      type="button"
-      title="Copiar correo"
-      onclick="copyToClipboard('${item.correo || ''}', 'copy-feedback-card-${item.id}')"
-    >
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-        <rect x="9" y="9" width="13" height="13" rx="2"></rect>
-        <path d="M7 15H6a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
-      </svg>
-    </button>
-    <span class="copy-ok" id="copy-feedback-card-${item.id}"></span>
-  </span>
-</div>
-            <div><strong>Contrato:</strong> ${item.contrato || ''}</div>
-          </div>
-          ${chipsHtml}
-          <button class="btn-primary" onclick="renderDetail('${state.mode}', '${item.id}')">Ver detalle</button>
-        </article>
-      `;
-        }).join('');
-    }
-
+                <article class="${cardClass}">
+                    <div class="mini-card-header">
+                        <div class="avatar">${item.sigla || ''}</div>
+                        <div>
+                            <h3>${item.nombre || ''}</h3>
+                            <p>${item.cargo || ''}</p>
+                        </div>
+                    </div>
+                    <div class="meta">
+                        <div>
+                            <strong>Correo:</strong>
+                            <span class="email-copy">
+                                <span>${item.correo || ''}</span>
+                                <button class="copy-btn" type="button" title="Copiar correo" onclick="copyToClipboard('${item.correo || ''}', 'copy-feedback-card-${item.id}')">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <rect x="9" y="9" width="13" height="13" rx="2"></rect>
+                                        <path d="M7 15H6a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+                                    </svg>
+                                </button>
+                                <span class="copy-ok" id="copy-feedback-card-${item.id}"></span>
+                            </span>
+                        </div>
+                        <div><strong>Contrato:</strong> ${item.contrato || ''}</div>
+                    </div>
+                    ${chipsHtml}
+                    <button class="btn-primary" onclick="renderDetail('${state.mode}', '${item.id}')">Ver detalle</button>
+                </article>
+                `;
+                }).join('');
+                }
     function renderDetail(mode, personId) {
         state.mode = mode;
         state.selectedPersonId = personId;
@@ -940,27 +934,22 @@ function getDesarrolloBadge(tipo) {
         <h3>${person.nombre}</h3>
         <div class="profile-role">${person.cargo}</div>
         <div class="meta">
-          <div>
-  <strong>Correo:</strong>
-  <span class="email-copy">
-    <span>${person.correo}</span>
-    <button
-      class="copy-btn"
-      type="button"
-      title="Copiar correo"
-      onclick="copyToClipboard('${person.correo}', 'copy-feedback-detail')"
-    >
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-        <rect x="9" y="9" width="13" height="13" rx="2"></rect>
-        <path d="M7 15H6a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
-      </svg>
-    </button>
-    <span class="copy-ok" id="copy-feedback-detail"></span>
-  </span>
-</div>
-          <div><strong>Tipo de contrato:</strong> ${person.contrato}</div>
+            <div>
+                <strong>Correo:</strong>
+                <span class="email-copy">
+                    <span>${person.correo}</span>
+                    <button class="copy-btn" type="button" title="Copiar correo" onclick="copyToClipboard('${person.correo}', 'copy-feedback-detail')">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <rect x="9" y="9" width="13" height="13" rx="2"></rect>
+                            <path d="M7 15H6a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+                        </svg>
+                    </button>
+                    <span class="copy-ok" id="copy-feedback-detail"></span>
+                </span>
+            </div>
+            <div><strong>Tipo de contrato:</strong> ${person.contrato}</div>
         </div>
-      `;
+        `;
 
         document.getElementById('detailTableContainer').innerHTML = isJP ?
             renderJPTable(person) :
@@ -971,61 +960,60 @@ function getDesarrolloBadge(tipo) {
     }
 
     function renderJPTable(person) {
-        if (!person.sistemas?.length) {
+        if (!person.sistemas ? .length) {
             return '<div class="empty-state">No hay sistemas asociados en esta versión del prototipo.</div>';
         }
 
-        return `
-        <div class="systems-cards-wrap">
-          <div class="systems-grid">
-${person.sistemas.map(item => {
-  const tipoBadge = getTipoBadge(item.tipo);
-  const desarrolloBadge = getDesarrolloBadge(item.tipoDesarrollo);
-
-  return `
-    <article class="system-card">
-      <div class="system-card-header">
-        <div>
-          <h4><button class="link-button" onclick="openSystem('${item.idSistema}')">${item.nombreSistema}</button></h4>
-        </div>
-        <div class="badge-row">
-          <span class="badge ${tipoBadge.css}">${tipoBadge.label}</span>
-          <span class="badge ${desarrolloBadge.css}">${desarrolloBadge.label}</span>
-        </div>
-      </div>
-      <div class="system-card-meta">
-        <div class="system-card-item">
-          <span>% dedicación</span>
-          <strong>${item.dedicacion}</strong>
-        </div>
-        <div class="system-card-item">
-          <span>Proveedor</span>
-          <strong>${item.proveedor}</strong>
-        </div>
-        <div class="system-card-item">
-          <span>Fecha de inicio</span>
-          <strong>${item.fechaInicio}</strong>
-        </div>
-        <div class="system-card-item">
-          <span>Fecha de fin</span>
-          <strong>${item.fechaFin}</strong>
-        </div>
-        <div class="system-card-item">
-          <span>Analista</span>
-          <strong><button class="link-button" onclick="renderDetail('analista', '${item.analistaId}')">${item.analista}</button></strong>
-        </div>
-        <div class="system-card-item">
-          <span>% dedicación del analista</span>
-          <strong>${item.dedicacionAnalista}</strong>
-        </div>
-      </div>
-    </article>
-  `;
-}).join('')}
-          </div>
-        </div>
-      `;
-    }
+    return `
+    <div class="systems-cards-wrap">
+        <div class="systems-grid">
+            ${person.sistemas.map(item => {
+            const tipoBadge = getTipoBadge(item.tipo);
+            const desarrolloBadge = getDesarrolloBadge(item.tipoDesarrollo);
+            return `
+            <article class="system-card">
+                <div class="system-card-header">
+                    <div>
+                        <h4><button class="link-button" onclick="openSystem('${item.idSistema}')">${item.nombreSistema}</button></h4>
+                    </div>
+                    <div class="badge-row">
+                        <span class="badge ${tipoBadge.css}">${tipoBadge.label}</span>
+                        <span class="badge ${desarrolloBadge.css}">${desarrolloBadge.label}</span>
+                    </div>
+                </div>
+                <div class="system-card-meta">
+                    <div class="system-card-item">
+                        <span>% dedicación</span>
+                        <strong>${item.dedicacion}</strong>
+                    </div>
+                    <div class="system-card-item">
+                        <span>Proveedor</span>
+                        <strong>${item.proveedor}</strong>
+                    </div>
+                    <div class="system-card-item">
+                        <span>Fecha de inicio</span>
+                        <strong>${item.fechaInicio}</strong>
+                    </div>
+                    <div class="system-card-item">
+                        <span>Fecha de fin</span>
+                        <strong>${item.fechaFin}</strong>
+                    </div>
+                    <div class="system-card-item">
+                        <span>Analista</span>
+                        <strong><button class="link-button" onclick="renderDetail('analista', '${item.analistaId}')">${item.analista}</button></strong>
+                </div>
+                <div class="system-card-item">
+                    <span>% dedicación del analista</span>
+                    <strong>${item.dedicacionAnalista}</strong>
+                </div>
+            </div>
+        </article>
+        `;
+        }).join('')}
+    </div>
+</div>
+`;
+}
 
     function renderAnalystTable(person) {
         const projects = getAnalystProjects(person.id);
@@ -1033,94 +1021,93 @@ ${person.sistemas.map(item => {
             return '<div class="empty-state">No hay proyectos asociados en esta versión del prototipo.</div>';
         }
 
-        return `
-        <div class="systems-cards-wrap">
+      return `
+      <div class="systems-cards-wrap">
           <div class="systems-grid">
-${projects.map(item => {
-  const tipoBadge = getTipoBadge(item.tipo);
-  const desarrolloBadge = getDesarrolloBadge(item.tipoDesarrollo);
-
-  return `
-    <article class="system-card">
-      <div class="system-card-header">
-        <div>
-          <h4><button class="link-button" onclick="openSystem('${item.idSistema}')">${item.nombreSistema}</button></h4>
-        </div>
-        <div class="badge-row">
-          <span class="badge ${tipoBadge.css}">${tipoBadge.label}</span>
-          <span class="badge ${desarrolloBadge.css}">${desarrolloBadge.label}</span>
-        </div>
-      </div>
-      <div class="system-card-meta">
-        <div class="system-card-item">
-          <span>% dedicación</span>
-          <strong>${item.dedicacion}</strong>
-        </div>
-        <div class="system-card-item">
-          <span>Proveedor</span>
-          <strong>${item.proveedor}</strong>
-        </div>
-        <div class="system-card-item">
-          <span>Fecha de inicio</span>
-          <strong>${item.fechaInicio}</strong>
-        </div>
-        <div class="system-card-item">
-          <span>Fecha de fin</span>
-          <strong>${item.fechaFin}</strong>
-        </div>
-        <div class="system-card-item">
-          <span>Jefe de Proyecto</span>
-          <strong><button class="link-button" onclick="renderDetail('jp', '${item.jefeProyectoId}')">${item.jefeProyecto}</button></strong>
-        </div>
-        <div class="system-card-item">
-          <span>% dedicación del JP</span>
-          <strong>${item.dedicacionJefe}</strong>
-        </div>
-      </div>
-    </article>
-  `;
-}).join('')}
-          </div>
-        </div>
-      `;
-    }
+              ${projects.map(item => {
+              const tipoBadge = getTipoBadge(item.tipo);
+              const desarrolloBadge = getDesarrolloBadge(item.tipoDesarrollo);
+              return `
+              <article class="system-card">
+                  <div class="system-card-header">
+                      <div>
+                          <h4><button class="link-button" onclick="openSystem('${item.idSistema}')">${item.nombreSistema}</button></h4>
+                      </div>
+                      <div class="badge-row">
+                          <span class="badge ${tipoBadge.css}">${tipoBadge.label}</span>
+                          <span class="badge ${desarrolloBadge.css}">${desarrolloBadge.label}</span>
+                      </div>
+                  </div>
+                  <div class="system-card-meta">
+                      <div class="system-card-item">
+                          <span>% dedicación</span>
+                          <strong>${item.dedicacion}</strong>
+                      </div>
+                      <div class="system-card-item">
+                          <span>Proveedor</span>
+                          <strong>${item.proveedor}</strong>
+                      </div>
+                      <div class="system-card-item">
+                          <span>Fecha de inicio</span>
+                          <strong>${item.fechaInicio}</strong>
+                      </div>
+                      <div class="system-card-item">
+                          <span>Fecha de fin</span>
+                    <strong>${item.fechaFin}</strong>
+                </div>
+                <div class="system-card-item">
+                    <span>Jefe de Proyecto</span>
+                    <strong><button class="link-button" onclick="renderDetail('jp', '${item.jefeProyectoId}')">${item.jefeProyecto}</button></strong>
+                </div>
+                <div class="system-card-item">
+                    <span>% dedicación del JP</span>
+                    <strong>${item.dedicacionJefe}</strong>
+                </div>
+            </div>
+        </article>
+        `;
+        }).join('')}
+    </div>
+</div>
+`;
+}
 
     function openSystem(systemId) {
         state.selectedSystemId = systemId;
         const summary = getSystemSummary(systemId);
         if (!summary) return;
 
-        document.getElementById('systemMain').innerHTML = `
-        <h3>Resumen general</h3>
-        <div class="list">
+      document.getElementById('systemMain').innerHTML = `
+      <h3>Resumen general</h3>
+      <div class="list">
           <div class="list-item"><strong>Sistema</strong>${summary.nombreSistema}</div>
           <div class="list-item"><strong>Proveedor</strong>${summary.proveedor}</div>
           <div class="list-item"><strong>Tipo</strong>${summary.tipo}</div>
           <div class="list-item"><strong>Tipo de desarrollo</strong>${summary.tipoDesarrollo}</div>
           <div class="list-item"><strong>Fecha de inicio</strong>${summary.fechaInicio}</div>
           <div class="list-item"><strong>Fecha de fin</strong>${summary.fechaFin}</div>
-        </div>
+      </div>
       `;
 
         document.getElementById('systemRelated').innerHTML = `
         <h3>Relaciones del sistema</h3>
         <div class="list">
-          <div class="list-item">
-            <strong>Jefe de Proyecto a cargo</strong>
-            <button class="link-button" onclick="renderDetail('jp', '${summary.jefeProyectoId}')">${summary.jefeProyecto}</button>
-            <div>${summary.jefeCorreo}</div>
-          </div>
-          <div class="list-item">
-            <strong>Analistas participantes</strong>
-            ${summary.analistas.map(a => `
-              <div style="margin-top:8px;">
-                <button class="link-button" onclick="renderDetail('analista', '${a.analistaId}')">${a.analista}</button>
-                <span style="color:#6b7280;"> · ${a.dedicacion}</span>
-              </div>
-            `).join('')}
-          </div>
+            <div class="list-item">
+                <strong>Jefe de Proyecto a cargo</strong>
+                <button class="link-button" onclick="renderDetail('jp', '${summary.jefeProyectoId}')">${summary.jefeProyecto}</button>
+                <div>${summary.jefeCorreo}</div>
+            </div>
+            <div class="list-item">
+                <strong>Analistas participantes</strong>
+                ${summary.analistas.map(a => `
+                <div style="margin-top:8px;">
+                    <button class="link-button" onclick="renderDetail('analista', '${a.analistaId}')">${a.analista}</button>
+                    <span style="color:#6b7280;"> · ${a.dedicacion}</span>
+                </div>
+                `).join('')}
+            </div>
         </div>
-      `;
+        `;
 
         hideAllViews();
         document.getElementById('viewSystem').classList.remove('hidden');
