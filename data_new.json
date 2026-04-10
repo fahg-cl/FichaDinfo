@@ -3,8 +3,8 @@
     "fuente": "Detalle Proyectos por Funcionarios.csv",
     "version": "enriquecida",
     "totalRegistrosCSV": 44,
-    "totalJefesProyecto": 10,
-    "totalAnalistas": 21,
+    "totalJefesProyecto": 11,
+    "totalAnalistas": 22,
     "totalSistemasUnicos": 36
   },
   "jefesProyecto": [
@@ -243,8 +243,8 @@
           "tipo": "Proyecto Mantención",
           "fechaInicio": "05-11-2025",
           "fechaFin": "23-01-2026",
-          "analistaId": "",
-          "analista": "",
+          "analistaId": "an7",
+          "analista": "No Aplica",
           "dedicacionAnalista": "",
           "camposExtra": {
             "nro": "9.0",
@@ -315,7 +315,7 @@
           "tipo": "Mantención",
           "fechaInicio": "",
           "fechaFin": "",
-          "analistaId": "an7",
+          "analistaId": "an8",
           "analista": "Claudio Lara Moreno",
           "dedicacionAnalista": "10%",
           "camposExtra": {
@@ -339,7 +339,7 @@
           "tipo": "Mantención",
           "fechaInicio": "",
           "fechaFin": "",
-          "analistaId": "an8",
+          "analistaId": "an9",
           "analista": "Marco Acevedo Acevedo",
           "dedicacionAnalista": "10%",
           "camposExtra": {
@@ -363,7 +363,7 @@
           "tipo": "Mantención",
           "fechaInicio": "",
           "fechaFin": "",
-          "analistaId": "an7",
+          "analistaId": "an8",
           "analista": "Claudio Lara Moreno",
           "dedicacionAnalista": "5%",
           "camposExtra": {
@@ -387,7 +387,7 @@
           "tipo": "Mantención",
           "fechaInicio": "",
           "fechaFin": "",
-          "analistaId": "an7",
+          "analistaId": "an8",
           "analista": "Claudio Lara Moreno",
           "dedicacionAnalista": "5%",
           "camposExtra": {
@@ -424,7 +424,7 @@
           "tipo": "Mantención",
           "fechaInicio": "",
           "fechaFin": "Permanente",
-          "analistaId": "an9",
+          "analistaId": "an10",
           "analista": "Francisco Carrasco (DDU)",
           "dedicacionAnalista": "50%",
           "camposExtra": {
@@ -485,7 +485,7 @@
           "tipo": "Mantención",
           "fechaInicio": "",
           "fechaFin": "Permanente",
-          "analistaId": "an10",
+          "analistaId": "an11",
           "analista": "Felipe Ahumada Romero",
           "dedicacionAnalista": "80%",
           "camposExtra": {
@@ -509,7 +509,7 @@
           "tipo": "Proyecto",
           "fechaInicio": "01-04-2026",
           "fechaFin": "13-04-2026",
-          "analistaId": "an10",
+          "analistaId": "an11",
           "analista": "Felipe Ahumada Romero",
           "dedicacionAnalista": "20%",
           "camposExtra": {
@@ -557,7 +557,7 @@
           "tipo": "Proyecto",
           "fechaInicio": "06-04-2026",
           "fechaFin": "20-04-2026",
-          "analistaId": "an11",
+          "analistaId": "an12",
           "analista": "Hernan Silva Jimenez",
           "dedicacionAnalista": "80%",
           "camposExtra": {
@@ -581,7 +581,7 @@
           "tipo": "Mantención",
           "fechaInicio": "",
           "fechaFin": "Permanente",
-          "analistaId": "an11",
+          "analistaId": "an12",
           "analista": "Hernan Silva Jimenez",
           "dedicacionAnalista": "20%",
           "camposExtra": {
@@ -605,7 +605,7 @@
           "tipo": "Proyecto",
           "fechaInicio": "06-04-2026",
           "fechaFin": "06-05-2026",
-          "analistaId": "an7",
+          "analistaId": "an8",
           "analista": "Claudio Lara Moreno",
           "dedicacionAnalista": "80%",
           "camposExtra": {
@@ -642,7 +642,7 @@
           "tipo": "Proyecto Mantención",
           "fechaInicio": "16-03-2026",
           "fechaFin": "28-04-2026",
-          "analistaId": "an12",
+          "analistaId": "an13",
           "analista": "Francisco Lemus Cordova",
           "dedicacionAnalista": "80%",
           "camposExtra": {
@@ -666,7 +666,7 @@
           "tipo": "Proyecto Mantención",
           "fechaInicio": "08-04-2026",
           "fechaFin": "13-05-2026",
-          "analistaId": "an13",
+          "analistaId": "an14",
           "analista": "Ciro Ponce Rodriguez",
           "dedicacionAnalista": "80%",
           "camposExtra": {
@@ -690,7 +690,7 @@
           "tipo": "Proyecto Mantención",
           "fechaInicio": "13-11-2025",
           "fechaFin": "30-05-2026",
-          "analistaId": "an14",
+          "analistaId": "an15",
           "analista": "Diego Alcayaga Atria",
           "dedicacionAnalista": "80%",
           "camposExtra": {
@@ -714,7 +714,7 @@
           "tipo": "Proyecto Mantención",
           "fechaInicio": "20-11-2025",
           "fechaFin": "17-04-2026",
-          "analistaId": "an15",
+          "analistaId": "an16",
           "analista": "Marcelo Parra Velasquez",
           "dedicacionAnalista": "100%",
           "camposExtra": {
@@ -738,7 +738,7 @@
           "tipo": "Proyecto Mantención",
           "fechaInicio": "13-04-2026",
           "fechaFin": "30-12-2026",
-          "analistaId": "an16",
+          "analistaId": "an17",
           "analista": "Jonathan Vasquez Subiabre",
           "dedicacionAnalista": "80%",
           "camposExtra": {
@@ -762,7 +762,7 @@
           "tipo": "Mantención",
           "fechaInicio": "09-03-2026",
           "fechaFin": "15-04-2026",
-          "analistaId": "an16",
+          "analistaId": "an17",
           "analista": "Jonathan Vasquez Subiabre",
           "dedicacionAnalista": "20%",
           "camposExtra": {
@@ -786,7 +786,7 @@
           "tipo": "Mantención",
           "fechaInicio": "02-01-2026",
           "fechaFin": "30-06-2026",
-          "analistaId": "an8",
+          "analistaId": "an9",
           "analista": "Marco Acevedo Acevedo",
           "dedicacionAnalista": "10%",
           "camposExtra": {
@@ -871,7 +871,7 @@
           "tipo": "Proyecto Mantención",
           "fechaInicio": "18-11-2025",
           "fechaFin": "20-04-2026",
-          "analistaId": "an17",
+          "analistaId": "an18",
           "analista": "Cristian Huerta",
           "dedicacionAnalista": "80%",
           "camposExtra": {
@@ -956,7 +956,7 @@
           "tipo": "Proyecto",
           "fechaInicio": "",
           "fechaFin": "",
-          "analistaId": "an8",
+          "analistaId": "an9",
           "analista": "Marco Acevedo Acevedo",
           "dedicacionAnalista": "80%",
           "camposExtra": {
@@ -993,7 +993,7 @@
           "tipo": "Mantención",
           "fechaInicio": "En tramite",
           "fechaFin": "",
-          "analistaId": "an18",
+          "analistaId": "an19",
           "analista": "Miguel Mamani",
           "dedicacionAnalista": "60%",
           "camposExtra": {
@@ -1017,7 +1017,7 @@
           "tipo": "Mantención",
           "fechaInicio": "En tramite",
           "fechaFin": "",
-          "analistaId": "an18",
+          "analistaId": "an19",
           "analista": "Miguel Mamani",
           "dedicacionAnalista": "20%",
           "camposExtra": {
@@ -1034,14 +1034,14 @@
         },
         {
           "idSistema": "sys31",
-          "nombreSistema": "Plataforma PRAP Incorporación de Barrios y Pago.",
+          "nombreSistema": "Plataforma  PRAP Incorporación de Barrios y Pago.",
           "dedicacion": "10%",
           "tipoDesarrollo": "Interno",
           "proveedor": "",
           "tipo": "Mantención",
           "fechaInicio": "En tramite",
           "fechaFin": "",
-          "analistaId": "an19",
+          "analistaId": "an20",
           "analista": "Bastian Prieto Puga",
           "dedicacionAnalista": "80%",
           "camposExtra": {
@@ -1065,7 +1065,7 @@
           "tipo": "Mantención",
           "fechaInicio": "En tramite",
           "fechaFin": "",
-          "analistaId": "an20",
+          "analistaId": "an21",
           "analista": "Jean Paul Astudillo",
           "dedicacionAnalista": "50%",
           "camposExtra": {
@@ -1089,7 +1089,7 @@
           "tipo": "Mantención",
           "fechaInicio": "En tramite",
           "fechaFin": "",
-          "analistaId": "an20",
+          "analistaId": "an21",
           "analista": "Jean Paul Astudillo",
           "dedicacionAnalista": "30%",
           "camposExtra": {
@@ -1113,7 +1113,7 @@
           "tipo": "Proyecto",
           "fechaInicio": "02-03-2026",
           "fechaFin": "31-12-2026",
-          "analistaId": "an21",
+          "analistaId": "an22",
           "analista": "Sion Jei Mamani",
           "dedicacionAnalista": "80%",
           "camposExtra": {
@@ -1163,6 +1163,43 @@
             "tipoContratoAnalista": "Contrata",
             "desarrolloOriginal": "Desarrollo externo",
             "tipoOriginal": "Proyecto"
+          }
+        }
+      ],
+      "camposExtra": {
+        "dedicacionReferencial": ""
+      }
+    },
+    {
+      "id": "jp11",
+      "nombre": "",
+      "correo": "",
+      "contrato": "",
+      "cargo": "Jefe de Proyecto",
+      "sigla": "",
+      "sistemas": [
+        {
+          "idSistema": "",
+          "nombreSistema": "",
+          "dedicacion": "",
+          "tipoDesarrollo": "",
+          "proveedor": "",
+          "tipo": "",
+          "fechaInicio": "",
+          "fechaFin": "",
+          "analistaId": "",
+          "analista": "",
+          "dedicacionAnalista": "",
+          "camposExtra": {
+            "nro": "",
+            "planTrabajoPol": "",
+            "incidentes": "",
+            "correoJefeProyecto": "",
+            "correoAnalista": "",
+            "tipoContratoJefeProyecto": "",
+            "tipoContratoAnalista": "",
+            "desarrolloOriginal": "",
+            "tipoOriginal": ""
           }
         }
       ],
@@ -1492,6 +1529,39 @@
     },
     {
       "id": "an7",
+      "nombre": "No Aplica",
+      "correo": "",
+      "contrato": "",
+      "cargo": "Analista",
+      "sigla": "NA",
+      "camposExtra": {
+        "dedicacionReferencial": ""
+      },
+      "proyectos": [
+        {
+          "idSistema": "sys9",
+          "nombreSistema": "sitio WordPress proveedores técnicos",
+          "jefeProyectoId": "jp3",
+          "jefeProyecto": "Humberto Jeldres Palacios",
+          "dedicacionJefeProyecto": "15%",
+          "dedicacionAnalista": "",
+          "tipoDesarrollo": "Externo",
+          "proveedor": "Concordia SPA",
+          "tipo": "Proyecto Mantención",
+          "fechaInicio": "05-11-2025",
+          "fechaFin": "23-01-2026",
+          "camposExtra": {
+            "nro": "9.0",
+            "planTrabajoPol": "https://minvuchile.sharepoint.com/sites/pwa/project%20detail%20pages/schedule.aspx?projuid=363680db-a9ba-f011-a2c5-00155da0c814&ret=0",
+            "incidentes": "",
+            "correoJefeProyecto": "hjeldres@minvu.cl",
+            "tipoContratoJefeProyecto": "Contrata"
+          }
+        }
+      ]
+    },
+    {
+      "id": "an8",
       "nombre": "Claudio Lara Moreno",
       "correo": "clara@minvu.cl",
       "contrato": "Contrata",
@@ -1584,7 +1654,7 @@
       ]
     },
     {
-      "id": "an8",
+      "id": "an9",
       "nombre": "Marco Acevedo Acevedo",
       "correo": "macevedoa@minvu.cl",
       "contrato": "Contrata",
@@ -1657,7 +1727,7 @@
       ]
     },
     {
-      "id": "an9",
+      "id": "an10",
       "nombre": "Francisco Carrasco (DDU)",
       "correo": "fcarrascoa@minvu.cl",
       "contrato": "Por Producto",
@@ -1690,7 +1760,7 @@
       ]
     },
     {
-      "id": "an10",
+      "id": "an11",
       "nombre": "Felipe Ahumada Romero",
       "correo": "faahumadar@minvu.cl",
       "contrato": "Contrata",
@@ -1743,7 +1813,7 @@
       ]
     },
     {
-      "id": "an11",
+      "id": "an12",
       "nombre": "Hernan Silva Jimenez",
       "correo": "hsilvaj@minvu.cl",
       "contrato": "Contrata",
@@ -1796,7 +1866,7 @@
       ]
     },
     {
-      "id": "an12",
+      "id": "an13",
       "nombre": "Francisco Lemus Cordova",
       "correo": "flemus@minvu.cl",
       "contrato": "Contrata",
@@ -1829,7 +1899,7 @@
       ]
     },
     {
-      "id": "an13",
+      "id": "an14",
       "nombre": "Ciro Ponce Rodriguez",
       "correo": "cponcer@minvu.cl",
       "contrato": "Suma Alzada",
@@ -1862,7 +1932,7 @@
       ]
     },
     {
-      "id": "an14",
+      "id": "an15",
       "nombre": "Diego Alcayaga Atria",
       "correo": "dalcayaga@minvu.cl",
       "contrato": "Contrata",
@@ -1895,7 +1965,7 @@
       ]
     },
     {
-      "id": "an15",
+      "id": "an16",
       "nombre": "Marcelo Parra Velasquez",
       "correo": "mparrav@minvu.cl",
       "contrato": "Contrata",
@@ -1928,7 +1998,7 @@
       ]
     },
     {
-      "id": "an16",
+      "id": "an17",
       "nombre": "Jonathan Vasquez Subiabre",
       "correo": "jvasquezs@minvu.cl",
       "contrato": "Contrata",
@@ -1981,7 +2051,7 @@
       ]
     },
     {
-      "id": "an17",
+      "id": "an18",
       "nombre": "Cristian Huerta",
       "correo": "chuerta@minvu.cl",
       "contrato": "Contrata",
@@ -2014,7 +2084,7 @@
       ]
     },
     {
-      "id": "an18",
+      "id": "an19",
       "nombre": "Miguel Mamani",
       "correo": "mmamani@minvu.cl",
       "contrato": "Contrata",
@@ -2067,7 +2137,7 @@
       ]
     },
     {
-      "id": "an19",
+      "id": "an20",
       "nombre": "Bastian Prieto Puga",
       "correo": "bprietop@minvu.cl",
       "contrato": "Contrata",
@@ -2079,7 +2149,7 @@
       "proyectos": [
         {
           "idSistema": "sys31",
-          "nombreSistema": "Plataforma PRAP Incorporación de Barrios y Pago.",
+          "nombreSistema": "Plataforma  PRAP Incorporación de Barrios y Pago.",
           "jefeProyectoId": "jp9",
           "jefeProyecto": "Marcelo Miola Rosales",
           "dedicacionJefeProyecto": "10%",
@@ -2100,7 +2170,7 @@
       ]
     },
     {
-      "id": "an20",
+      "id": "an21",
       "nombre": "Jean Paul Astudillo",
       "correo": "jpastudillo@minvu.cl",
       "contrato": "Contrata",
@@ -2153,7 +2223,7 @@
       ]
     },
     {
-      "id": "an21",
+      "id": "an22",
       "nombre": "Sion Jei Mamani",
       "correo": "smamanil@minvu.cl",
       "contrato": "Por Producto",
@@ -2525,15 +2595,22 @@
           "contrato": "Contrata"
         }
       ],
-      "analistas": [],
+      "analistas": [
+        {
+          "id": "an7",
+          "nombre": "No Aplica",
+          "correo": "",
+          "contrato": ""
+        }
+      ],
       "participaciones": [
         {
           "nro": "9.0",
           "jefeProyectoId": "jp3",
           "jefeProyecto": "Humberto Jeldres Palacios",
           "dedicacionJefeProyecto": "15%",
-          "analistaId": "",
-          "analista": "",
+          "analistaId": "an7",
+          "analista": "No Aplica",
           "dedicacionAnalista": "",
           "incidentes": ""
         }
@@ -2643,7 +2720,7 @@
       ],
       "analistas": [
         {
-          "id": "an7",
+          "id": "an8",
           "nombre": "Claudio Lara Moreno",
           "correo": "clara@minvu.cl",
           "contrato": "Contrata"
@@ -2655,7 +2732,7 @@
           "jefeProyectoId": "jp3",
           "jefeProyecto": "Humberto Jeldres Palacios",
           "dedicacionJefeProyecto": "15%",
-          "analistaId": "an7",
+          "analistaId": "an8",
           "analista": "Claudio Lara Moreno",
           "dedicacionAnalista": "10%",
           "incidentes": ""
@@ -2684,7 +2761,7 @@
       ],
       "analistas": [
         {
-          "id": "an8",
+          "id": "an9",
           "nombre": "Marco Acevedo Acevedo",
           "correo": "macevedoa@minvu.cl",
           "contrato": "Contrata"
@@ -2696,7 +2773,7 @@
           "jefeProyectoId": "jp3",
           "jefeProyecto": "Humberto Jeldres Palacios",
           "dedicacionJefeProyecto": "5%",
-          "analistaId": "an8",
+          "analistaId": "an9",
           "analista": "Marco Acevedo Acevedo",
           "dedicacionAnalista": "10%",
           "incidentes": ""
@@ -2725,7 +2802,7 @@
       ],
       "analistas": [
         {
-          "id": "an7",
+          "id": "an8",
           "nombre": "Claudio Lara Moreno",
           "correo": "clara@minvu.cl",
           "contrato": "Contrata"
@@ -2737,7 +2814,7 @@
           "jefeProyectoId": "jp3",
           "jefeProyecto": "Humberto Jeldres Palacios",
           "dedicacionJefeProyecto": "15%",
-          "analistaId": "an7",
+          "analistaId": "an8",
           "analista": "Claudio Lara Moreno",
           "dedicacionAnalista": "5%",
           "incidentes": ""
@@ -2766,7 +2843,7 @@
       ],
       "analistas": [
         {
-          "id": "an7",
+          "id": "an8",
           "nombre": "Claudio Lara Moreno",
           "correo": "clara@minvu.cl",
           "contrato": "Contrata"
@@ -2778,7 +2855,7 @@
           "jefeProyectoId": "jp3",
           "jefeProyecto": "Humberto Jeldres Palacios",
           "dedicacionJefeProyecto": "5%",
-          "analistaId": "an7",
+          "analistaId": "an8",
           "analista": "Claudio Lara Moreno",
           "dedicacionAnalista": "5%",
           "incidentes": ""
@@ -2807,7 +2884,7 @@
       ],
       "analistas": [
         {
-          "id": "an9",
+          "id": "an10",
           "nombre": "Francisco Carrasco (DDU)",
           "correo": "fcarrascoa@minvu.cl",
           "contrato": "Por Producto"
@@ -2819,7 +2896,7 @@
           "jefeProyectoId": "jp4",
           "jefeProyecto": "Felipe Piña Bandera",
           "dedicacionJefeProyecto": "",
-          "analistaId": "an9",
+          "analistaId": "an10",
           "analista": "Francisco Carrasco (DDU)",
           "dedicacionAnalista": "50%",
           "incidentes": ""
@@ -2882,7 +2959,7 @@
       ],
       "analistas": [
         {
-          "id": "an10",
+          "id": "an11",
           "nombre": "Felipe Ahumada Romero",
           "correo": "faahumadar@minvu.cl",
           "contrato": "Contrata"
@@ -2894,7 +2971,7 @@
           "jefeProyectoId": "jp5",
           "jefeProyecto": "Gonzalo Osorio Duque",
           "dedicacionJefeProyecto": "15%",
-          "analistaId": "an10",
+          "analistaId": "an11",
           "analista": "Felipe Ahumada Romero",
           "dedicacionAnalista": "80%",
           "incidentes": ""
@@ -2923,7 +3000,7 @@
       ],
       "analistas": [
         {
-          "id": "an10",
+          "id": "an11",
           "nombre": "Felipe Ahumada Romero",
           "correo": "faahumadar@minvu.cl",
           "contrato": "Contrata"
@@ -2935,13 +3012,13 @@
           "contrato": "Contrata"
         },
         {
-          "id": "an11",
+          "id": "an12",
           "nombre": "Hernan Silva Jimenez",
           "correo": "hsilvaj@minvu.cl",
           "contrato": "Contrata"
         },
         {
-          "id": "an7",
+          "id": "an8",
           "nombre": "Claudio Lara Moreno",
           "correo": "clara@minvu.cl",
           "contrato": "Contrata"
@@ -2953,7 +3030,7 @@
           "jefeProyectoId": "jp5",
           "jefeProyecto": "Gonzalo Osorio Duque",
           "dedicacionJefeProyecto": "10%",
-          "analistaId": "an10",
+          "analistaId": "an11",
           "analista": "Felipe Ahumada Romero",
           "dedicacionAnalista": "20%",
           "incidentes": ""
@@ -2973,7 +3050,7 @@
           "jefeProyectoId": "jp5",
           "jefeProyecto": "Gonzalo Osorio Duque",
           "dedicacionJefeProyecto": "10%",
-          "analistaId": "an11",
+          "analistaId": "an12",
           "analista": "Hernan Silva Jimenez",
           "dedicacionAnalista": "80%",
           "incidentes": ""
@@ -2983,7 +3060,7 @@
           "jefeProyectoId": "jp5",
           "jefeProyecto": "Gonzalo Osorio Duque",
           "dedicacionJefeProyecto": "25%",
-          "analistaId": "an11",
+          "analistaId": "an12",
           "analista": "Hernan Silva Jimenez",
           "dedicacionAnalista": "20%",
           "incidentes": ""
@@ -2993,7 +3070,7 @@
           "jefeProyectoId": "jp5",
           "jefeProyecto": "Gonzalo Osorio Duque",
           "dedicacionJefeProyecto": "20%",
-          "analistaId": "an7",
+          "analistaId": "an8",
           "analista": "Claudio Lara Moreno",
           "dedicacionAnalista": "80%",
           "incidentes": ""
@@ -3022,7 +3099,7 @@
       ],
       "analistas": [
         {
-          "id": "an12",
+          "id": "an13",
           "nombre": "Francisco Lemus Cordova",
           "correo": "flemus@minvu.cl",
           "contrato": "Contrata"
@@ -3034,7 +3111,7 @@
           "jefeProyectoId": "jp6",
           "jefeProyecto": "Cristian Silva Morales",
           "dedicacionJefeProyecto": "15%",
-          "analistaId": "an12",
+          "analistaId": "an13",
           "analista": "Francisco Lemus Cordova",
           "dedicacionAnalista": "80%",
           "incidentes": "20%"
@@ -3063,25 +3140,25 @@
       ],
       "analistas": [
         {
-          "id": "an13",
+          "id": "an14",
           "nombre": "Ciro Ponce Rodriguez",
           "correo": "cponcer@minvu.cl",
           "contrato": "Suma Alzada"
         },
         {
-          "id": "an14",
+          "id": "an15",
           "nombre": "Diego Alcayaga Atria",
           "correo": "dalcayaga@minvu.cl",
           "contrato": "Contrata"
         },
         {
-          "id": "an15",
+          "id": "an16",
           "nombre": "Marcelo Parra Velasquez",
           "correo": "mparrav@minvu.cl",
           "contrato": "Contrata"
         },
         {
-          "id": "an16",
+          "id": "an17",
           "nombre": "Jonathan Vasquez Subiabre",
           "correo": "jvasquezs@minvu.cl",
           "contrato": "Contrata"
@@ -3093,7 +3170,7 @@
           "jefeProyectoId": "jp6",
           "jefeProyecto": "Cristian Silva Morales",
           "dedicacionJefeProyecto": "15%",
-          "analistaId": "an13",
+          "analistaId": "an14",
           "analista": "Ciro Ponce Rodriguez",
           "dedicacionAnalista": "80%",
           "incidentes": "20%"
@@ -3103,7 +3180,7 @@
           "jefeProyectoId": "jp6",
           "jefeProyecto": "Cristian Silva Morales",
           "dedicacionJefeProyecto": "15%",
-          "analistaId": "an14",
+          "analistaId": "an15",
           "analista": "Diego Alcayaga Atria",
           "dedicacionAnalista": "80%",
           "incidentes": "20%"
@@ -3113,7 +3190,7 @@
           "jefeProyectoId": "jp6",
           "jefeProyecto": "Cristian Silva Morales",
           "dedicacionJefeProyecto": "20%",
-          "analistaId": "an15",
+          "analistaId": "an16",
           "analista": "Marcelo Parra Velasquez",
           "dedicacionAnalista": "100%",
           "incidentes": ""
@@ -3123,7 +3200,7 @@
           "jefeProyectoId": "jp6",
           "jefeProyecto": "Cristian Silva Morales",
           "dedicacionJefeProyecto": "15%",
-          "analistaId": "an16",
+          "analistaId": "an17",
           "analista": "Jonathan Vasquez Subiabre",
           "dedicacionAnalista": "80%",
           "incidentes": ""
@@ -3152,7 +3229,7 @@
       ],
       "analistas": [
         {
-          "id": "an16",
+          "id": "an17",
           "nombre": "Jonathan Vasquez Subiabre",
           "correo": "jvasquezs@minvu.cl",
           "contrato": "Contrata"
@@ -3164,7 +3241,7 @@
           "jefeProyectoId": "jp6",
           "jefeProyecto": "Cristian Silva Morales",
           "dedicacionJefeProyecto": "5%",
-          "analistaId": "an16",
+          "analistaId": "an17",
           "analista": "Jonathan Vasquez Subiabre",
           "dedicacionAnalista": "20%",
           "incidentes": ""
@@ -3193,7 +3270,7 @@
       ],
       "analistas": [
         {
-          "id": "an8",
+          "id": "an9",
           "nombre": "Marco Acevedo Acevedo",
           "correo": "macevedoa@minvu.cl",
           "contrato": "Contrata"
@@ -3205,7 +3282,7 @@
           "jefeProyectoId": "jp6",
           "jefeProyecto": "Cristian Silva Morales",
           "dedicacionJefeProyecto": "15%",
-          "analistaId": "an8",
+          "analistaId": "an9",
           "analista": "Marco Acevedo Acevedo",
           "dedicacionAnalista": "10%",
           "incidentes": ""
@@ -3309,7 +3386,7 @@
       ],
       "analistas": [
         {
-          "id": "an17",
+          "id": "an18",
           "nombre": "Cristian Huerta",
           "correo": "chuerta@minvu.cl",
           "contrato": "Contrata"
@@ -3321,7 +3398,7 @@
           "jefeProyectoId": "jp7",
           "jefeProyecto": "Marisol Riveros Villalobos",
           "dedicacionJefeProyecto": "25%",
-          "analistaId": "an17",
+          "analistaId": "an18",
           "analista": "Cristian Huerta",
           "dedicacionAnalista": "80%",
           "incidentes": ""
@@ -3418,7 +3495,7 @@
       ],
       "analistas": [
         {
-          "id": "an18",
+          "id": "an19",
           "nombre": "Miguel Mamani",
           "correo": "mmamani@minvu.cl",
           "contrato": "Contrata"
@@ -3430,7 +3507,7 @@
           "jefeProyectoId": "jp9",
           "jefeProyecto": "Marcelo Miola Rosales",
           "dedicacionJefeProyecto": "10%",
-          "analistaId": "an18",
+          "analistaId": "an19",
           "analista": "Miguel Mamani",
           "dedicacionAnalista": "60%",
           "incidentes": "10"
@@ -3459,7 +3536,7 @@
       ],
       "analistas": [
         {
-          "id": "an18",
+          "id": "an19",
           "nombre": "Miguel Mamani",
           "correo": "mmamani@minvu.cl",
           "contrato": "Contrata"
@@ -3471,7 +3548,7 @@
           "jefeProyectoId": "jp9",
           "jefeProyecto": "Marcelo Miola Rosales",
           "dedicacionJefeProyecto": "10%",
-          "analistaId": "an18",
+          "analistaId": "an19",
           "analista": "Miguel Mamani",
           "dedicacionAnalista": "20%",
           "incidentes": "10"
@@ -3483,7 +3560,7 @@
     },
     {
       "id": "sys31",
-      "nombreSistema": "Plataforma PRAP Incorporación de Barrios y Pago.",
+      "nombreSistema": "Plataforma  PRAP Incorporación de Barrios y Pago.",
       "proveedor": "",
       "tipoDesarrollo": "Interno",
       "tipo": "Mantención",
@@ -3500,7 +3577,7 @@
       ],
       "analistas": [
         {
-          "id": "an19",
+          "id": "an20",
           "nombre": "Bastian Prieto Puga",
           "correo": "bprietop@minvu.cl",
           "contrato": "Contrata"
@@ -3512,7 +3589,7 @@
           "jefeProyectoId": "jp9",
           "jefeProyecto": "Marcelo Miola Rosales",
           "dedicacionJefeProyecto": "10%",
-          "analistaId": "an19",
+          "analistaId": "an20",
           "analista": "Bastian Prieto Puga",
           "dedicacionAnalista": "80%",
           "incidentes": "20"
@@ -3541,7 +3618,7 @@
       ],
       "analistas": [
         {
-          "id": "an20",
+          "id": "an21",
           "nombre": "Jean Paul Astudillo",
           "correo": "jpastudillo@minvu.cl",
           "contrato": "Contrata"
@@ -3553,7 +3630,7 @@
           "jefeProyectoId": "jp9",
           "jefeProyecto": "Marcelo Miola Rosales",
           "dedicacionJefeProyecto": "20%",
-          "analistaId": "an20",
+          "analistaId": "an21",
           "analista": "Jean Paul Astudillo",
           "dedicacionAnalista": "50%",
           "incidentes": "10"
@@ -3582,7 +3659,7 @@
       ],
       "analistas": [
         {
-          "id": "an20",
+          "id": "an21",
           "nombre": "Jean Paul Astudillo",
           "correo": "jpastudillo@minvu.cl",
           "contrato": "Contrata"
@@ -3594,7 +3671,7 @@
           "jefeProyectoId": "jp9",
           "jefeProyecto": "Marcelo Miola Rosales",
           "dedicacionJefeProyecto": "10%",
-          "analistaId": "an20",
+          "analistaId": "an21",
           "analista": "Jean Paul Astudillo",
           "dedicacionAnalista": "30%",
           "incidentes": "10"
@@ -3623,7 +3700,7 @@
       ],
       "analistas": [
         {
-          "id": "an21",
+          "id": "an22",
           "nombre": "Sion Jei Mamani",
           "correo": "smamanil@minvu.cl",
           "contrato": "Por Producto"
@@ -3635,7 +3712,7 @@
           "jefeProyectoId": "jp9",
           "jefeProyecto": "Marcelo Miola Rosales",
           "dedicacionJefeProyecto": "30%",
-          "analistaId": "an21",
+          "analistaId": "an22",
           "analista": "Sion Jei Mamani",
           "dedicacionAnalista": "80%",
           "incidentes": "20"
@@ -3664,7 +3741,7 @@
       ],
       "analistas": [
         {
-          "id": "an8",
+          "id": "an9",
           "nombre": "Marco Acevedo Acevedo",
           "correo": "macevedoa@minvu.cl",
           "contrato": "Contrata"
@@ -3676,7 +3753,7 @@
           "jefeProyectoId": "jp8",
           "jefeProyecto": "Iván Rojas",
           "dedicacionJefeProyecto": "20%",
-          "analistaId": "an8",
+          "analistaId": "an9",
           "analista": "Marco Acevedo Acevedo",
           "dedicacionAnalista": "80%",
           "incidentes": ""
