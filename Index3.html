@@ -1049,7 +1049,14 @@
         const isJP = mode === 'jp';
         const isAnalyst = mode === 'analista';
         const isSystem = mode === 'sistema';
-        const items = isSystem ? (data.sistemas || []) : (isJP ? data.jefesProyecto : data.analistas);
+        let items = isSystem ? (data.sistemas || []) : (isJP ? data.jefesProyecto : data.analistas);
+
+// Orden alfabético
+items = items.slice().sort((a, b) => {
+    const nameA = (isSystem ? a.nombreSistema : a.nombre || '').toLowerCase();
+    const nameB = (isSystem ? b.nombreSistema : b.nombre || '').toLowerCase();
+    return nameA.localeCompare(nameB);
+});
 
         grid.innerHTML = items.map(item => {
             let cardClass = 'mini-card';
@@ -1390,6 +1397,7 @@ function handleFileUpload(event) {
 <script>
 document.addEventListener("DOMContentLoaded", () => {
     if (window.location.protocol === "file:") {
+        alert(window.location.protocol);
         const manualBtn = document.getElementById("btnCargaManual");
         if (manualBtn) manualBtn.style.display = "inline-block";
     }
