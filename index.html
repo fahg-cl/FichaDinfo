@@ -742,7 +742,7 @@
             <div><strong>Contrato:</strong> ${item.contrato || ''}</div>
           </div>
           ${isJP ? `<div class="chips">${dedicationChip}</div>` : ''}
-          <button class="btn-primary" onclick="renderDetail('${"${state.mode}"}', '${"${item.id}"}')">Ver detalle</button>
+          <button class="btn-primary" onclick="renderDetail('${state.mode}', '${item.id}')">Ver detalle</button>
         </article>
       `;
       }).join('');
