@@ -735,9 +735,15 @@
           chipsHtml = `<div class="chips"><span class="chip ${status.css}">${status.label}</span></div>`;
         } else {
           const projects = Array.isArray(item.proyectos) ? item.proyectos : getAnalystProjects(item.id);
-          const totalDedicacion = projects.reduce((sum, proyecto) => sum + parsePercent(proyecto.dedicacion), 0);
-          const totalIncidentes = projects.reduce((sum, proyecto) => sum + parsePercent(proyecto.camposExtra?.incidentes), 0);
-          const totalAnalista = totalDedicacion + totalIncidentes;
+          const totalDedicacionAnalista = projects.reduce(
+            (sum, proyecto) => sum + parsePercent(proyecto.dedicacionAnalista ?? proyecto.dedicacion),
+            0
+          );
+          const totalIncidentes = projects.reduce(
+            (sum, proyecto) => sum + parsePercent(proyecto.camposExtra?.incidentes),
+            0
+          );
+          const totalAnalista = totalDedicacionAnalista + totalIncidentes;
           const status = getDedicationStatus(totalAnalista);
 
           const chips = [
