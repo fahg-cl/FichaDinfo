@@ -1365,7 +1365,7 @@ items = items.slice().sort((a, b) => {
     });
     </script>
 
-<div style="text-align:center; margin-top:10px;">
+<div style="display:none; text-align:center; margin-top:10px;">
     <button id="btnCargaManual" style="display:none;" onclick="document.getElementById('fileInput').click()">
         Cargar JSON manualmente
     </button>
@@ -1396,8 +1396,8 @@ function handleFileUpload(event) {
 
 <script>
 document.addEventListener("DOMContentLoaded", () => {
+    alert(window.location.protocol);
     if (window.location.protocol === "file:") {
-        alert(window.location.protocol);
         const manualBtn = document.getElementById("btnCargaManual");
         if (manualBtn) manualBtn.style.display = "inline-block";
     }
