@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "archivoOrigen": "Detalle Proyectos por Funcionarios(5).csv",
-    "filasCSV": 43,
+    "archivoOrigen": "Detalle Proyectos por Funcionarios.csv",
+    "filasCSV": 42,
     "columnasCSV": [
       "Nro.",
       "Jefe de proyecto",
@@ -10,7 +10,7 @@
       "Jefe de Proyecto Suplente",
       "Tipo Contrato",
       "Sistema",
-      "Proveedor",
+      "Proveedor ",
       "Desarrollo Interno",
       "Proyecto - Mantención",
       "Plan de Trabajo (POL)",
@@ -41,7 +41,7 @@
       "proveedor": "",
       "desarrolloInterno": "Desarrollo interno",
       "tipo": "Mantención",
-      "planTrabajoPOL": "",
+      "planTrabajoPOL": "https://teams.microsoft.com/l/entity/com.microsoft.teamspace.tab.planner/mytasks?tenantId=9cacd210-70a9-44ee-826b-f6b7685a01d6&webUrl=https%3A%2F%2Ftasks.teams.microsoft.com%2Fteamsui%2FpersonalApp%2Falltasklists&context=%7B%22subEntityId%22%3A%22%2Fv1%2Fpremiumplan%2F57f56d87-bf4b-4ce4-8438-78ef99dfc830%2Forg%2Ff047bc7e-7275-48cd-be18-376a22411ca9%22%7D",
       "fechaInicio": "",
       "fechaTermino": "",
       "jpTitular": {
@@ -52,8 +52,8 @@
         "dedicacionSistema": "20%"
       },
       "jpSuplente": {
-        "id": "",
-        "nombre": ""
+        "id": "jp-sara-gonzalez-catalan",
+        "nombre": "Sara González Catalán"
       },
       "analistas": [
         {
@@ -76,13 +76,13 @@
           "jefeProyecto": "Ernesto Alvarez Toledo",
           "dedicacionJP": "20%",
           "correoJP": "ealvarezt@minvu.cl",
-          "jefeProyectoSuplente": "",
+          "jefeProyectoSuplente": "Sara González Catalán",
           "tipoContratoJP": "Por Producto",
           "sistema": "DS27",
           "proveedor": "",
           "desarrolloInterno": "Desarrollo interno",
           "proyectoMantencion": "Mantención",
-          "planTrabajoPOL": "",
+          "planTrabajoPOL": "https://teams.microsoft.com/l/entity/com.microsoft.teamspace.tab.planner/mytasks?tenantId=9cacd210-70a9-44ee-826b-f6b7685a01d6&webUrl=https%3A%2F%2Ftasks.teams.microsoft.com%2Fteamsui%2FpersonalApp%2Falltasklists&context=%7B%22subEntityId%22%3A%22%2Fv1%2Fpremiumplan%2F57f56d87-bf4b-4ce4-8438-78ef99dfc830%2Forg%2Ff047bc7e-7275-48cd-be18-376a22411ca9%22%7D",
           "fechaInicio": "",
           "fechaTermino": "",
           "analista": "Italo Zamorano Falchetti",
@@ -102,7 +102,7 @@
       "proveedor": "",
       "desarrolloInterno": "Desarrollo interno",
       "tipo": "Mantención",
-      "planTrabajoPOL": "",
+      "planTrabajoPOL": "https://teams.microsoft.com/l/entity/com.microsoft.teamspace.tab.planner/mytasks?tenantId=9cacd210-70a9-44ee-826b-f6b7685a01d6&webUrl=https%3A%2F%2Ftasks.teams.microsoft.com%2Fteamsui%2FpersonalApp%2Falltasklists&context=%7B%22subEntityId%22%3A%22%2Fv1%2Fpremiumplan%2Fe081eb31-c499-43d0-807f-db6c8efe6276%2Forg%2Ff047bc7e-7275-48cd-be18-376a22411ca9%22%7D",
       "fechaInicio": "",
       "fechaTermino": "",
       "jpTitular": {
@@ -113,8 +113,8 @@
         "dedicacionSistema": "20%"
       },
       "jpSuplente": {
-        "id": "",
-        "nombre": ""
+        "id": "jp-sara-gonzalez-catalan",
+        "nombre": "Sara González Catalán"
       },
       "analistas": [
         {
@@ -137,13 +137,13 @@
           "jefeProyecto": "Ernesto Alvarez Toledo",
           "dedicacionJP": "20%",
           "correoJP": "ealvarezt@minvu.cl",
-          "jefeProyectoSuplente": "",
+          "jefeProyectoSuplente": "Sara González Catalán",
           "tipoContratoJP": "Por Producto",
           "sistema": "DS01",
           "proveedor": "",
           "desarrolloInterno": "Desarrollo interno",
           "proyectoMantencion": "Mantención",
-          "planTrabajoPOL": "",
+          "planTrabajoPOL": "https://teams.microsoft.com/l/entity/com.microsoft.teamspace.tab.planner/mytasks?tenantId=9cacd210-70a9-44ee-826b-f6b7685a01d6&webUrl=https%3A%2F%2Ftasks.teams.microsoft.com%2Fteamsui%2FpersonalApp%2Falltasklists&context=%7B%22subEntityId%22%3A%22%2Fv1%2Fpremiumplan%2Fe081eb31-c499-43d0-807f-db6c8efe6276%2Forg%2Ff047bc7e-7275-48cd-be18-376a22411ca9%22%7D",
           "fechaInicio": "",
           "fechaTermino": "",
           "analista": "Alexis Leiva Orellana",
@@ -163,7 +163,7 @@
       "proveedor": "",
       "desarrolloInterno": "Desarrollo interno",
       "tipo": "Mantención",
-      "planTrabajoPOL": "",
+      "planTrabajoPOL": "https://teams.microsoft.com/l/entity/com.microsoft.teamspace.tab.planner/mytasks?tenantId=9cacd210-70a9-44ee-826b-f6b7685a01d6&webUrl=https%3A%2F%2Ftasks.teams.microsoft.com%2Fteamsui%2FpersonalApp%2Falltasklists&context=%7B%22subEntityId%22%3A%22%2Fv1%2Fpremiumplan%2Fe081eb31-c499-43d0-807f-db6c8efe6276%2Forg%2Ff047bc7e-7275-48cd-be18-376a22411ca9%22%7D",
       "fechaInicio": "",
       "fechaTermino": "",
       "jpTitular": {
@@ -174,8 +174,8 @@
         "dedicacionSistema": "20%"
       },
       "jpSuplente": {
-        "id": "",
-        "nombre": ""
+        "id": "jp-sara-gonzalez-catalan",
+        "nombre": "Sara González Catalán"
       },
       "analistas": [
         {
@@ -198,13 +198,13 @@
           "jefeProyecto": "Ernesto Alvarez Toledo",
           "dedicacionJP": "20%",
           "correoJP": "ealvarezt@minvu.cl",
-          "jefeProyectoSuplente": "",
+          "jefeProyectoSuplente": "Sara González Catalán",
           "tipoContratoJP": "Por Producto",
           "sistema": "DS19",
           "proveedor": "",
           "desarrolloInterno": "Desarrollo interno",
           "proyectoMantencion": "Mantención",
-          "planTrabajoPOL": "",
+          "planTrabajoPOL": "https://teams.microsoft.com/l/entity/com.microsoft.teamspace.tab.planner/mytasks?tenantId=9cacd210-70a9-44ee-826b-f6b7685a01d6&webUrl=https%3A%2F%2Ftasks.teams.microsoft.com%2Fteamsui%2FpersonalApp%2Falltasklists&context=%7B%22subEntityId%22%3A%22%2Fv1%2Fpremiumplan%2Fe081eb31-c499-43d0-807f-db6c8efe6276%2Forg%2Ff047bc7e-7275-48cd-be18-376a22411ca9%22%7D",
           "fechaInicio": "",
           "fechaTermino": "",
           "analista": "Alexis Leiva Orellana",
@@ -224,7 +224,7 @@
       "proveedor": "",
       "desarrolloInterno": "Desarrollo interno",
       "tipo": "Proyecto Mantención",
-      "planTrabajoPOL": "",
+      "planTrabajoPOL": "https://teams.microsoft.com/l/entity/com.microsoft.teamspace.tab.planner/mytasks?tenantId=9cacd210-70a9-44ee-826b-f6b7685a01d6&webUrl=https%3A%2F%2Ftasks.teams.microsoft.com%2Fteamsui%2FpersonalApp%2Falltasklists&context=%7B%22subEntityId%22%3A%22%2Fv1%2Fpremiumplan%2F1a80227e-0d30-4392-bb12-cb9529f94ac4%2Forg%2Ff047bc7e-7275-48cd-be18-376a22411ca9%22%7D",
       "fechaInicio": "",
       "fechaTermino": "",
       "jpTitular": {
@@ -235,8 +235,8 @@
         "dedicacionSistema": "20%"
       },
       "jpSuplente": {
-        "id": "",
-        "nombre": ""
+        "id": "jp-marcelo-miola-rosales",
+        "nombre": "Marcelo Miola Rosales"
       },
       "analistas": [
         {
@@ -259,13 +259,13 @@
           "jefeProyecto": "Ernesto Alvarez Toledo",
           "dedicacionJP": "20%",
           "correoJP": "ealvarezt@minvu.cl",
-          "jefeProyectoSuplente": "",
+          "jefeProyectoSuplente": "Marcelo Miola Rosales",
           "tipoContratoJP": "Por Producto",
           "sistema": "SPSH",
           "proveedor": "",
           "desarrolloInterno": "Desarrollo interno",
           "proyectoMantencion": "Proyecto Mantención",
-          "planTrabajoPOL": "",
+          "planTrabajoPOL": "https://teams.microsoft.com/l/entity/com.microsoft.teamspace.tab.planner/mytasks?tenantId=9cacd210-70a9-44ee-826b-f6b7685a01d6&webUrl=https%3A%2F%2Ftasks.teams.microsoft.com%2Fteamsui%2FpersonalApp%2Falltasklists&context=%7B%22subEntityId%22%3A%22%2Fv1%2Fpremiumplan%2F1a80227e-0d30-4392-bb12-cb9529f94ac4%2Forg%2Ff047bc7e-7275-48cd-be18-376a22411ca9%22%7D",
           "fechaInicio": "",
           "fechaTermino": "",
           "analista": "Ivan Carmona",
@@ -285,7 +285,7 @@
       "proveedor": "",
       "desarrolloInterno": "Desarrollo interno",
       "tipo": "Proyecto",
-      "planTrabajoPOL": "",
+      "planTrabajoPOL": "https://teams.microsoft.com/l/entity/com.microsoft.teamspace.tab.planner/mytasks?tenantId=9cacd210-70a9-44ee-826b-f6b7685a01d6&webUrl=https%3A%2F%2Ftasks.teams.microsoft.com%2Fteamsui%2FpersonalApp%2Falltasklists&context=%7B%22subEntityId%22%3A%22%2Fv1%2Fpremiumplan%2F37d64832-1a1e-4db3-bf59-2bb5119c3f0b%2Forg%2Ff047bc7e-7275-48cd-be18-376a22411ca9%22%7D",
       "fechaInicio": "",
       "fechaTermino": "",
       "jpTitular": {
@@ -296,8 +296,8 @@
         "dedicacionSistema": "10%"
       },
       "jpSuplente": {
-        "id": "",
-        "nombre": ""
+        "id": "jp-ivan-rojas-marchant",
+        "nombre": "Iván Rojas Marchant"
       },
       "analistas": [
         {
@@ -320,13 +320,13 @@
           "jefeProyecto": "Ernesto Alvarez Toledo",
           "dedicacionJP": "10%",
           "correoJP": "ealvarezt@minvu.cl",
-          "jefeProyectoSuplente": "",
+          "jefeProyectoSuplente": "Iván Rojas Marchant",
           "tipoContratoJP": "Por Producto",
           "sistema": "SUPER",
           "proveedor": "",
           "desarrolloInterno": "Desarrollo interno",
           "proyectoMantencion": "Proyecto",
-          "planTrabajoPOL": "",
+          "planTrabajoPOL": "https://teams.microsoft.com/l/entity/com.microsoft.teamspace.tab.planner/mytasks?tenantId=9cacd210-70a9-44ee-826b-f6b7685a01d6&webUrl=https%3A%2F%2Ftasks.teams.microsoft.com%2Fteamsui%2FpersonalApp%2Falltasklists&context=%7B%22subEntityId%22%3A%22%2Fv1%2Fpremiumplan%2F37d64832-1a1e-4db3-bf59-2bb5119c3f0b%2Forg%2Ff047bc7e-7275-48cd-be18-376a22411ca9%22%7D",
           "fechaInicio": "",
           "fechaTermino": "",
           "analista": "Ernesto Alvarez Toledo",
@@ -418,13 +418,13 @@
         "dedicacionSistema": "95%"
       },
       "jpSuplente": {
-        "id": "jp-humberto-jeldres-palacios",
-        "nombre": "Humberto Jeldres Palacios"
+        "id": "jp-ivan-rojas-marchant",
+        "nombre": "Iván Rojas Marchant"
       },
       "analistas": [
         {
-          "id": "",
-          "nombre": "",
+          "id": "an-n-a",
+          "nombre": "N/A",
           "correo": "",
           "tipoContrato": "",
           "dedicacionSistema": "",
@@ -442,7 +442,7 @@
           "jefeProyecto": "Fabián Hernández Gallardo",
           "dedicacionJP": "95%",
           "correoJP": "fhernandezg@minvu.cl",
-          "jefeProyectoSuplente": "Humberto Jeldres Palacios",
+          "jefeProyectoSuplente": "Iván Rojas Marchant",
           "tipoContratoJP": "Contrata",
           "sistema": "ERP",
           "proveedor": "Browse",
@@ -451,7 +451,7 @@
           "planTrabajoPOL": "https://minvuchile.sharepoint.com/sites/pwa/PE%20-%20Sistema%20integrado%20de%20gesti%C3%B3n%20de%20procesos%20de%20soporte%20%E2%80%93%20ERP%20Ministerial/default.aspx",
           "fechaInicio": "29-01-2025",
           "fechaTermino": "29-07-2026",
-          "analista": "",
+          "analista": "N/A",
           "correoAnalista": "",
           "tipoContratoAnalista": "",
           "dedicacionAnalista": "",
@@ -479,8 +479,8 @@
         "dedicacionSistema": "35%"
       },
       "jpSuplente": {
-        "id": "",
-        "nombre": ""
+        "id": "jp-marisol-riveros-villalobos",
+        "nombre": "Marisol Riveros Villalobos"
       },
       "analistas": [
         {
@@ -489,10 +489,10 @@
           "correo": "jtoledov@minvu.cl",
           "tipoContrato": "Suma Alzada",
           "dedicacionSistema": "3%",
-          "incidentes": "",
+          "incidentes": "3%",
           "suplente": {
-            "id": "",
-            "nombre": ""
+            "id": "an-claudio-lara-moreno",
+            "nombre": "Claudio Lara Moreno"
           },
           "registroFuenteNro": "8"
         }
@@ -503,7 +503,7 @@
           "jefeProyecto": "Humberto Jeldres Palacios",
           "dedicacionJP": "35%",
           "correoJP": "hjeldres@minvu.cl",
-          "jefeProyectoSuplente": "",
+          "jefeProyectoSuplente": "Marisol Riveros Villalobos",
           "tipoContratoJP": "Contrata",
           "sistema": "Proveedores Técnicos",
           "proveedor": "CUNX",
@@ -516,8 +516,8 @@
           "correoAnalista": "jtoledov@minvu.cl",
           "tipoContratoAnalista": "Suma Alzada",
           "dedicacionAnalista": "3%",
-          "incidentes": "",
-          "analistaSuplente": ""
+          "incidentes": "3%",
+          "analistaSuplente": "Claudio Lara Moreno"
         }
       ],
       "totalAnalistasAsignados": 1,
@@ -540,8 +540,8 @@
         "dedicacionSistema": "15%"
       },
       "jpSuplente": {
-        "id": "",
-        "nombre": ""
+        "id": "jp-marisol-riveros-villalobos",
+        "nombre": "Marisol Riveros Villalobos"
       },
       "analistas": [
         {
@@ -564,7 +564,7 @@
           "jefeProyecto": "Humberto Jeldres Palacios",
           "dedicacionJP": "15%",
           "correoJP": "hjeldres@minvu.cl",
-          "jefeProyectoSuplente": "",
+          "jefeProyectoSuplente": "Marisol Riveros Villalobos",
           "tipoContratoJP": "Contrata",
           "sistema": "sitio WordPress proveedores técnicos",
           "proveedor": "Concordia SPA",
@@ -601,8 +601,8 @@
         "dedicacionSistema": "5%"
       },
       "jpSuplente": {
-        "id": "",
-        "nombre": ""
+        "id": "jp-marisol-riveros-villalobos",
+        "nombre": "Marisol Riveros Villalobos"
       },
       "analistas": [
         {
@@ -611,10 +611,10 @@
           "correo": "jtoledov@minvu.cl",
           "tipoContrato": "Suma Alzada",
           "dedicacionSistema": "10%",
-          "incidentes": "",
+          "incidentes": "10%",
           "suplente": {
-            "id": "",
-            "nombre": ""
+            "id": "an-claudio-lara-moreno",
+            "nombre": "Claudio Lara Moreno"
           },
           "registroFuenteNro": "10"
         }
@@ -625,7 +625,7 @@
           "jefeProyecto": "Humberto Jeldres Palacios",
           "dedicacionJP": "5%",
           "correoJP": "hjeldres@minvu.cl",
-          "jefeProyectoSuplente": "",
+          "jefeProyectoSuplente": "Marisol Riveros Villalobos",
           "tipoContratoJP": "Contrata",
           "sistema": "Munin Nacional/Trazabilidad2",
           "proveedor": "",
@@ -638,8 +638,8 @@
           "correoAnalista": "jtoledov@minvu.cl",
           "tipoContratoAnalista": "Suma Alzada",
           "dedicacionAnalista": "10%",
-          "incidentes": "",
-          "analistaSuplente": ""
+          "incidentes": "10%",
+          "analistaSuplente": "Claudio Lara Moreno"
         }
       ],
       "totalAnalistasAsignados": 1,
@@ -662,8 +662,8 @@
         "dedicacionSistema": "5%"
       },
       "jpSuplente": {
-        "id": "",
-        "nombre": ""
+        "id": "jp-marisol-riveros-villalobos",
+        "nombre": "Marisol Riveros Villalobos"
       },
       "analistas": [
         {
@@ -672,10 +672,10 @@
           "correo": "jtoledov@minvu.cl",
           "tipoContrato": "Suma Alzada",
           "dedicacionSistema": "7%",
-          "incidentes": "",
+          "incidentes": "7%",
           "suplente": {
-            "id": "",
-            "nombre": ""
+            "id": "an-claudio-lara-moreno",
+            "nombre": "Claudio Lara Moreno"
           },
           "registroFuenteNro": "11"
         }
@@ -686,7 +686,7 @@
           "jefeProyecto": "Humberto Jeldres Palacios",
           "dedicacionJP": "5%",
           "correoJP": "hjeldres@minvu.cl",
-          "jefeProyectoSuplente": "",
+          "jefeProyectoSuplente": "Marisol Riveros Villalobos",
           "tipoContratoJP": "Contrata",
           "sistema": "Solicitud de Identificación Presupuestaria",
           "proveedor": "EnVision",
@@ -699,8 +699,8 @@
           "correoAnalista": "jtoledov@minvu.cl",
           "tipoContratoAnalista": "Suma Alzada",
           "dedicacionAnalista": "7%",
-          "incidentes": "",
-          "analistaSuplente": ""
+          "incidentes": "7%",
+          "analistaSuplente": "Claudio Lara Moreno"
         }
       ],
       "totalAnalistasAsignados": 1,
@@ -723,8 +723,8 @@
         "dedicacionSistema": "15%"
       },
       "jpSuplente": {
-        "id": "",
-        "nombre": ""
+        "id": "jp-marisol-riveros-villalobos",
+        "nombre": "Marisol Riveros Villalobos"
       },
       "analistas": [
         {
@@ -733,10 +733,10 @@
           "correo": "clara@minvu.cl",
           "tipoContrato": "Contrata",
           "dedicacionSistema": "10%",
-          "incidentes": "",
+          "incidentes": "10%",
           "suplente": {
-            "id": "",
-            "nombre": ""
+            "id": "an-johanna-toledo-varela",
+            "nombre": "Johanna Toledo Varela"
           },
           "registroFuenteNro": "12"
         }
@@ -747,7 +747,7 @@
           "jefeProyecto": "Humberto Jeldres Palacios",
           "dedicacionJP": "15%",
           "correoJP": "hjeldres@minvu.cl",
-          "jefeProyectoSuplente": "",
+          "jefeProyectoSuplente": "Marisol Riveros Villalobos",
           "tipoContratoJP": "Contrata",
           "sistema": "Proveedores y Registros Técnicos",
           "proveedor": "",
@@ -760,8 +760,8 @@
           "correoAnalista": "clara@minvu.cl",
           "tipoContratoAnalista": "Contrata",
           "dedicacionAnalista": "10%",
-          "incidentes": "",
-          "analistaSuplente": ""
+          "incidentes": "10%",
+          "analistaSuplente": "Johanna Toledo Varela"
         }
       ],
       "totalAnalistasAsignados": 1,
@@ -784,8 +784,8 @@
         "dedicacionSistema": "5%"
       },
       "jpSuplente": {
-        "id": "",
-        "nombre": ""
+        "id": "jp-marisol-riveros-villalobos",
+        "nombre": "Marisol Riveros Villalobos"
       },
       "analistas": [
         {
@@ -794,10 +794,10 @@
           "correo": "macevedoa@minvu.cl",
           "tipoContrato": "Contrata",
           "dedicacionSistema": "10%",
-          "incidentes": "",
+          "incidentes": "10%",
           "suplente": {
-            "id": "",
-            "nombre": ""
+            "id": "an-johanna-toledo-varela",
+            "nombre": "Johanna Toledo Varela"
           },
           "registroFuenteNro": "13"
         }
@@ -808,7 +808,7 @@
           "jefeProyecto": "Humberto Jeldres Palacios",
           "dedicacionJP": "5%",
           "correoJP": "hjeldres@minvu.cl",
-          "jefeProyectoSuplente": "",
+          "jefeProyectoSuplente": "Marisol Riveros Villalobos",
           "tipoContratoJP": "Contrata",
           "sistema": "Seguimiento de Contrato de Obras - PUDU 2",
           "proveedor": "",
@@ -821,8 +821,8 @@
           "correoAnalista": "macevedoa@minvu.cl",
           "tipoContratoAnalista": "Contrata",
           "dedicacionAnalista": "10%",
-          "incidentes": "",
-          "analistaSuplente": ""
+          "incidentes": "10%",
+          "analistaSuplente": "Johanna Toledo Varela"
         }
       ],
       "totalAnalistasAsignados": 1,
@@ -845,8 +845,8 @@
         "dedicacionSistema": "15%"
       },
       "jpSuplente": {
-        "id": "",
-        "nombre": ""
+        "id": "jp-marisol-riveros-villalobos",
+        "nombre": "Marisol Riveros Villalobos"
       },
       "analistas": [
         {
@@ -855,10 +855,10 @@
           "correo": "clara@minvu.cl",
           "tipoContrato": "Contrata",
           "dedicacionSistema": "5%",
-          "incidentes": "",
+          "incidentes": "5%",
           "suplente": {
-            "id": "",
-            "nombre": ""
+            "id": "an-johanna-toledo-varela",
+            "nombre": "Johanna Toledo Varela"
           },
           "registroFuenteNro": "14"
         }
@@ -869,7 +869,7 @@
           "jefeProyecto": "Humberto Jeldres Palacios",
           "dedicacionJP": "15%",
           "correoJP": "hjeldres@minvu.cl",
-          "jefeProyectoSuplente": "",
+          "jefeProyectoSuplente": "Marisol Riveros Villalobos",
           "tipoContratoJP": "Contrata",
           "sistema": "Pavimentos Participativos",
           "proveedor": "",
@@ -882,8 +882,8 @@
           "correoAnalista": "clara@minvu.cl",
           "tipoContratoAnalista": "Contrata",
           "dedicacionAnalista": "5%",
-          "incidentes": "",
-          "analistaSuplente": ""
+          "incidentes": "5%",
+          "analistaSuplente": "Johanna Toledo Varela"
         }
       ],
       "totalAnalistasAsignados": 1,
@@ -906,8 +906,8 @@
         "dedicacionSistema": "5%"
       },
       "jpSuplente": {
-        "id": "",
-        "nombre": ""
+        "id": "jp-marisol-riveros-villalobos",
+        "nombre": "Marisol Riveros Villalobos"
       },
       "analistas": [
         {
@@ -916,10 +916,10 @@
           "correo": "clara@minvu.cl",
           "tipoContrato": "Contrata",
           "dedicacionSistema": "5%",
-          "incidentes": "",
+          "incidentes": "5%",
           "suplente": {
-            "id": "",
-            "nombre": ""
+            "id": "an-johanna-toledo-varela",
+            "nombre": "Johanna Toledo Varela"
           },
           "registroFuenteNro": "15"
         }
@@ -930,7 +930,7 @@
           "jefeProyecto": "Humberto Jeldres Palacios",
           "dedicacionJP": "5%",
           "correoJP": "hjeldres@minvu.cl",
-          "jefeProyectoSuplente": "",
+          "jefeProyectoSuplente": "Marisol Riveros Villalobos",
           "tipoContratoJP": "Contrata",
           "sistema": "Otros Sistemas (SOU, Gestor Documental)",
           "proveedor": "",
@@ -943,8 +943,8 @@
           "correoAnalista": "clara@minvu.cl",
           "tipoContratoAnalista": "Contrata",
           "dedicacionAnalista": "5%",
-          "incidentes": "",
-          "analistaSuplente": ""
+          "incidentes": "5%",
+          "analistaSuplente": "Johanna Toledo Varela"
         }
       ],
       "totalAnalistasAsignados": 1,
@@ -964,11 +964,11 @@
         "nombre": "Felipe Piña Bandera",
         "correo": "lpina@minvu.cl",
         "tipoContrato": "Contrata",
-        "dedicacionSistema": "20%"
+        "dedicacionSistema": "10%"
       },
       "jpSuplente": {
-        "id": "",
-        "nombre": ""
+        "id": "jp-marcelo-miola-rosales",
+        "nombre": "Marcelo Miola Rosales"
       },
       "analistas": [
         {
@@ -977,10 +977,10 @@
           "correo": "fcarrascoa@minvu.cl",
           "tipoContrato": "Por Producto",
           "dedicacionSistema": "50%",
-          "incidentes": "",
+          "incidentes": "N/A",
           "suplente": {
-            "id": "",
-            "nombre": ""
+            "id": "an-n-a",
+            "nombre": "N/A"
           },
           "registroFuenteNro": "16"
         }
@@ -989,9 +989,9 @@
         {
           "nro": "16",
           "jefeProyecto": "Felipe Piña Bandera",
-          "dedicacionJP": "20%",
+          "dedicacionJP": "10%",
           "correoJP": "lpina@minvu.cl",
-          "jefeProyectoSuplente": "",
+          "jefeProyectoSuplente": "Marcelo Miola Rosales",
           "tipoContratoJP": "Contrata",
           "sistema": "Portal IPT",
           "proveedor": "",
@@ -1004,8 +1004,8 @@
           "correoAnalista": "fcarrascoa@minvu.cl",
           "tipoContratoAnalista": "Por Producto",
           "dedicacionAnalista": "50%",
-          "incidentes": "",
-          "analistaSuplente": ""
+          "incidentes": "N/A",
+          "analistaSuplente": "N/A"
         }
       ],
       "totalAnalistasAsignados": 1,
@@ -1025,23 +1025,23 @@
         "nombre": "Felipe Piña Bandera",
         "correo": "lpina@minvu.cl",
         "tipoContrato": "Contrata",
-        "dedicacionSistema": "80%"
+        "dedicacionSistema": "90%"
       },
       "jpSuplente": {
-        "id": "",
-        "nombre": ""
+        "id": "jp-marcelo-miola-rosales",
+        "nombre": "Marcelo Miola Rosales"
       },
       "analistas": [
         {
-          "id": "",
-          "nombre": "",
-          "correo": "",
-          "tipoContrato": "",
-          "dedicacionSistema": "",
-          "incidentes": "",
+          "id": "an-n-a",
+          "nombre": "N/A",
+          "correo": "N/A",
+          "tipoContrato": "N/A",
+          "dedicacionSistema": "N/A",
+          "incidentes": "N/A",
           "suplente": {
-            "id": "",
-            "nombre": ""
+            "id": "an-n-a",
+            "nombre": "N/A"
           },
           "registroFuenteNro": "17"
         }
@@ -1050,9 +1050,9 @@
         {
           "nro": "17",
           "jefeProyecto": "Felipe Piña Bandera",
-          "dedicacionJP": "80%",
+          "dedicacionJP": "90%",
           "correoJP": "lpina@minvu.cl",
-          "jefeProyectoSuplente": "",
+          "jefeProyectoSuplente": "Marcelo Miola Rosales",
           "tipoContratoJP": "Contrata",
           "sistema": "CRM SIAC D365",
           "proveedor": "Alfapeople Chile SPA",
@@ -1061,12 +1061,12 @@
           "planTrabajoPOL": "TD - SIAC Configuración CRM y acompañamiento",
           "fechaInicio": "12-09-2025",
           "fechaTermino": "14-12-2027",
-          "analista": "",
-          "correoAnalista": "",
-          "tipoContratoAnalista": "",
-          "dedicacionAnalista": "",
-          "incidentes": "",
-          "analistaSuplente": ""
+          "analista": "N/A",
+          "correoAnalista": "N/A",
+          "tipoContratoAnalista": "N/A",
+          "dedicacionAnalista": "N/A",
+          "incidentes": "N/A",
+          "analistaSuplente": "N/A"
         }
       ],
       "totalAnalistasAsignados": 1,
@@ -1089,8 +1089,8 @@
         "dedicacionSistema": "15%"
       },
       "jpSuplente": {
-        "id": "",
-        "nombre": ""
+        "id": "jp-marcelo-miola-rosales",
+        "nombre": "Marcelo Miola Rosales"
       },
       "analistas": [
         {
@@ -1098,11 +1098,11 @@
           "nombre": "Felipe Ahumada Romero",
           "correo": "faahumadar@minvu.cl",
           "tipoContrato": "Contrata",
-          "dedicacionSistema": "80%",
+          "dedicacionSistema": "100%",
           "incidentes": "",
           "suplente": {
-            "id": "",
-            "nombre": ""
+            "id": "an-hernan-silva-jimenez",
+            "nombre": "Hernan Silva Jimenez"
           },
           "registroFuenteNro": "18"
         }
@@ -1113,7 +1113,7 @@
           "jefeProyecto": "Gonzalo Osorio Duque",
           "dedicacionJP": "15%",
           "correoJP": "gosoriod@minvu.cl",
-          "jefeProyectoSuplente": "",
+          "jefeProyectoSuplente": "Marcelo Miola Rosales",
           "tipoContratoJP": "Por Producto",
           "sistema": "DS10 RukanRural",
           "proveedor": "",
@@ -1125,9 +1125,9 @@
           "analista": "Felipe Ahumada Romero",
           "correoAnalista": "faahumadar@minvu.cl",
           "tipoContratoAnalista": "Contrata",
-          "dedicacionAnalista": "80%",
+          "dedicacionAnalista": "100%",
           "incidentes": "",
-          "analistaSuplente": ""
+          "analistaSuplente": "Hernan Silva Jimenez"
         }
       ],
       "totalAnalistasAsignados": 1,
@@ -1139,34 +1139,21 @@
       "proveedor": "",
       "desarrolloInterno": "Desarrollo interno",
       "tipo": "Proyecto",
-      "planTrabajoPOL": "TD-SPS Mantención Evolutiva 2026/ Sprint 1",
-      "fechaInicio": "01-04-2026",
-      "fechaTermino": "13-04-2026",
+      "planTrabajoPOL": "TD-SPS Mantención Evolutiva 2026/ SPRINT7 - Variable TCA en Json de SIGFE",
+      "fechaInicio": "20-04-2026",
+      "fechaTermino": "30-04-2026",
       "jpTitular": {
         "id": "jp-gosoriod-minvu-cl",
         "nombre": "Gonzalo Osorio Duque",
         "correo": "gosoriod@minvu.cl",
         "tipoContrato": "Por Producto",
-        "dedicacionSistema": "10%"
+        "dedicacionSistema": "20%"
       },
       "jpSuplente": {
-        "id": "",
-        "nombre": ""
+        "id": "jp-marcelo-miola-rosales",
+        "nombre": "Marcelo Miola Rosales"
       },
       "analistas": [
-        {
-          "id": "an-faahumadar-minvu-cl",
-          "nombre": "Felipe Ahumada Romero",
-          "correo": "faahumadar@minvu.cl",
-          "tipoContrato": "Contrata",
-          "dedicacionSistema": "20%",
-          "incidentes": "",
-          "suplente": {
-            "id": "",
-            "nombre": ""
-          },
-          "registroFuenteNro": "19"
-        },
         {
           "id": "an-pquijanou-minvu-cl",
           "nombre": "Pablo Quijano Urrutia",
@@ -1175,8 +1162,21 @@
           "dedicacionSistema": "80%",
           "incidentes": "",
           "suplente": {
-            "id": "",
-            "nombre": ""
+            "id": "an-claudio-lara-moreno",
+            "nombre": "Claudio Lara Moreno"
+          },
+          "registroFuenteNro": "19"
+        },
+        {
+          "id": "an-bprietop-minvu-cl",
+          "nombre": "Bastian Prieto Puga",
+          "correo": "bprietop@minvu.cl",
+          "tipoContrato": "Contrata",
+          "dedicacionSistema": "80%",
+          "incidentes": "20",
+          "suplente": {
+            "id": "an-hernan-silva-jimenez",
+            "nombre": "Hernan Silva Jimenez"
           },
           "registroFuenteNro": "20"
         },
@@ -1188,8 +1188,8 @@
           "dedicacionSistema": "80%",
           "incidentes": "",
           "suplente": {
-            "id": "",
-            "nombre": ""
+            "id": "an-claudio-lara-moreno",
+            "nombre": "Claudio Lara Moreno"
           },
           "registroFuenteNro": "21"
         },
@@ -1201,8 +1201,8 @@
           "dedicacionSistema": "20%",
           "incidentes": "",
           "suplente": {
-            "id": "",
-            "nombre": ""
+            "id": "an-felipe-ahumada-romero",
+            "nombre": "Felipe Ahumada Romero"
           },
           "registroFuenteNro": "22"
         },
@@ -1214,8 +1214,8 @@
           "dedicacionSistema": "80%",
           "incidentes": "",
           "suplente": {
-            "id": "",
-            "nombre": ""
+            "id": "an-pablo-quijano-urrutia",
+            "nombre": "Pablo Quijano Urrutia"
           },
           "registroFuenteNro": "23"
         }
@@ -1224,72 +1224,72 @@
         {
           "nro": "19",
           "jefeProyecto": "Gonzalo Osorio Duque",
-          "dedicacionJP": "10%",
-          "correoJP": "gosoriod@minvu.cl",
-          "jefeProyectoSuplente": "",
-          "tipoContratoJP": "Por Producto",
-          "sistema": "Pago Subsidios",
-          "proveedor": "",
-          "desarrolloInterno": "Desarrollo interno",
-          "proyectoMantencion": "Proyecto",
-          "planTrabajoPOL": "TD-SPS Mantención Evolutiva 2026/ Sprint 1",
-          "fechaInicio": "01-04-2026",
-          "fechaTermino": "13-04-2026",
-          "analista": "Felipe Ahumada Romero",
-          "correoAnalista": "faahumadar@minvu.cl",
-          "tipoContratoAnalista": "Contrata",
-          "dedicacionAnalista": "20%",
-          "incidentes": "",
-          "analistaSuplente": ""
-        },
-        {
-          "nro": "20",
-          "jefeProyecto": "Gonzalo Osorio Duque",
           "dedicacionJP": "20%",
           "correoJP": "gosoriod@minvu.cl",
-          "jefeProyectoSuplente": "",
+          "jefeProyectoSuplente": "Marcelo Miola Rosales",
           "tipoContratoJP": "Por Producto",
           "sistema": "Pago Subsidios",
           "proveedor": "",
           "desarrolloInterno": "Desarrollo interno",
           "proyectoMantencion": "Proyecto",
-          "planTrabajoPOL": "TD-SPS Mantención Evolutiva 2026/ Sprint 4",
-          "fechaInicio": "06-04-2026",
-          "fechaTermino": "27-04-2026",
+          "planTrabajoPOL": "TD-SPS Mantención Evolutiva 2026/ SPRINT7 - Variable TCA en Json de SIGFE",
+          "fechaInicio": "20-04-2026",
+          "fechaTermino": "30-04-2026",
           "analista": "Pablo Quijano Urrutia",
           "correoAnalista": "pquijanou@minvu.cl",
           "tipoContratoAnalista": "Contrata",
           "dedicacionAnalista": "80%",
           "incidentes": "",
-          "analistaSuplente": ""
+          "analistaSuplente": "Claudio Lara Moreno"
         },
         {
-          "nro": "21",
+          "nro": "20",
           "jefeProyecto": "Gonzalo Osorio Duque",
-          "dedicacionJP": "10%",
+          "dedicacionJP": "15%",
           "correoJP": "gosoriod@minvu.cl",
-          "jefeProyectoSuplente": "",
+          "jefeProyectoSuplente": "Marcelo Miola Rosales",
           "tipoContratoJP": "Por Producto",
           "sistema": "Pago Subsidios",
           "proveedor": "",
           "desarrolloInterno": "Desarrollo interno",
           "proyectoMantencion": "Proyecto",
-          "planTrabajoPOL": "TD-SPS Mantención Evolutiva 2026 / Sprint 2",
-          "fechaInicio": "06-04-2026",
-          "fechaTermino": "20-04-2026",
+          "planTrabajoPOL": "TD-SPS Mantención Evolutiva 2026 / SPRINT5 y SPRINT6 - DS19 Llamados 2024 2025",
+          "fechaInicio": "20-04-2026",
+          "fechaTermino": "05-06-2026",
+          "analista": "Bastian Prieto Puga",
+          "correoAnalista": "bprietop@minvu.cl",
+          "tipoContratoAnalista": "Contrata",
+          "dedicacionAnalista": "80%",
+          "incidentes": "20",
+          "analistaSuplente": "Hernan Silva Jimenez"
+        },
+        {
+          "nro": "21",
+          "jefeProyecto": "Gonzalo Osorio Duque",
+          "dedicacionJP": "20%",
+          "correoJP": "gosoriod@minvu.cl",
+          "jefeProyectoSuplente": "Marcelo Miola Rosales",
+          "tipoContratoJP": "Por Producto",
+          "sistema": "Pago Subsidios",
+          "proveedor": "",
+          "desarrolloInterno": "Desarrollo interno",
+          "proyectoMantencion": "Proyecto",
+          "planTrabajoPOL": "TD_MIGRACION BBDD SPS v2008 a v2019 // SPRINT 5 - TEST VALIDACIONES SPS",
+          "fechaInicio": "20-04-2026",
+          "fechaTermino": "05-05-2026",
           "analista": "Hernan Silva Jimenez",
           "correoAnalista": "hsilvaj@minvu.cl",
           "tipoContratoAnalista": "Contrata",
           "dedicacionAnalista": "80%",
           "incidentes": "",
-          "analistaSuplente": ""
+          "analistaSuplente": "Claudio Lara Moreno"
         },
         {
           "nro": "22",
           "jefeProyecto": "Gonzalo Osorio Duque",
-          "dedicacionJP": "25%",
+          "dedicacionJP": "15%",
           "correoJP": "gosoriod@minvu.cl",
-          "jefeProyectoSuplente": "",
+          "jefeProyectoSuplente": "Marcelo Miola Rosales",
           "tipoContratoJP": "Por Producto",
           "sistema": "Pago Subsidios",
           "proveedor": "",
@@ -1303,14 +1303,14 @@
           "tipoContratoAnalista": "Contrata",
           "dedicacionAnalista": "20%",
           "incidentes": "",
-          "analistaSuplente": ""
+          "analistaSuplente": "Felipe Ahumada Romero"
         },
         {
           "nro": "23",
           "jefeProyecto": "Gonzalo Osorio Duque",
-          "dedicacionJP": "20%",
+          "dedicacionJP": "15%",
           "correoJP": "gosoriod@minvu.cl",
-          "jefeProyectoSuplente": "",
+          "jefeProyectoSuplente": "Marcelo Miola Rosales",
           "tipoContratoJP": "Por Producto",
           "sistema": "Pago Subsidios",
           "proveedor": "",
@@ -1318,13 +1318,13 @@
           "proyectoMantencion": "Proyecto",
           "planTrabajoPOL": "TD - Recuperación de Prestamos DS19 / Sprint 25",
           "fechaInicio": "06-04-2026",
-          "fechaTermino": "06-05-2026",
+          "fechaTermino": "18-05-2026",
           "analista": "Claudio Lara Moreno",
           "correoAnalista": "clara@minvu.cl",
           "tipoContratoAnalista": "Contrata",
           "dedicacionAnalista": "80%",
           "incidentes": "",
-          "analistaSuplente": ""
+          "analistaSuplente": "Pablo Quijano Urrutia"
         }
       ],
       "totalAnalistasAsignados": 5,
@@ -1693,8 +1693,8 @@
         "dedicacionSistema": "50%"
       },
       "jpSuplente": {
-        "id": "",
-        "nombre": ""
+        "id": "jp-humberto-jeldres-palacios",
+        "nombre": "Humberto Jeldres Palacios"
       },
       "analistas": [
         {
@@ -1717,7 +1717,7 @@
           "jefeProyecto": "Marisol Riveros Villalobos",
           "dedicacionJP": "50%",
           "correoJP": "mriveros@minvu.cl",
-          "jefeProyectoSuplente": "",
+          "jefeProyectoSuplente": "Humberto Jeldres Palacios",
           "tipoContratoJP": "Contrata",
           "sistema": "Gestor Documental",
           "proveedor": "AMISOFT S.A",
@@ -1754,8 +1754,8 @@
         "dedicacionSistema": "25%"
       },
       "jpSuplente": {
-        "id": "",
-        "nombre": ""
+        "id": "jp-humberto-jeldres-palacios",
+        "nombre": "Humberto Jeldres Palacios"
       },
       "analistas": [
         {
@@ -1778,7 +1778,7 @@
           "jefeProyecto": "Marisol Riveros Villalobos",
           "dedicacionJP": "25%",
           "correoJP": "mriveros@minvu.cl",
-          "jefeProyectoSuplente": "",
+          "jefeProyectoSuplente": "Humberto Jeldres Palacios",
           "tipoContratoJP": "Contrata",
           "sistema": "Gestor de Convenios",
           "proveedor": "",
@@ -1815,8 +1815,8 @@
         "dedicacionSistema": "25%"
       },
       "jpSuplente": {
-        "id": "",
-        "nombre": ""
+        "id": "jp-humberto-jeldres-palacios",
+        "nombre": "Humberto Jeldres Palacios"
       },
       "analistas": [
         {
@@ -1824,11 +1824,11 @@
           "nombre": "Cristian Huerta",
           "correo": "chuerta@minvu.cl",
           "tipoContrato": "Contrata",
-          "dedicacionSistema": "80%",
-          "incidentes": "",
+          "dedicacionSistema": "60%",
+          "incidentes": "20%",
           "suplente": {
-            "id": "",
-            "nombre": ""
+            "id": "an-johanna-toledo-varela",
+            "nombre": "Johanna Toledo Varela"
           },
           "registroFuenteNro": "33"
         }
@@ -1839,7 +1839,7 @@
           "jefeProyecto": "Marisol Riveros Villalobos",
           "dedicacionJP": "25%",
           "correoJP": "mriveros@minvu.cl",
-          "jefeProyectoSuplente": "",
+          "jefeProyectoSuplente": "Humberto Jeldres Palacios",
           "tipoContratoJP": "Contrata",
           "sistema": "SIIS",
           "proveedor": "",
@@ -1851,9 +1851,9 @@
           "analista": "Cristian Huerta",
           "correoAnalista": "chuerta@minvu.cl",
           "tipoContratoAnalista": "Contrata",
-          "dedicacionAnalista": "80%",
-          "incidentes": "",
-          "analistaSuplente": ""
+          "dedicacionAnalista": "60%",
+          "incidentes": "20%",
+          "analistaSuplente": "Johanna Toledo Varela"
         }
       ],
       "totalAnalistasAsignados": 1,
@@ -1870,26 +1870,26 @@
       "fechaTermino": "16-04-2025",
       "jpTitular": {
         "id": "jp-iprojasm-minvu-cl",
-        "nombre": "Iván Rojas",
+        "nombre": "Iván Rojas Marchant",
         "correo": "iprojasm@minvu.cl",
         "tipoContrato": "Contrata",
         "dedicacionSistema": "50%"
       },
       "jpSuplente": {
-        "id": "",
-        "nombre": ""
+        "id": "jp-fabian-hernandez-gallardo",
+        "nombre": "Fabián Hernández Gallardo"
       },
       "analistas": [
         {
-          "id": "",
-          "nombre": "",
-          "correo": "",
-          "tipoContrato": "",
-          "dedicacionSistema": "",
-          "incidentes": "",
+          "id": "an-n-a",
+          "nombre": "N/A",
+          "correo": "N/A",
+          "tipoContrato": "N/A",
+          "dedicacionSistema": "100%",
+          "incidentes": "N/A",
           "suplente": {
-            "id": "",
-            "nombre": ""
+            "id": "an-n-a",
+            "nombre": "N/A"
           },
           "registroFuenteNro": "34"
         }
@@ -1897,10 +1897,10 @@
       "registrosFuente": [
         {
           "nro": "34",
-          "jefeProyecto": "Iván Rojas",
+          "jefeProyecto": "Iván Rojas Marchant",
           "dedicacionJP": "50%",
           "correoJP": "iprojasm@minvu.cl",
-          "jefeProyectoSuplente": "",
+          "jefeProyectoSuplente": "Fabián Hernández Gallardo",
           "tipoContratoJP": "Contrata",
           "sistema": "DOM en línea",
           "proveedor": "SIIGSA",
@@ -1909,12 +1909,12 @@
           "planTrabajoPOL": "TD – DOM Servicios Externalización Operación y Desarrollo",
           "fechaInicio": "27-06-2025",
           "fechaTermino": "16-04-2025",
-          "analista": "",
-          "correoAnalista": "",
-          "tipoContratoAnalista": "",
-          "dedicacionAnalista": "",
-          "incidentes": "",
-          "analistaSuplente": ""
+          "analista": "N/A",
+          "correoAnalista": "N/A",
+          "tipoContratoAnalista": "N/A",
+          "dedicacionAnalista": "100%",
+          "incidentes": "N/A",
+          "analistaSuplente": "N/A"
         }
       ],
       "totalAnalistasAsignados": 1,
@@ -1923,7 +1923,7 @@
     {
       "id": "sistema-pfud-portal-de-formularios-unicos-digitales",
       "nombre": "PFUD (Portal de Formularios Únicos Digitales)",
-      "proveedor": "",
+      "proveedor": "N/A",
       "desarrolloInterno": "Desarrollo externo",
       "tipo": "Proyecto",
       "planTrabajoPOL": "TD - Portal de Formularios Únicos Digitales",
@@ -1931,26 +1931,26 @@
       "fechaTermino": "20-11-2026",
       "jpTitular": {
         "id": "jp-iprojasm-minvu-cl",
-        "nombre": "Iván Rojas",
+        "nombre": "Iván Rojas Marchant",
         "correo": "iprojasm@minvu.cl",
         "tipoContrato": "Contrata",
         "dedicacionSistema": "30%"
       },
       "jpSuplente": {
-        "id": "",
-        "nombre": ""
+        "id": "jp-fabian-hernandez-gallardo",
+        "nombre": "Fabián Hernández Gallardo"
       },
       "analistas": [
         {
-          "id": "",
-          "nombre": "",
-          "correo": "",
-          "tipoContrato": "",
-          "dedicacionSistema": "",
-          "incidentes": "",
+          "id": "an-n-a",
+          "nombre": "N/A",
+          "correo": "N/A",
+          "tipoContrato": "N/A",
+          "dedicacionSistema": "100%",
+          "incidentes": "N/A",
           "suplente": {
-            "id": "",
-            "nombre": ""
+            "id": "an-n-a",
+            "nombre": "N/A"
           },
           "registroFuenteNro": "35"
         }
@@ -1958,44 +1958,44 @@
       "registrosFuente": [
         {
           "nro": "35",
-          "jefeProyecto": "Iván Rojas",
+          "jefeProyecto": "Iván Rojas Marchant",
           "dedicacionJP": "30%",
           "correoJP": "iprojasm@minvu.cl",
-          "jefeProyectoSuplente": "",
+          "jefeProyectoSuplente": "Fabián Hernández Gallardo",
           "tipoContratoJP": "Contrata",
           "sistema": "PFUD (Portal de Formularios Únicos Digitales)",
-          "proveedor": "",
+          "proveedor": "N/A",
           "desarrolloInterno": "Desarrollo externo",
           "proyectoMantencion": "Proyecto",
           "planTrabajoPOL": "TD - Portal de Formularios Únicos Digitales",
           "fechaInicio": "27-01-2026",
           "fechaTermino": "20-11-2026",
-          "analista": "",
-          "correoAnalista": "",
-          "tipoContratoAnalista": "",
-          "dedicacionAnalista": "",
-          "incidentes": "",
-          "analistaSuplente": ""
+          "analista": "N/A",
+          "correoAnalista": "N/A",
+          "tipoContratoAnalista": "N/A",
+          "dedicacionAnalista": "100%",
+          "incidentes": "N/A",
+          "analistaSuplente": "N/A"
         }
       ],
       "totalAnalistasAsignados": 1,
       "totalRegistrosFuente": 1
     },
     {
-      "id": "sistema-plataforma-de-rendiciones-asentamientos-precarios-prap",
-      "nombre": "Plataforma de Rendiciones Asentamientos Precarios PRAP",
-      "proveedor": "",
+      "id": "sistema-sistema-de-gestion-de-reserva-de-hora-sgrh",
+      "nombre": "Sistema de Gestión de Reserva de Hora (SGRH)",
+      "proveedor": "N/A",
       "desarrolloInterno": "Desarrollo interno",
       "tipo": "Mantención",
-      "planTrabajoPOL": "Cierre mensual y carga de rendiciones por meses PRAP",
-      "fechaInicio": "En tramite",
-      "fechaTermino": "",
+      "planTrabajoPOL": "Desarrollo – SGRH Mejoras evolutivas - 2026 – SIAC",
+      "fechaInicio": "20-04-2026",
+      "fechaTermino": "29-05-2026",
       "jpTitular": {
         "id": "jp-mmiola-minvu-cl",
         "nombre": "Marcelo Miola Rosales",
         "correo": "mmiola@minvu.cl",
         "tipoContrato": "Contrata",
-        "dedicacionSistema": "10%"
+        "dedicacionSistema": "20%"
       },
       "jpSuplente": {
         "id": "",
@@ -2007,8 +2007,8 @@
           "nombre": "Miguel Mamani",
           "correo": "mmamani@minvu.cl",
           "tipoContrato": "Contrata",
-          "dedicacionSistema": "60%",
-          "incidentes": "10%",
+          "dedicacionSistema": "80%",
+          "incidentes": "20%",
           "suplente": {
             "id": "",
             "nombre": ""
@@ -2020,22 +2020,22 @@
         {
           "nro": "36",
           "jefeProyecto": "Marcelo Miola Rosales",
-          "dedicacionJP": "10%",
+          "dedicacionJP": "20%",
           "correoJP": "mmiola@minvu.cl",
           "jefeProyectoSuplente": "",
           "tipoContratoJP": "Contrata",
-          "sistema": "Plataforma de Rendiciones Asentamientos Precarios PRAP",
-          "proveedor": "",
+          "sistema": "Sistema de Gestión de Reserva de Hora (SGRH)",
+          "proveedor": "N/A",
           "desarrolloInterno": "Desarrollo interno",
           "proyectoMantencion": "Mantención",
-          "planTrabajoPOL": "Cierre mensual y carga de rendiciones por meses PRAP",
-          "fechaInicio": "En tramite",
-          "fechaTermino": "",
+          "planTrabajoPOL": "Desarrollo – SGRH Mejoras evolutivas - 2026 – SIAC",
+          "fechaInicio": "20-04-2026",
+          "fechaTermino": "29-05-2026",
           "analista": "Miguel Mamani",
           "correoAnalista": "mmamani@minvu.cl",
           "tipoContratoAnalista": "Contrata",
-          "dedicacionAnalista": "60%",
-          "incidentes": "10%",
+          "dedicacionAnalista": "80%",
+          "incidentes": "20%",
           "analistaSuplente": ""
         }
       ],
@@ -2048,28 +2048,28 @@
       "proveedor": "",
       "desarrolloInterno": "Desarrollo interno",
       "tipo": "Mantención",
-      "planTrabajoPOL": "Motor de carga de proyecto en SNAT",
-      "fechaInicio": "En tramite",
-      "fechaTermino": "",
+      "planTrabajoPOL": "Desarrollo – TD - SNAT Mejoras evolutivas motor de carga DITEC",
+      "fechaInicio": "06-04-2026",
+      "fechaTermino": "27-04-2026",
       "jpTitular": {
         "id": "jp-mmiola-minvu-cl",
         "nombre": "Marcelo Miola Rosales",
         "correo": "mmiola@minvu.cl",
         "tipoContrato": "Contrata",
-        "dedicacionSistema": "10%"
+        "dedicacionSistema": "20%"
       },
       "jpSuplente": {
-        "id": "",
-        "nombre": ""
+        "id": "jp-marisol-riveros-villalobos",
+        "nombre": "Marisol Riveros Villalobos"
       },
       "analistas": [
         {
-          "id": "an-mmamani-minvu-cl",
-          "nombre": "Miguel Mamani",
-          "correo": "mmamani@minvu.cl",
-          "tipoContrato": "Contrata",
-          "dedicacionSistema": "20%",
-          "incidentes": "10%",
+          "id": "an-jtoledov-minvu-cl",
+          "nombre": "Johanna S. Toledo",
+          "correo": "jtoledov@minvu.cl",
+          "tipoContrato": "Suma Alzada",
+          "dedicacionSistema": "80%",
+          "incidentes": "20%",
           "suplente": {
             "id": "",
             "nombre": ""
@@ -2081,81 +2081,20 @@
         {
           "nro": "37",
           "jefeProyecto": "Marcelo Miola Rosales",
-          "dedicacionJP": "10%",
+          "dedicacionJP": "20%",
           "correoJP": "mmiola@minvu.cl",
-          "jefeProyectoSuplente": "",
+          "jefeProyectoSuplente": "Marisol Riveros Villalobos",
           "tipoContratoJP": "Contrata",
           "sistema": "SNAT Simplificado - Carga de nuevos Programas",
           "proveedor": "",
           "desarrolloInterno": "Desarrollo interno",
           "proyectoMantencion": "Mantención",
-          "planTrabajoPOL": "Motor de carga de proyecto en SNAT",
-          "fechaInicio": "En tramite",
-          "fechaTermino": "",
-          "analista": "Miguel Mamani",
-          "correoAnalista": "mmamani@minvu.cl",
-          "tipoContratoAnalista": "Contrata",
-          "dedicacionAnalista": "20%",
-          "incidentes": "10%",
-          "analistaSuplente": ""
-        }
-      ],
-      "totalAnalistasAsignados": 1,
-      "totalRegistrosFuente": 1
-    },
-    {
-      "id": "sistema-plataforma-prap-incorporacion-de-barrios-y-pago",
-      "nombre": "Plataforma  PRAP Incorporación de Barrios y Pago.",
-      "proveedor": "",
-      "desarrolloInterno": "Desarrollo interno",
-      "tipo": "Mantención",
-      "planTrabajoPOL": "TD - Mejoras e integración con SPS",
-      "fechaInicio": "En tramite",
-      "fechaTermino": "",
-      "jpTitular": {
-        "id": "jp-mmiola-minvu-cl",
-        "nombre": "Marcelo Miola Rosales",
-        "correo": "mmiola@minvu.cl",
-        "tipoContrato": "Contrata",
-        "dedicacionSistema": "10%"
-      },
-      "jpSuplente": {
-        "id": "",
-        "nombre": ""
-      },
-      "analistas": [
-        {
-          "id": "an-bprietop-minvu-cl",
-          "nombre": "Bastian Prieto Puga",
-          "correo": "bprietop@minvu.cl",
-          "tipoContrato": "Contrata",
-          "dedicacionSistema": "80%",
-          "incidentes": "20%",
-          "suplente": {
-            "id": "",
-            "nombre": ""
-          },
-          "registroFuenteNro": "38"
-        }
-      ],
-      "registrosFuente": [
-        {
-          "nro": "38",
-          "jefeProyecto": "Marcelo Miola Rosales",
-          "dedicacionJP": "10%",
-          "correoJP": "mmiola@minvu.cl",
-          "jefeProyectoSuplente": "",
-          "tipoContratoJP": "Contrata",
-          "sistema": "Plataforma  PRAP Incorporación de Barrios y Pago.",
-          "proveedor": "",
-          "desarrolloInterno": "Desarrollo interno",
-          "proyectoMantencion": "Mantención",
-          "planTrabajoPOL": "TD - Mejoras e integración con SPS",
-          "fechaInicio": "En tramite",
-          "fechaTermino": "",
-          "analista": "Bastian Prieto Puga",
-          "correoAnalista": "bprietop@minvu.cl",
-          "tipoContratoAnalista": "Contrata",
+          "planTrabajoPOL": "Desarrollo – TD - SNAT Mejoras evolutivas motor de carga DITEC",
+          "fechaInicio": "06-04-2026",
+          "fechaTermino": "27-04-2026",
+          "analista": "Johanna S. Toledo",
+          "correoAnalista": "jtoledov@minvu.cl",
+          "tipoContratoAnalista": "Suma Alzada",
           "dedicacionAnalista": "80%",
           "incidentes": "20%",
           "analistaSuplente": ""
@@ -2170,9 +2109,9 @@
       "proveedor": "",
       "desarrolloInterno": "Desarrollo interno",
       "tipo": "Mantención",
-      "planTrabajoPOL": "Calificación Energética de Vivienda WEB",
-      "fechaInicio": "En tramite",
-      "fechaTermino": "",
+      "planTrabajoPOL": "Desarrollo – CEW Mejoras evolutivas - 2026 – DITEC",
+      "fechaInicio": "20-04-2026",
+      "fechaTermino": "18-05-2026",
       "jpTitular": {
         "id": "jp-mmiola-minvu-cl",
         "nombre": "Marcelo Miola Rosales",
@@ -2190,8 +2129,8 @@
           "nombre": "Jean Paul Astudillo",
           "correo": "jpastudillo@minvu.cl",
           "tipoContrato": "Contrata",
-          "dedicacionSistema": "50%",
-          "incidentes": "10%",
+          "dedicacionSistema": "80%",
+          "incidentes": "20%",
           "suplente": {
             "id": "",
             "nombre": ""
@@ -2211,75 +2150,14 @@
           "proveedor": "",
           "desarrolloInterno": "Desarrollo interno",
           "proyectoMantencion": "Mantención",
-          "planTrabajoPOL": "Calificación Energética de Vivienda WEB",
-          "fechaInicio": "En tramite",
-          "fechaTermino": "",
+          "planTrabajoPOL": "Desarrollo – CEW Mejoras evolutivas - 2026 – DITEC",
+          "fechaInicio": "20-04-2026",
+          "fechaTermino": "18-05-2026",
           "analista": "Jean Paul Astudillo",
           "correoAnalista": "jpastudillo@minvu.cl",
           "tipoContratoAnalista": "Contrata",
-          "dedicacionAnalista": "50%",
-          "incidentes": "10%",
-          "analistaSuplente": ""
-        }
-      ],
-      "totalAnalistasAsignados": 1,
-      "totalRegistrosFuente": 1
-    },
-    {
-      "id": "sistema-carga-de-fichas-de-reconstruccion",
-      "nombre": "Carga de fichas de Reconstrucción",
-      "proveedor": "",
-      "desarrolloInterno": "Desarrollo interno",
-      "tipo": "Mantención",
-      "planTrabajoPOL": "Fichas de Reconstrucción",
-      "fechaInicio": "En tramite",
-      "fechaTermino": "",
-      "jpTitular": {
-        "id": "jp-mmiola-minvu-cl",
-        "nombre": "Marcelo Miola Rosales",
-        "correo": "mmiola@minvu.cl",
-        "tipoContrato": "Contrata",
-        "dedicacionSistema": "10%"
-      },
-      "jpSuplente": {
-        "id": "",
-        "nombre": ""
-      },
-      "analistas": [
-        {
-          "id": "an-jpastudillo-minvu-cl",
-          "nombre": "Jean Paul Astudillo",
-          "correo": "jpastudillo@minvu.cl",
-          "tipoContrato": "Contrata",
-          "dedicacionSistema": "30%",
-          "incidentes": "10%",
-          "suplente": {
-            "id": "",
-            "nombre": ""
-          },
-          "registroFuenteNro": "40"
-        }
-      ],
-      "registrosFuente": [
-        {
-          "nro": "40",
-          "jefeProyecto": "Marcelo Miola Rosales",
-          "dedicacionJP": "10%",
-          "correoJP": "mmiola@minvu.cl",
-          "jefeProyectoSuplente": "",
-          "tipoContratoJP": "Contrata",
-          "sistema": "Carga de fichas de Reconstrucción",
-          "proveedor": "",
-          "desarrolloInterno": "Desarrollo interno",
-          "proyectoMantencion": "Mantención",
-          "planTrabajoPOL": "Fichas de Reconstrucción",
-          "fechaInicio": "En tramite",
-          "fechaTermino": "",
-          "analista": "Jean Paul Astudillo",
-          "correoAnalista": "jpastudillo@minvu.cl",
-          "tipoContratoAnalista": "Contrata",
-          "dedicacionAnalista": "30%",
-          "incidentes": "10%",
+          "dedicacionAnalista": "80%",
+          "incidentes": "20%",
           "analistaSuplente": ""
         }
       ],
@@ -2292,7 +2170,7 @@
       "proveedor": "",
       "desarrolloInterno": "Desarrollo externo",
       "tipo": "Proyecto",
-      "planTrabajoPOL": "TD - DAP Nuevo Sistema DAP Etapa3 - ASIMOV",
+      "planTrabajoPOL": "Desarrollo – Sistemas Asentamientos Precarios - Etapa 3 – DITEC",
       "fechaInicio": "02-03-2026",
       "fechaTermino": "31-12-2026",
       "jpTitular": {
@@ -2300,7 +2178,7 @@
         "nombre": "Marcelo Miola Rosales",
         "correo": "mmiola@minvu.cl",
         "tipoContrato": "Contrata",
-        "dedicacionSistema": "30%"
+        "dedicacionSistema": "60%"
       },
       "jpSuplente": {
         "id": "",
@@ -2325,7 +2203,7 @@
         {
           "nro": "41",
           "jefeProyecto": "Marcelo Miola Rosales",
-          "dedicacionJP": "30%",
+          "dedicacionJP": "60%",
           "correoJP": "mmiola@minvu.cl",
           "jefeProyectoSuplente": "",
           "tipoContratoJP": "Contrata",
@@ -2333,7 +2211,7 @@
           "proveedor": "",
           "desarrolloInterno": "Desarrollo externo",
           "proyectoMantencion": "Proyecto",
-          "planTrabajoPOL": "TD - DAP Nuevo Sistema DAP Etapa3 - ASIMOV",
+          "planTrabajoPOL": "Desarrollo – Sistemas Asentamientos Precarios - Etapa 3 – DITEC",
           "fechaInicio": "02-03-2026",
           "fechaTermino": "31-12-2026",
           "analista": "Sion Jei Mamani",
@@ -2350,22 +2228,22 @@
     {
       "id": "sistema-encuentra-tu-vivienda",
       "nombre": "Encuentra tu vivienda",
-      "proveedor": "",
+      "proveedor": "N/A",
       "desarrolloInterno": "Desarrollo interno",
       "tipo": "Proyecto",
-      "planTrabajoPOL": "",
-      "fechaInicio": "",
-      "fechaTermino": "",
+      "planTrabajoPOL": "DESARROLLO – Modificaciones a Encuentra tu Vivienda 2026 – DPH",
+      "fechaInicio": "26-03-2026",
+      "fechaTermino": "30-06-2026",
       "jpTitular": {
         "id": "jp-iprojasm-minvu-cl",
-        "nombre": "Iván Rojas",
+        "nombre": "Iván Rojas Marchant",
         "correo": "iprojasm@minvu.cl",
         "tipoContrato": "Contrata",
         "dedicacionSistema": "20%"
       },
       "jpSuplente": {
-        "id": "",
-        "nombre": ""
+        "id": "jp-fabian-hernandez-gallardo",
+        "nombre": "Fabián Hernández Gallardo"
       },
       "analistas": [
         {
@@ -2374,10 +2252,10 @@
           "correo": "macevedoa@minvu.cl",
           "tipoContrato": "Contrata",
           "dedicacionSistema": "80%",
-          "incidentes": "",
+          "incidentes": "N/A",
           "suplente": {
-            "id": "",
-            "nombre": ""
+            "id": "an-francisco-lemus",
+            "nombre": "Francisco Lemus"
           },
           "registroFuenteNro": "42"
         }
@@ -2385,24 +2263,24 @@
       "registrosFuente": [
         {
           "nro": "42",
-          "jefeProyecto": "Iván Rojas",
+          "jefeProyecto": "Iván Rojas Marchant",
           "dedicacionJP": "20%",
           "correoJP": "iprojasm@minvu.cl",
-          "jefeProyectoSuplente": "",
+          "jefeProyectoSuplente": "Fabián Hernández Gallardo",
           "tipoContratoJP": "Contrata",
           "sistema": "Encuentra tu vivienda",
-          "proveedor": "",
+          "proveedor": "N/A",
           "desarrolloInterno": "Desarrollo interno",
           "proyectoMantencion": "Proyecto",
-          "planTrabajoPOL": "",
-          "fechaInicio": "",
-          "fechaTermino": "",
+          "planTrabajoPOL": "DESARROLLO – Modificaciones a Encuentra tu Vivienda 2026 – DPH",
+          "fechaInicio": "26-03-2026",
+          "fechaTermino": "30-06-2026",
           "analista": "Marco Acevedo Acevedo",
           "correoAnalista": "macevedoa@minvu.cl",
           "tipoContratoAnalista": "Contrata",
           "dedicacionAnalista": "80%",
-          "incidentes": "",
-          "analistaSuplente": ""
+          "incidentes": "N/A",
+          "analistaSuplente": "Francisco Lemus"
         }
       ],
       "totalAnalistasAsignados": 1,
@@ -2425,8 +2303,8 @@
         "dedicacionSistema": "100%"
       },
       "jpSuplente": {
-        "id": "",
-        "nombre": ""
+        "id": "jp-ivan-rojas-marchant",
+        "nombre": "Iván Rojas Marchant"
       },
       "analistas": [
         {
@@ -2435,10 +2313,10 @@
           "correo": "izamoranof@minvu.cl",
           "tipoContrato": "Contrata",
           "dedicacionSistema": "20%",
-          "incidentes": "",
+          "incidentes": "N/A",
           "suplente": {
-            "id": "",
-            "nombre": ""
+            "id": "an-n-a",
+            "nombre": "N/A"
           },
           "registroFuenteNro": "43"
         }
@@ -2449,7 +2327,7 @@
           "jefeProyecto": "Sara González Catalán",
           "dedicacionJP": "100%",
           "correoJP": "sgonzalezc@minvu.cl",
-          "jefeProyectoSuplente": "",
+          "jefeProyectoSuplente": "Iván Rojas Marchant",
           "tipoContratoJP": "Contrata",
           "sistema": "Plataforma Única de Postulación",
           "proveedor": "CODERHUB",
@@ -2462,8 +2340,69 @@
           "correoAnalista": "izamoranof@minvu.cl",
           "tipoContratoAnalista": "Contrata",
           "dedicacionAnalista": "20%",
-          "incidentes": "",
-          "analistaSuplente": ""
+          "incidentes": "N/A",
+          "analistaSuplente": "N/A"
+        }
+      ],
+      "totalAnalistasAsignados": 1,
+      "totalRegistrosFuente": 1
+    },
+    {
+      "id": "sistema-sibis",
+      "nombre": "SIBIS",
+      "proveedor": "",
+      "desarrolloInterno": "Desarrollo interno",
+      "tipo": "Proyecto Mantención",
+      "planTrabajoPOL": "TD - SIBIS Etapa 2 Polígonos",
+      "fechaInicio": "14-04-2026",
+      "fechaTermino": "13-05-2026",
+      "jpTitular": {
+        "id": "jp-mriveros-minvu-cl",
+        "nombre": "Marisol Riveros Villalobos",
+        "correo": "mriveros@minvu.cl",
+        "tipoContrato": "Contrata",
+        "dedicacionSistema": "25%"
+      },
+      "jpSuplente": {
+        "id": "jp-humberto-jeldres-palacios",
+        "nombre": "Humberto Jeldres Palacios"
+      },
+      "analistas": [
+        {
+          "id": "an-chuerta-minvu-cl",
+          "nombre": "Cristian Huerta",
+          "correo": "chuerta@minvu.cl",
+          "tipoContrato": "Contrata",
+          "dedicacionSistema": "60%",
+          "incidentes": "20%",
+          "suplente": {
+            "id": "an-johanna-toledo-varela",
+            "nombre": "Johanna Toledo Varela"
+          },
+          "registroFuenteNro": "44"
+        }
+      ],
+      "registrosFuente": [
+        {
+          "nro": "44",
+          "jefeProyecto": "Marisol Riveros Villalobos",
+          "dedicacionJP": "25%",
+          "correoJP": "mriveros@minvu.cl",
+          "jefeProyectoSuplente": "Humberto Jeldres Palacios",
+          "tipoContratoJP": "Contrata",
+          "sistema": "SIBIS",
+          "proveedor": "",
+          "desarrolloInterno": "Desarrollo interno",
+          "proyectoMantencion": "Proyecto Mantención",
+          "planTrabajoPOL": "TD - SIBIS Etapa 2 Polígonos",
+          "fechaInicio": "14-04-2026",
+          "fechaTermino": "13-05-2026",
+          "analista": "Cristian Huerta",
+          "correoAnalista": "chuerta@minvu.cl",
+          "tipoContratoAnalista": "Contrata",
+          "dedicacionAnalista": "60%",
+          "incidentes": "20%",
+          "analistaSuplente": "Johanna Toledo Varela"
         }
       ],
       "totalAnalistasAsignados": 1,
@@ -2482,13 +2421,13 @@
           "sistema": "DS27",
           "dedicacionJP": "20%",
           "jpSuplente": {
-            "id": "",
-            "nombre": ""
+            "id": "jp-sara-gonzalez-catalan",
+            "nombre": "Sara González Catalán"
           },
           "proveedor": "",
           "desarrolloInterno": "Desarrollo interno",
           "tipo": "Mantención",
-          "planTrabajoPOL": "",
+          "planTrabajoPOL": "https://teams.microsoft.com/l/entity/com.microsoft.teamspace.tab.planner/mytasks?tenantId=9cacd210-70a9-44ee-826b-f6b7685a01d6&webUrl=https%3A%2F%2Ftasks.teams.microsoft.com%2Fteamsui%2FpersonalApp%2Falltasklists&context=%7B%22subEntityId%22%3A%22%2Fv1%2Fpremiumplan%2F57f56d87-bf4b-4ce4-8438-78ef99dfc830%2Forg%2Ff047bc7e-7275-48cd-be18-376a22411ca9%22%7D",
           "fechaInicio": "",
           "fechaTermino": "",
           "analista": {
@@ -2510,13 +2449,13 @@
           "sistema": "DS01",
           "dedicacionJP": "20%",
           "jpSuplente": {
-            "id": "",
-            "nombre": ""
+            "id": "jp-sara-gonzalez-catalan",
+            "nombre": "Sara González Catalán"
           },
           "proveedor": "",
           "desarrolloInterno": "Desarrollo interno",
           "tipo": "Mantención",
-          "planTrabajoPOL": "",
+          "planTrabajoPOL": "https://teams.microsoft.com/l/entity/com.microsoft.teamspace.tab.planner/mytasks?tenantId=9cacd210-70a9-44ee-826b-f6b7685a01d6&webUrl=https%3A%2F%2Ftasks.teams.microsoft.com%2Fteamsui%2FpersonalApp%2Falltasklists&context=%7B%22subEntityId%22%3A%22%2Fv1%2Fpremiumplan%2Fe081eb31-c499-43d0-807f-db6c8efe6276%2Forg%2Ff047bc7e-7275-48cd-be18-376a22411ca9%22%7D",
           "fechaInicio": "",
           "fechaTermino": "",
           "analista": {
@@ -2538,13 +2477,13 @@
           "sistema": "DS19",
           "dedicacionJP": "20%",
           "jpSuplente": {
-            "id": "",
-            "nombre": ""
+            "id": "jp-sara-gonzalez-catalan",
+            "nombre": "Sara González Catalán"
           },
           "proveedor": "",
           "desarrolloInterno": "Desarrollo interno",
           "tipo": "Mantención",
-          "planTrabajoPOL": "",
+          "planTrabajoPOL": "https://teams.microsoft.com/l/entity/com.microsoft.teamspace.tab.planner/mytasks?tenantId=9cacd210-70a9-44ee-826b-f6b7685a01d6&webUrl=https%3A%2F%2Ftasks.teams.microsoft.com%2Fteamsui%2FpersonalApp%2Falltasklists&context=%7B%22subEntityId%22%3A%22%2Fv1%2Fpremiumplan%2Fe081eb31-c499-43d0-807f-db6c8efe6276%2Forg%2Ff047bc7e-7275-48cd-be18-376a22411ca9%22%7D",
           "fechaInicio": "",
           "fechaTermino": "",
           "analista": {
@@ -2566,13 +2505,13 @@
           "sistema": "SPSH",
           "dedicacionJP": "20%",
           "jpSuplente": {
-            "id": "",
-            "nombre": ""
+            "id": "jp-marcelo-miola-rosales",
+            "nombre": "Marcelo Miola Rosales"
           },
           "proveedor": "",
           "desarrolloInterno": "Desarrollo interno",
           "tipo": "Proyecto Mantención",
-          "planTrabajoPOL": "",
+          "planTrabajoPOL": "https://teams.microsoft.com/l/entity/com.microsoft.teamspace.tab.planner/mytasks?tenantId=9cacd210-70a9-44ee-826b-f6b7685a01d6&webUrl=https%3A%2F%2Ftasks.teams.microsoft.com%2Fteamsui%2FpersonalApp%2Falltasklists&context=%7B%22subEntityId%22%3A%22%2Fv1%2Fpremiumplan%2F1a80227e-0d30-4392-bb12-cb9529f94ac4%2Forg%2Ff047bc7e-7275-48cd-be18-376a22411ca9%22%7D",
           "fechaInicio": "",
           "fechaTermino": "",
           "analista": {
@@ -2594,13 +2533,13 @@
           "sistema": "SUPER",
           "dedicacionJP": "10%",
           "jpSuplente": {
-            "id": "",
-            "nombre": ""
+            "id": "jp-ivan-rojas-marchant",
+            "nombre": "Iván Rojas Marchant"
           },
           "proveedor": "",
           "desarrolloInterno": "Desarrollo interno",
           "tipo": "Proyecto",
-          "planTrabajoPOL": "",
+          "planTrabajoPOL": "https://teams.microsoft.com/l/entity/com.microsoft.teamspace.tab.planner/mytasks?tenantId=9cacd210-70a9-44ee-826b-f6b7685a01d6&webUrl=https%3A%2F%2Ftasks.teams.microsoft.com%2Fteamsui%2FpersonalApp%2Falltasklists&context=%7B%22subEntityId%22%3A%22%2Fv1%2Fpremiumplan%2F37d64832-1a1e-4db3-bf59-2bb5119c3f0b%2Forg%2Ff047bc7e-7275-48cd-be18-376a22411ca9%22%7D",
           "fechaInicio": "",
           "fechaTermino": "",
           "analista": {
@@ -2660,8 +2599,8 @@
           "sistema": "ERP",
           "dedicacionJP": "95%",
           "jpSuplente": {
-            "id": "jp-humberto-jeldres-palacios",
-            "nombre": "Humberto Jeldres Palacios"
+            "id": "jp-ivan-rojas-marchant",
+            "nombre": "Iván Rojas Marchant"
           },
           "proveedor": "Browse",
           "desarrolloInterno": "Desarrollo externo",
@@ -2670,8 +2609,8 @@
           "fechaInicio": "29-01-2025",
           "fechaTermino": "29-07-2026",
           "analista": {
-            "id": "",
-            "nombre": "",
+            "id": "an-n-a",
+            "nombre": "N/A",
             "correo": "",
             "tipoContrato": "",
             "dedicacionSistema": "",
@@ -2698,8 +2637,8 @@
           "sistema": "Proveedores Técnicos",
           "dedicacionJP": "35%",
           "jpSuplente": {
-            "id": "",
-            "nombre": ""
+            "id": "jp-marisol-riveros-villalobos",
+            "nombre": "Marisol Riveros Villalobos"
           },
           "proveedor": "CUNX",
           "desarrolloInterno": "Desarrollo externo",
@@ -2713,10 +2652,10 @@
             "correo": "jtoledov@minvu.cl",
             "tipoContrato": "Suma Alzada",
             "dedicacionSistema": "3%",
-            "incidentes": "",
+            "incidentes": "3%",
             "suplente": {
-              "id": "",
-              "nombre": ""
+              "id": "an-claudio-lara-moreno",
+              "nombre": "Claudio Lara Moreno"
             }
           },
           "registroFuenteNro": "8"
@@ -2726,8 +2665,8 @@
           "sistema": "sitio WordPress proveedores técnicos",
           "dedicacionJP": "15%",
           "jpSuplente": {
-            "id": "",
-            "nombre": ""
+            "id": "jp-marisol-riveros-villalobos",
+            "nombre": "Marisol Riveros Villalobos"
           },
           "proveedor": "Concordia SPA",
           "desarrolloInterno": "Desarrollo externo",
@@ -2754,8 +2693,8 @@
           "sistema": "Munin Nacional/Trazabilidad2",
           "dedicacionJP": "5%",
           "jpSuplente": {
-            "id": "",
-            "nombre": ""
+            "id": "jp-marisol-riveros-villalobos",
+            "nombre": "Marisol Riveros Villalobos"
           },
           "proveedor": "",
           "desarrolloInterno": "Desarrollo interno",
@@ -2769,10 +2708,10 @@
             "correo": "jtoledov@minvu.cl",
             "tipoContrato": "Suma Alzada",
             "dedicacionSistema": "10%",
-            "incidentes": "",
+            "incidentes": "10%",
             "suplente": {
-              "id": "",
-              "nombre": ""
+              "id": "an-claudio-lara-moreno",
+              "nombre": "Claudio Lara Moreno"
             }
           },
           "registroFuenteNro": "10"
@@ -2782,8 +2721,8 @@
           "sistema": "Solicitud de Identificación Presupuestaria",
           "dedicacionJP": "5%",
           "jpSuplente": {
-            "id": "",
-            "nombre": ""
+            "id": "jp-marisol-riveros-villalobos",
+            "nombre": "Marisol Riveros Villalobos"
           },
           "proveedor": "EnVision",
           "desarrolloInterno": "Desarrollo externo",
@@ -2797,10 +2736,10 @@
             "correo": "jtoledov@minvu.cl",
             "tipoContrato": "Suma Alzada",
             "dedicacionSistema": "7%",
-            "incidentes": "",
+            "incidentes": "7%",
             "suplente": {
-              "id": "",
-              "nombre": ""
+              "id": "an-claudio-lara-moreno",
+              "nombre": "Claudio Lara Moreno"
             }
           },
           "registroFuenteNro": "11"
@@ -2810,8 +2749,8 @@
           "sistema": "Proveedores y Registros Técnicos",
           "dedicacionJP": "15%",
           "jpSuplente": {
-            "id": "",
-            "nombre": ""
+            "id": "jp-marisol-riveros-villalobos",
+            "nombre": "Marisol Riveros Villalobos"
           },
           "proveedor": "",
           "desarrolloInterno": "Desarrollo interno",
@@ -2825,10 +2764,10 @@
             "correo": "clara@minvu.cl",
             "tipoContrato": "Contrata",
             "dedicacionSistema": "10%",
-            "incidentes": "",
+            "incidentes": "10%",
             "suplente": {
-              "id": "",
-              "nombre": ""
+              "id": "an-johanna-toledo-varela",
+              "nombre": "Johanna Toledo Varela"
             }
           },
           "registroFuenteNro": "12"
@@ -2838,8 +2777,8 @@
           "sistema": "Seguimiento de Contrato de Obras - PUDU 2",
           "dedicacionJP": "5%",
           "jpSuplente": {
-            "id": "",
-            "nombre": ""
+            "id": "jp-marisol-riveros-villalobos",
+            "nombre": "Marisol Riveros Villalobos"
           },
           "proveedor": "",
           "desarrolloInterno": "Desarrollo interno",
@@ -2853,10 +2792,10 @@
             "correo": "macevedoa@minvu.cl",
             "tipoContrato": "Contrata",
             "dedicacionSistema": "10%",
-            "incidentes": "",
+            "incidentes": "10%",
             "suplente": {
-              "id": "",
-              "nombre": ""
+              "id": "an-johanna-toledo-varela",
+              "nombre": "Johanna Toledo Varela"
             }
           },
           "registroFuenteNro": "13"
@@ -2866,8 +2805,8 @@
           "sistema": "Pavimentos Participativos",
           "dedicacionJP": "15%",
           "jpSuplente": {
-            "id": "",
-            "nombre": ""
+            "id": "jp-marisol-riveros-villalobos",
+            "nombre": "Marisol Riveros Villalobos"
           },
           "proveedor": "",
           "desarrolloInterno": "Desarrollo interno",
@@ -2881,10 +2820,10 @@
             "correo": "clara@minvu.cl",
             "tipoContrato": "Contrata",
             "dedicacionSistema": "5%",
-            "incidentes": "",
+            "incidentes": "5%",
             "suplente": {
-              "id": "",
-              "nombre": ""
+              "id": "an-johanna-toledo-varela",
+              "nombre": "Johanna Toledo Varela"
             }
           },
           "registroFuenteNro": "14"
@@ -2894,8 +2833,8 @@
           "sistema": "Otros Sistemas (SOU, Gestor Documental)",
           "dedicacionJP": "5%",
           "jpSuplente": {
-            "id": "",
-            "nombre": ""
+            "id": "jp-marisol-riveros-villalobos",
+            "nombre": "Marisol Riveros Villalobos"
           },
           "proveedor": "",
           "desarrolloInterno": "Desarrollo interno",
@@ -2909,10 +2848,10 @@
             "correo": "clara@minvu.cl",
             "tipoContrato": "Contrata",
             "dedicacionSistema": "5%",
-            "incidentes": "",
+            "incidentes": "5%",
             "suplente": {
-              "id": "",
-              "nombre": ""
+              "id": "an-johanna-toledo-varela",
+              "nombre": "Johanna Toledo Varela"
             }
           },
           "registroFuenteNro": "15"
@@ -2930,10 +2869,10 @@
         {
           "sistemaId": "sistema-portal-ipt",
           "sistema": "Portal IPT",
-          "dedicacionJP": "20%",
+          "dedicacionJP": "10%",
           "jpSuplente": {
-            "id": "",
-            "nombre": ""
+            "id": "jp-marcelo-miola-rosales",
+            "nombre": "Marcelo Miola Rosales"
           },
           "proveedor": "",
           "desarrolloInterno": "Desarrollo interno",
@@ -2947,10 +2886,10 @@
             "correo": "fcarrascoa@minvu.cl",
             "tipoContrato": "Por Producto",
             "dedicacionSistema": "50%",
-            "incidentes": "",
+            "incidentes": "N/A",
             "suplente": {
-              "id": "",
-              "nombre": ""
+              "id": "an-n-a",
+              "nombre": "N/A"
             }
           },
           "registroFuenteNro": "16"
@@ -2958,10 +2897,10 @@
         {
           "sistemaId": "sistema-crm-siac-d365",
           "sistema": "CRM SIAC D365",
-          "dedicacionJP": "80%",
+          "dedicacionJP": "90%",
           "jpSuplente": {
-            "id": "",
-            "nombre": ""
+            "id": "jp-marcelo-miola-rosales",
+            "nombre": "Marcelo Miola Rosales"
           },
           "proveedor": "Alfapeople Chile SPA",
           "desarrolloInterno": "Desarrollo externo",
@@ -2970,15 +2909,15 @@
           "fechaInicio": "12-09-2025",
           "fechaTermino": "14-12-2027",
           "analista": {
-            "id": "",
-            "nombre": "",
-            "correo": "",
-            "tipoContrato": "",
-            "dedicacionSistema": "",
-            "incidentes": "",
+            "id": "an-n-a",
+            "nombre": "N/A",
+            "correo": "N/A",
+            "tipoContrato": "N/A",
+            "dedicacionSistema": "N/A",
+            "incidentes": "N/A",
             "suplente": {
-              "id": "",
-              "nombre": ""
+              "id": "an-n-a",
+              "nombre": "N/A"
             }
           },
           "registroFuenteNro": "17"
@@ -2998,8 +2937,8 @@
           "sistema": "DS10 RukanRural",
           "dedicacionJP": "15%",
           "jpSuplente": {
-            "id": "",
-            "nombre": ""
+            "id": "jp-marcelo-miola-rosales",
+            "nombre": "Marcelo Miola Rosales"
           },
           "proveedor": "",
           "desarrolloInterno": "Desarrollo interno",
@@ -3012,11 +2951,11 @@
             "nombre": "Felipe Ahumada Romero",
             "correo": "faahumadar@minvu.cl",
             "tipoContrato": "Contrata",
-            "dedicacionSistema": "80%",
+            "dedicacionSistema": "100%",
             "incidentes": "",
             "suplente": {
-              "id": "",
-              "nombre": ""
+              "id": "an-hernan-silva-jimenez",
+              "nombre": "Hernan Silva Jimenez"
             }
           },
           "registroFuenteNro": "18"
@@ -3024,45 +2963,17 @@
         {
           "sistemaId": "sistema-pago-subsidios",
           "sistema": "Pago Subsidios",
-          "dedicacionJP": "10%",
-          "jpSuplente": {
-            "id": "",
-            "nombre": ""
-          },
-          "proveedor": "",
-          "desarrolloInterno": "Desarrollo interno",
-          "tipo": "Proyecto",
-          "planTrabajoPOL": "TD-SPS Mantención Evolutiva 2026/ Sprint 1",
-          "fechaInicio": "01-04-2026",
-          "fechaTermino": "13-04-2026",
-          "analista": {
-            "id": "an-faahumadar-minvu-cl",
-            "nombre": "Felipe Ahumada Romero",
-            "correo": "faahumadar@minvu.cl",
-            "tipoContrato": "Contrata",
-            "dedicacionSistema": "20%",
-            "incidentes": "",
-            "suplente": {
-              "id": "",
-              "nombre": ""
-            }
-          },
-          "registroFuenteNro": "19"
-        },
-        {
-          "sistemaId": "sistema-pago-subsidios",
-          "sistema": "Pago Subsidios",
           "dedicacionJP": "20%",
           "jpSuplente": {
-            "id": "",
-            "nombre": ""
+            "id": "jp-marcelo-miola-rosales",
+            "nombre": "Marcelo Miola Rosales"
           },
           "proveedor": "",
           "desarrolloInterno": "Desarrollo interno",
           "tipo": "Proyecto",
-          "planTrabajoPOL": "TD-SPS Mantención Evolutiva 2026/ Sprint 4",
-          "fechaInicio": "06-04-2026",
-          "fechaTermino": "27-04-2026",
+          "planTrabajoPOL": "TD-SPS Mantención Evolutiva 2026/ SPRINT7 - Variable TCA en Json de SIGFE",
+          "fechaInicio": "20-04-2026",
+          "fechaTermino": "30-04-2026",
           "analista": {
             "id": "an-pquijanou-minvu-cl",
             "nombre": "Pablo Quijano Urrutia",
@@ -3071,8 +2982,36 @@
             "dedicacionSistema": "80%",
             "incidentes": "",
             "suplente": {
-              "id": "",
-              "nombre": ""
+              "id": "an-claudio-lara-moreno",
+              "nombre": "Claudio Lara Moreno"
+            }
+          },
+          "registroFuenteNro": "19"
+        },
+        {
+          "sistemaId": "sistema-pago-subsidios",
+          "sistema": "Pago Subsidios",
+          "dedicacionJP": "15%",
+          "jpSuplente": {
+            "id": "jp-marcelo-miola-rosales",
+            "nombre": "Marcelo Miola Rosales"
+          },
+          "proveedor": "",
+          "desarrolloInterno": "Desarrollo interno",
+          "tipo": "Proyecto",
+          "planTrabajoPOL": "TD-SPS Mantención Evolutiva 2026 / SPRINT5 y SPRINT6 - DS19 Llamados 2024 2025",
+          "fechaInicio": "20-04-2026",
+          "fechaTermino": "05-06-2026",
+          "analista": {
+            "id": "an-bprietop-minvu-cl",
+            "nombre": "Bastian Prieto Puga",
+            "correo": "bprietop@minvu.cl",
+            "tipoContrato": "Contrata",
+            "dedicacionSistema": "80%",
+            "incidentes": "20",
+            "suplente": {
+              "id": "an-hernan-silva-jimenez",
+              "nombre": "Hernan Silva Jimenez"
             }
           },
           "registroFuenteNro": "20"
@@ -3080,17 +3019,17 @@
         {
           "sistemaId": "sistema-pago-subsidios",
           "sistema": "Pago Subsidios",
-          "dedicacionJP": "10%",
+          "dedicacionJP": "20%",
           "jpSuplente": {
-            "id": "",
-            "nombre": ""
+            "id": "jp-marcelo-miola-rosales",
+            "nombre": "Marcelo Miola Rosales"
           },
           "proveedor": "",
           "desarrolloInterno": "Desarrollo interno",
           "tipo": "Proyecto",
-          "planTrabajoPOL": "TD-SPS Mantención Evolutiva 2026 / Sprint 2",
-          "fechaInicio": "06-04-2026",
-          "fechaTermino": "20-04-2026",
+          "planTrabajoPOL": "TD_MIGRACION BBDD SPS v2008 a v2019 // SPRINT 5 - TEST VALIDACIONES SPS",
+          "fechaInicio": "20-04-2026",
+          "fechaTermino": "05-05-2026",
           "analista": {
             "id": "an-hsilvaj-minvu-cl",
             "nombre": "Hernan Silva Jimenez",
@@ -3099,8 +3038,8 @@
             "dedicacionSistema": "80%",
             "incidentes": "",
             "suplente": {
-              "id": "",
-              "nombre": ""
+              "id": "an-claudio-lara-moreno",
+              "nombre": "Claudio Lara Moreno"
             }
           },
           "registroFuenteNro": "21"
@@ -3108,10 +3047,10 @@
         {
           "sistemaId": "sistema-pago-subsidios",
           "sistema": "Pago Subsidios",
-          "dedicacionJP": "25%",
+          "dedicacionJP": "15%",
           "jpSuplente": {
-            "id": "",
-            "nombre": ""
+            "id": "jp-marcelo-miola-rosales",
+            "nombre": "Marcelo Miola Rosales"
           },
           "proveedor": "",
           "desarrolloInterno": "Desarrollo interno",
@@ -3127,8 +3066,8 @@
             "dedicacionSistema": "20%",
             "incidentes": "",
             "suplente": {
-              "id": "",
-              "nombre": ""
+              "id": "an-felipe-ahumada-romero",
+              "nombre": "Felipe Ahumada Romero"
             }
           },
           "registroFuenteNro": "22"
@@ -3136,17 +3075,17 @@
         {
           "sistemaId": "sistema-pago-subsidios",
           "sistema": "Pago Subsidios",
-          "dedicacionJP": "20%",
+          "dedicacionJP": "15%",
           "jpSuplente": {
-            "id": "",
-            "nombre": ""
+            "id": "jp-marcelo-miola-rosales",
+            "nombre": "Marcelo Miola Rosales"
           },
           "proveedor": "",
           "desarrolloInterno": "Desarrollo interno",
           "tipo": "Proyecto",
           "planTrabajoPOL": "TD - Recuperación de Prestamos DS19 / Sprint 25",
           "fechaInicio": "06-04-2026",
-          "fechaTermino": "06-05-2026",
+          "fechaTermino": "18-05-2026",
           "analista": {
             "id": "an-clara-minvu-cl",
             "nombre": "Claudio Lara Moreno",
@@ -3155,8 +3094,8 @@
             "dedicacionSistema": "80%",
             "incidentes": "",
             "suplente": {
-              "id": "",
-              "nombre": ""
+              "id": "an-pablo-quijano-urrutia",
+              "nombre": "Pablo Quijano Urrutia"
             }
           },
           "registroFuenteNro": "23"
@@ -3382,8 +3321,8 @@
           "sistema": "Gestor Documental",
           "dedicacionJP": "50%",
           "jpSuplente": {
-            "id": "",
-            "nombre": ""
+            "id": "jp-humberto-jeldres-palacios",
+            "nombre": "Humberto Jeldres Palacios"
           },
           "proveedor": "AMISOFT S.A",
           "desarrolloInterno": "Desarrollo externo",
@@ -3410,8 +3349,8 @@
           "sistema": "Gestor de Convenios",
           "dedicacionJP": "25%",
           "jpSuplente": {
-            "id": "",
-            "nombre": ""
+            "id": "jp-humberto-jeldres-palacios",
+            "nombre": "Humberto Jeldres Palacios"
           },
           "proveedor": "",
           "desarrolloInterno": "Desarrollo interno",
@@ -3438,8 +3377,8 @@
           "sistema": "SIIS",
           "dedicacionJP": "25%",
           "jpSuplente": {
-            "id": "",
-            "nombre": ""
+            "id": "jp-humberto-jeldres-palacios",
+            "nombre": "Humberto Jeldres Palacios"
           },
           "proveedor": "",
           "desarrolloInterno": "Desarrollo interno",
@@ -3452,22 +3391,50 @@
             "nombre": "Cristian Huerta",
             "correo": "chuerta@minvu.cl",
             "tipoContrato": "Contrata",
-            "dedicacionSistema": "80%",
-            "incidentes": "",
+            "dedicacionSistema": "60%",
+            "incidentes": "20%",
             "suplente": {
-              "id": "",
-              "nombre": ""
+              "id": "an-johanna-toledo-varela",
+              "nombre": "Johanna Toledo Varela"
             }
           },
           "registroFuenteNro": "33"
+        },
+        {
+          "sistemaId": "sistema-sibis",
+          "sistema": "SIBIS",
+          "dedicacionJP": "25%",
+          "jpSuplente": {
+            "id": "jp-humberto-jeldres-palacios",
+            "nombre": "Humberto Jeldres Palacios"
+          },
+          "proveedor": "",
+          "desarrolloInterno": "Desarrollo interno",
+          "tipo": "Proyecto Mantención",
+          "planTrabajoPOL": "TD - SIBIS Etapa 2 Polígonos",
+          "fechaInicio": "14-04-2026",
+          "fechaTermino": "13-05-2026",
+          "analista": {
+            "id": "an-chuerta-minvu-cl",
+            "nombre": "Cristian Huerta",
+            "correo": "chuerta@minvu.cl",
+            "tipoContrato": "Contrata",
+            "dedicacionSistema": "60%",
+            "incidentes": "20%",
+            "suplente": {
+              "id": "an-johanna-toledo-varela",
+              "nombre": "Johanna Toledo Varela"
+            }
+          },
+          "registroFuenteNro": "44"
         }
       ],
-      "totalSistemasAsignados": 3,
-      "totalRegistrosRelacionados": 3
+      "totalSistemasAsignados": 4,
+      "totalRegistrosRelacionados": 4
     },
     {
       "id": "jp-iprojasm-minvu-cl",
-      "nombre": "Iván Rojas",
+      "nombre": "Iván Rojas Marchant",
       "correo": "iprojasm@minvu.cl",
       "tipoContrato": "Contrata",
       "sistemas": [
@@ -3476,8 +3443,8 @@
           "sistema": "DOM en línea",
           "dedicacionJP": "50%",
           "jpSuplente": {
-            "id": "",
-            "nombre": ""
+            "id": "jp-fabian-hernandez-gallardo",
+            "nombre": "Fabián Hernández Gallardo"
           },
           "proveedor": "SIIGSA",
           "desarrolloInterno": "Desarrollo externo",
@@ -3486,15 +3453,15 @@
           "fechaInicio": "27-06-2025",
           "fechaTermino": "16-04-2025",
           "analista": {
-            "id": "",
-            "nombre": "",
-            "correo": "",
-            "tipoContrato": "",
-            "dedicacionSistema": "",
-            "incidentes": "",
+            "id": "an-n-a",
+            "nombre": "N/A",
+            "correo": "N/A",
+            "tipoContrato": "N/A",
+            "dedicacionSistema": "100%",
+            "incidentes": "N/A",
             "suplente": {
-              "id": "",
-              "nombre": ""
+              "id": "an-n-a",
+              "nombre": "N/A"
             }
           },
           "registroFuenteNro": "34"
@@ -3504,25 +3471,25 @@
           "sistema": "PFUD (Portal de Formularios Únicos Digitales)",
           "dedicacionJP": "30%",
           "jpSuplente": {
-            "id": "",
-            "nombre": ""
+            "id": "jp-fabian-hernandez-gallardo",
+            "nombre": "Fabián Hernández Gallardo"
           },
-          "proveedor": "",
+          "proveedor": "N/A",
           "desarrolloInterno": "Desarrollo externo",
           "tipo": "Proyecto",
           "planTrabajoPOL": "TD - Portal de Formularios Únicos Digitales",
           "fechaInicio": "27-01-2026",
           "fechaTermino": "20-11-2026",
           "analista": {
-            "id": "",
-            "nombre": "",
-            "correo": "",
-            "tipoContrato": "",
-            "dedicacionSistema": "",
-            "incidentes": "",
+            "id": "an-n-a",
+            "nombre": "N/A",
+            "correo": "N/A",
+            "tipoContrato": "N/A",
+            "dedicacionSistema": "100%",
+            "incidentes": "N/A",
             "suplente": {
-              "id": "",
-              "nombre": ""
+              "id": "an-n-a",
+              "nombre": "N/A"
             }
           },
           "registroFuenteNro": "35"
@@ -3532,25 +3499,25 @@
           "sistema": "Encuentra tu vivienda",
           "dedicacionJP": "20%",
           "jpSuplente": {
-            "id": "",
-            "nombre": ""
+            "id": "jp-fabian-hernandez-gallardo",
+            "nombre": "Fabián Hernández Gallardo"
           },
-          "proveedor": "",
+          "proveedor": "N/A",
           "desarrolloInterno": "Desarrollo interno",
           "tipo": "Proyecto",
-          "planTrabajoPOL": "",
-          "fechaInicio": "",
-          "fechaTermino": "",
+          "planTrabajoPOL": "DESARROLLO – Modificaciones a Encuentra tu Vivienda 2026 – DPH",
+          "fechaInicio": "26-03-2026",
+          "fechaTermino": "30-06-2026",
           "analista": {
             "id": "an-macevedoa-minvu-cl",
             "nombre": "Marco Acevedo Acevedo",
             "correo": "macevedoa@minvu.cl",
             "tipoContrato": "Contrata",
             "dedicacionSistema": "80%",
-            "incidentes": "",
+            "incidentes": "N/A",
             "suplente": {
-              "id": "",
-              "nombre": ""
+              "id": "an-francisco-lemus",
+              "nombre": "Francisco Lemus"
             }
           },
           "registroFuenteNro": "42"
@@ -3566,26 +3533,26 @@
       "tipoContrato": "Contrata",
       "sistemas": [
         {
-          "sistemaId": "sistema-plataforma-de-rendiciones-asentamientos-precarios-prap",
-          "sistema": "Plataforma de Rendiciones Asentamientos Precarios PRAP",
-          "dedicacionJP": "10%",
+          "sistemaId": "sistema-sistema-de-gestion-de-reserva-de-hora-sgrh",
+          "sistema": "Sistema de Gestión de Reserva de Hora (SGRH)",
+          "dedicacionJP": "20%",
           "jpSuplente": {
             "id": "",
             "nombre": ""
           },
-          "proveedor": "",
+          "proveedor": "N/A",
           "desarrolloInterno": "Desarrollo interno",
           "tipo": "Mantención",
-          "planTrabajoPOL": "Cierre mensual y carga de rendiciones por meses PRAP",
-          "fechaInicio": "En tramite",
-          "fechaTermino": "",
+          "planTrabajoPOL": "Desarrollo – SGRH Mejoras evolutivas - 2026 – SIAC",
+          "fechaInicio": "20-04-2026",
+          "fechaTermino": "29-05-2026",
           "analista": {
             "id": "an-mmamani-minvu-cl",
             "nombre": "Miguel Mamani",
             "correo": "mmamani@minvu.cl",
             "tipoContrato": "Contrata",
-            "dedicacionSistema": "60%",
-            "incidentes": "10%",
+            "dedicacionSistema": "80%",
+            "incidentes": "20%",
             "suplente": {
               "id": "",
               "nombre": ""
@@ -3596,50 +3563,22 @@
         {
           "sistemaId": "sistema-snat-simplificado-carga-de-nuevos-programas",
           "sistema": "SNAT Simplificado - Carga de nuevos Programas",
-          "dedicacionJP": "10%",
+          "dedicacionJP": "20%",
           "jpSuplente": {
-            "id": "",
-            "nombre": ""
+            "id": "jp-marisol-riveros-villalobos",
+            "nombre": "Marisol Riveros Villalobos"
           },
           "proveedor": "",
           "desarrolloInterno": "Desarrollo interno",
           "tipo": "Mantención",
-          "planTrabajoPOL": "Motor de carga de proyecto en SNAT",
-          "fechaInicio": "En tramite",
-          "fechaTermino": "",
+          "planTrabajoPOL": "Desarrollo – TD - SNAT Mejoras evolutivas motor de carga DITEC",
+          "fechaInicio": "06-04-2026",
+          "fechaTermino": "27-04-2026",
           "analista": {
-            "id": "an-mmamani-minvu-cl",
-            "nombre": "Miguel Mamani",
-            "correo": "mmamani@minvu.cl",
-            "tipoContrato": "Contrata",
-            "dedicacionSistema": "20%",
-            "incidentes": "10%",
-            "suplente": {
-              "id": "",
-              "nombre": ""
-            }
-          },
-          "registroFuenteNro": "37"
-        },
-        {
-          "sistemaId": "sistema-plataforma-prap-incorporacion-de-barrios-y-pago",
-          "sistema": "Plataforma  PRAP Incorporación de Barrios y Pago.",
-          "dedicacionJP": "10%",
-          "jpSuplente": {
-            "id": "",
-            "nombre": ""
-          },
-          "proveedor": "",
-          "desarrolloInterno": "Desarrollo interno",
-          "tipo": "Mantención",
-          "planTrabajoPOL": "TD - Mejoras e integración con SPS",
-          "fechaInicio": "En tramite",
-          "fechaTermino": "",
-          "analista": {
-            "id": "an-bprietop-minvu-cl",
-            "nombre": "Bastian Prieto Puga",
-            "correo": "bprietop@minvu.cl",
-            "tipoContrato": "Contrata",
+            "id": "an-jtoledov-minvu-cl",
+            "nombre": "Johanna S. Toledo",
+            "correo": "jtoledov@minvu.cl",
+            "tipoContrato": "Suma Alzada",
             "dedicacionSistema": "80%",
             "incidentes": "20%",
             "suplente": {
@@ -3647,7 +3586,7 @@
               "nombre": ""
             }
           },
-          "registroFuenteNro": "38"
+          "registroFuenteNro": "37"
         },
         {
           "sistemaId": "sistema-calificacion-energetica-web-motor-de-calculo",
@@ -3660,16 +3599,16 @@
           "proveedor": "",
           "desarrolloInterno": "Desarrollo interno",
           "tipo": "Mantención",
-          "planTrabajoPOL": "Calificación Energética de Vivienda WEB",
-          "fechaInicio": "En tramite",
-          "fechaTermino": "",
+          "planTrabajoPOL": "Desarrollo – CEW Mejoras evolutivas - 2026 – DITEC",
+          "fechaInicio": "20-04-2026",
+          "fechaTermino": "18-05-2026",
           "analista": {
             "id": "an-jpastudillo-minvu-cl",
             "nombre": "Jean Paul Astudillo",
             "correo": "jpastudillo@minvu.cl",
             "tipoContrato": "Contrata",
-            "dedicacionSistema": "50%",
-            "incidentes": "10%",
+            "dedicacionSistema": "80%",
+            "incidentes": "20%",
             "suplente": {
               "id": "",
               "nombre": ""
@@ -3678,37 +3617,9 @@
           "registroFuenteNro": "39"
         },
         {
-          "sistemaId": "sistema-carga-de-fichas-de-reconstruccion",
-          "sistema": "Carga de fichas de Reconstrucción",
-          "dedicacionJP": "10%",
-          "jpSuplente": {
-            "id": "",
-            "nombre": ""
-          },
-          "proveedor": "",
-          "desarrolloInterno": "Desarrollo interno",
-          "tipo": "Mantención",
-          "planTrabajoPOL": "Fichas de Reconstrucción",
-          "fechaInicio": "En tramite",
-          "fechaTermino": "",
-          "analista": {
-            "id": "an-jpastudillo-minvu-cl",
-            "nombre": "Jean Paul Astudillo",
-            "correo": "jpastudillo@minvu.cl",
-            "tipoContrato": "Contrata",
-            "dedicacionSistema": "30%",
-            "incidentes": "10%",
-            "suplente": {
-              "id": "",
-              "nombre": ""
-            }
-          },
-          "registroFuenteNro": "40"
-        },
-        {
           "sistemaId": "sistema-asentamientos-precarios-etapa-3",
           "sistema": "Asentamientos Precarios - Etapa 3",
-          "dedicacionJP": "30%",
+          "dedicacionJP": "60%",
           "jpSuplente": {
             "id": "",
             "nombre": ""
@@ -3716,7 +3627,7 @@
           "proveedor": "",
           "desarrolloInterno": "Desarrollo externo",
           "tipo": "Proyecto",
-          "planTrabajoPOL": "TD - DAP Nuevo Sistema DAP Etapa3 - ASIMOV",
+          "planTrabajoPOL": "Desarrollo – Sistemas Asentamientos Precarios - Etapa 3 – DITEC",
           "fechaInicio": "02-03-2026",
           "fechaTermino": "31-12-2026",
           "analista": {
@@ -3734,8 +3645,8 @@
           "registroFuenteNro": "41"
         }
       ],
-      "totalSistemasAsignados": 6,
-      "totalRegistrosRelacionados": 6
+      "totalSistemasAsignados": 4,
+      "totalRegistrosRelacionados": 4
     },
     {
       "id": "jp-sgonzalezc-minvu-cl",
@@ -3748,8 +3659,8 @@
           "sistema": "Plataforma Única de Postulación",
           "dedicacionJP": "100%",
           "jpSuplente": {
-            "id": "",
-            "nombre": ""
+            "id": "jp-ivan-rojas-marchant",
+            "nombre": "Iván Rojas Marchant"
           },
           "proveedor": "CODERHUB",
           "desarrolloInterno": "Desarrollo externo",
@@ -3763,10 +3674,10 @@
             "correo": "izamoranof@minvu.cl",
             "tipoContrato": "Contrata",
             "dedicacionSistema": "20%",
-            "incidentes": "",
+            "incidentes": "N/A",
             "suplente": {
-              "id": "",
-              "nombre": ""
+              "id": "an-n-a",
+              "nombre": "N/A"
             }
           },
           "registroFuenteNro": "43"
@@ -3794,13 +3705,13 @@
             "dedicacionSistema": "20%"
           },
           "jefeProyectoSuplente": {
-            "id": "",
-            "nombre": ""
+            "id": "jp-sara-gonzalez-catalan",
+            "nombre": "Sara González Catalán"
           },
           "proveedor": "",
           "desarrolloInterno": "Desarrollo interno",
           "tipo": "Mantención",
-          "planTrabajoPOL": "",
+          "planTrabajoPOL": "https://teams.microsoft.com/l/entity/com.microsoft.teamspace.tab.planner/mytasks?tenantId=9cacd210-70a9-44ee-826b-f6b7685a01d6&webUrl=https%3A%2F%2Ftasks.teams.microsoft.com%2Fteamsui%2FpersonalApp%2Falltasklists&context=%7B%22subEntityId%22%3A%22%2Fv1%2Fpremiumplan%2F57f56d87-bf4b-4ce4-8438-78ef99dfc830%2Forg%2Ff047bc7e-7275-48cd-be18-376a22411ca9%22%7D",
           "fechaInicio": "",
           "fechaTermino": "",
           "dedicacionAnalista": "80%",
@@ -3822,8 +3733,8 @@
             "dedicacionSistema": "100%"
           },
           "jefeProyectoSuplente": {
-            "id": "",
-            "nombre": ""
+            "id": "jp-ivan-rojas-marchant",
+            "nombre": "Iván Rojas Marchant"
           },
           "proveedor": "CODERHUB",
           "desarrolloInterno": "Desarrollo externo",
@@ -3832,10 +3743,10 @@
           "fechaInicio": "18-08-2025",
           "fechaTermino": "29-11-2027",
           "dedicacionAnalista": "20%",
-          "incidentes": "",
+          "incidentes": "N/A",
           "analistaSuplente": {
-            "id": "",
-            "nombre": ""
+            "id": "an-n-a",
+            "nombre": "N/A"
           },
           "registroFuenteNro": "43"
         }
@@ -3860,13 +3771,13 @@
             "dedicacionSistema": "20%"
           },
           "jefeProyectoSuplente": {
-            "id": "",
-            "nombre": ""
+            "id": "jp-sara-gonzalez-catalan",
+            "nombre": "Sara González Catalán"
           },
           "proveedor": "",
           "desarrolloInterno": "Desarrollo interno",
           "tipo": "Mantención",
-          "planTrabajoPOL": "",
+          "planTrabajoPOL": "https://teams.microsoft.com/l/entity/com.microsoft.teamspace.tab.planner/mytasks?tenantId=9cacd210-70a9-44ee-826b-f6b7685a01d6&webUrl=https%3A%2F%2Ftasks.teams.microsoft.com%2Fteamsui%2FpersonalApp%2Falltasklists&context=%7B%22subEntityId%22%3A%22%2Fv1%2Fpremiumplan%2Fe081eb31-c499-43d0-807f-db6c8efe6276%2Forg%2Ff047bc7e-7275-48cd-be18-376a22411ca9%22%7D",
           "fechaInicio": "",
           "fechaTermino": "",
           "dedicacionAnalista": "40%",
@@ -3888,13 +3799,13 @@
             "dedicacionSistema": "20%"
           },
           "jefeProyectoSuplente": {
-            "id": "",
-            "nombre": ""
+            "id": "jp-sara-gonzalez-catalan",
+            "nombre": "Sara González Catalán"
           },
           "proveedor": "",
           "desarrolloInterno": "Desarrollo interno",
           "tipo": "Mantención",
-          "planTrabajoPOL": "",
+          "planTrabajoPOL": "https://teams.microsoft.com/l/entity/com.microsoft.teamspace.tab.planner/mytasks?tenantId=9cacd210-70a9-44ee-826b-f6b7685a01d6&webUrl=https%3A%2F%2Ftasks.teams.microsoft.com%2Fteamsui%2FpersonalApp%2Falltasklists&context=%7B%22subEntityId%22%3A%22%2Fv1%2Fpremiumplan%2Fe081eb31-c499-43d0-807f-db6c8efe6276%2Forg%2Ff047bc7e-7275-48cd-be18-376a22411ca9%22%7D",
           "fechaInicio": "",
           "fechaTermino": "",
           "dedicacionAnalista": "40%",
@@ -3926,13 +3837,13 @@
             "dedicacionSistema": "20%"
           },
           "jefeProyectoSuplente": {
-            "id": "",
-            "nombre": ""
+            "id": "jp-marcelo-miola-rosales",
+            "nombre": "Marcelo Miola Rosales"
           },
           "proveedor": "",
           "desarrolloInterno": "Desarrollo interno",
           "tipo": "Proyecto Mantención",
-          "planTrabajoPOL": "",
+          "planTrabajoPOL": "https://teams.microsoft.com/l/entity/com.microsoft.teamspace.tab.planner/mytasks?tenantId=9cacd210-70a9-44ee-826b-f6b7685a01d6&webUrl=https%3A%2F%2Ftasks.teams.microsoft.com%2Fteamsui%2FpersonalApp%2Falltasklists&context=%7B%22subEntityId%22%3A%22%2Fv1%2Fpremiumplan%2F1a80227e-0d30-4392-bb12-cb9529f94ac4%2Forg%2Ff047bc7e-7275-48cd-be18-376a22411ca9%22%7D",
           "fechaInicio": "",
           "fechaTermino": "",
           "dedicacionAnalista": "80%",
@@ -3964,13 +3875,13 @@
             "dedicacionSistema": "10%"
           },
           "jefeProyectoSuplente": {
-            "id": "",
-            "nombre": ""
+            "id": "jp-ivan-rojas-marchant",
+            "nombre": "Iván Rojas Marchant"
           },
           "proveedor": "",
           "desarrolloInterno": "Desarrollo interno",
           "tipo": "Proyecto",
-          "planTrabajoPOL": "",
+          "planTrabajoPOL": "https://teams.microsoft.com/l/entity/com.microsoft.teamspace.tab.planner/mytasks?tenantId=9cacd210-70a9-44ee-826b-f6b7685a01d6&webUrl=https%3A%2F%2Ftasks.teams.microsoft.com%2Fteamsui%2FpersonalApp%2Falltasklists&context=%7B%22subEntityId%22%3A%22%2Fv1%2Fpremiumplan%2F37d64832-1a1e-4db3-bf59-2bb5119c3f0b%2Forg%2Ff047bc7e-7275-48cd-be18-376a22411ca9%22%7D",
           "fechaInicio": "",
           "fechaTermino": "",
           "dedicacionAnalista": "10%",
@@ -4030,26 +3941,148 @@
             "dedicacionSistema": "20%"
           },
           "jefeProyectoSuplente": {
-            "id": "",
-            "nombre": ""
+            "id": "jp-marcelo-miola-rosales",
+            "nombre": "Marcelo Miola Rosales"
           },
           "proveedor": "",
           "desarrolloInterno": "Desarrollo interno",
           "tipo": "Proyecto",
-          "planTrabajoPOL": "TD-SPS Mantención Evolutiva 2026/ Sprint 4",
-          "fechaInicio": "06-04-2026",
-          "fechaTermino": "27-04-2026",
+          "planTrabajoPOL": "TD-SPS Mantención Evolutiva 2026/ SPRINT7 - Variable TCA en Json de SIGFE",
+          "fechaInicio": "20-04-2026",
+          "fechaTermino": "30-04-2026",
           "dedicacionAnalista": "80%",
+          "incidentes": "",
+          "analistaSuplente": {
+            "id": "an-claudio-lara-moreno",
+            "nombre": "Claudio Lara Moreno"
+          },
+          "registroFuenteNro": "19"
+        }
+      ],
+      "totalSistemasAsignados": 2,
+      "totalRegistrosRelacionados": 2
+    },
+    {
+      "id": "an-n-a",
+      "nombre": "N/A",
+      "correo": "",
+      "tipoContrato": "",
+      "sistemas": [
+        {
+          "sistemaId": "sistema-erp",
+          "sistema": "ERP",
+          "jefeProyecto": {
+            "id": "jp-fhernandezg-minvu-cl",
+            "nombre": "Fabián Hernández Gallardo",
+            "correo": "fhernandezg@minvu.cl",
+            "tipoContrato": "Contrata",
+            "dedicacionSistema": "95%"
+          },
+          "jefeProyectoSuplente": {
+            "id": "jp-ivan-rojas-marchant",
+            "nombre": "Iván Rojas Marchant"
+          },
+          "proveedor": "Browse",
+          "desarrolloInterno": "Desarrollo externo",
+          "tipo": "Proyecto",
+          "planTrabajoPOL": "https://minvuchile.sharepoint.com/sites/pwa/PE%20-%20Sistema%20integrado%20de%20gesti%C3%B3n%20de%20procesos%20de%20soporte%20%E2%80%93%20ERP%20Ministerial/default.aspx",
+          "fechaInicio": "29-01-2025",
+          "fechaTermino": "29-07-2026",
+          "dedicacionAnalista": "",
           "incidentes": "",
           "analistaSuplente": {
             "id": "",
             "nombre": ""
           },
-          "registroFuenteNro": "20"
+          "registroFuenteNro": "7"
+        },
+        {
+          "sistemaId": "sistema-crm-siac-d365",
+          "sistema": "CRM SIAC D365",
+          "jefeProyecto": {
+            "id": "jp-lpina-minvu-cl",
+            "nombre": "Felipe Piña Bandera",
+            "correo": "lpina@minvu.cl",
+            "tipoContrato": "Contrata",
+            "dedicacionSistema": "90%"
+          },
+          "jefeProyectoSuplente": {
+            "id": "jp-marcelo-miola-rosales",
+            "nombre": "Marcelo Miola Rosales"
+          },
+          "proveedor": "Alfapeople Chile SPA",
+          "desarrolloInterno": "Desarrollo externo",
+          "tipo": "Proyecto",
+          "planTrabajoPOL": "TD - SIAC Configuración CRM y acompañamiento",
+          "fechaInicio": "12-09-2025",
+          "fechaTermino": "14-12-2027",
+          "dedicacionAnalista": "N/A",
+          "incidentes": "N/A",
+          "analistaSuplente": {
+            "id": "an-n-a",
+            "nombre": "N/A"
+          },
+          "registroFuenteNro": "17"
+        },
+        {
+          "sistemaId": "sistema-dom-en-linea",
+          "sistema": "DOM en línea",
+          "jefeProyecto": {
+            "id": "jp-iprojasm-minvu-cl",
+            "nombre": "Iván Rojas Marchant",
+            "correo": "iprojasm@minvu.cl",
+            "tipoContrato": "Contrata",
+            "dedicacionSistema": "50%"
+          },
+          "jefeProyectoSuplente": {
+            "id": "jp-fabian-hernandez-gallardo",
+            "nombre": "Fabián Hernández Gallardo"
+          },
+          "proveedor": "SIIGSA",
+          "desarrolloInterno": "Desarrollo externo",
+          "tipo": "Proyecto",
+          "planTrabajoPOL": "TD – DOM Servicios Externalización Operación y Desarrollo",
+          "fechaInicio": "27-06-2025",
+          "fechaTermino": "16-04-2025",
+          "dedicacionAnalista": "100%",
+          "incidentes": "N/A",
+          "analistaSuplente": {
+            "id": "an-n-a",
+            "nombre": "N/A"
+          },
+          "registroFuenteNro": "34"
+        },
+        {
+          "sistemaId": "sistema-pfud-portal-de-formularios-unicos-digitales",
+          "sistema": "PFUD (Portal de Formularios Únicos Digitales)",
+          "jefeProyecto": {
+            "id": "jp-iprojasm-minvu-cl",
+            "nombre": "Iván Rojas Marchant",
+            "correo": "iprojasm@minvu.cl",
+            "tipoContrato": "Contrata",
+            "dedicacionSistema": "30%"
+          },
+          "jefeProyectoSuplente": {
+            "id": "jp-fabian-hernandez-gallardo",
+            "nombre": "Fabián Hernández Gallardo"
+          },
+          "proveedor": "N/A",
+          "desarrolloInterno": "Desarrollo externo",
+          "tipo": "Proyecto",
+          "planTrabajoPOL": "TD - Portal de Formularios Únicos Digitales",
+          "fechaInicio": "27-01-2026",
+          "fechaTermino": "20-11-2026",
+          "dedicacionAnalista": "100%",
+          "incidentes": "N/A",
+          "analistaSuplente": {
+            "id": "an-n-a",
+            "nombre": "N/A"
+          },
+          "registroFuenteNro": "35"
         }
       ],
-      "totalSistemasAsignados": 2,
-      "totalRegistrosRelacionados": 2
+      "totalSistemasAsignados": 4,
+      "totalRegistrosRelacionados": 4
     },
     {
       "id": "an-jtoledov-minvu-cl",
@@ -4068,8 +4101,8 @@
             "dedicacionSistema": "35%"
           },
           "jefeProyectoSuplente": {
-            "id": "",
-            "nombre": ""
+            "id": "jp-marisol-riveros-villalobos",
+            "nombre": "Marisol Riveros Villalobos"
           },
           "proveedor": "CUNX",
           "desarrolloInterno": "Desarrollo externo",
@@ -4078,10 +4111,10 @@
           "fechaInicio": "01-12-2025",
           "fechaTermino": "12-06-2026",
           "dedicacionAnalista": "3%",
-          "incidentes": "",
+          "incidentes": "3%",
           "analistaSuplente": {
-            "id": "",
-            "nombre": ""
+            "id": "an-claudio-lara-moreno",
+            "nombre": "Claudio Lara Moreno"
           },
           "registroFuenteNro": "8"
         },
@@ -4096,8 +4129,8 @@
             "dedicacionSistema": "5%"
           },
           "jefeProyectoSuplente": {
-            "id": "",
-            "nombre": ""
+            "id": "jp-marisol-riveros-villalobos",
+            "nombre": "Marisol Riveros Villalobos"
           },
           "proveedor": "",
           "desarrolloInterno": "Desarrollo interno",
@@ -4106,10 +4139,10 @@
           "fechaInicio": "",
           "fechaTermino": "",
           "dedicacionAnalista": "10%",
-          "incidentes": "",
+          "incidentes": "10%",
           "analistaSuplente": {
-            "id": "",
-            "nombre": ""
+            "id": "an-claudio-lara-moreno",
+            "nombre": "Claudio Lara Moreno"
           },
           "registroFuenteNro": "10"
         },
@@ -4124,8 +4157,8 @@
             "dedicacionSistema": "5%"
           },
           "jefeProyectoSuplente": {
-            "id": "",
-            "nombre": ""
+            "id": "jp-marisol-riveros-villalobos",
+            "nombre": "Marisol Riveros Villalobos"
           },
           "proveedor": "EnVision",
           "desarrolloInterno": "Desarrollo externo",
@@ -4134,10 +4167,10 @@
           "fechaInicio": "05-02-2025",
           "fechaTermino": "19-12-2025",
           "dedicacionAnalista": "7%",
-          "incidentes": "",
+          "incidentes": "7%",
           "analistaSuplente": {
-            "id": "",
-            "nombre": ""
+            "id": "an-claudio-lara-moreno",
+            "nombre": "Claudio Lara Moreno"
           },
           "registroFuenteNro": "11"
         },
@@ -4152,8 +4185,8 @@
             "dedicacionSistema": "25%"
           },
           "jefeProyectoSuplente": {
-            "id": "",
-            "nombre": ""
+            "id": "jp-humberto-jeldres-palacios",
+            "nombre": "Humberto Jeldres Palacios"
           },
           "proveedor": "",
           "desarrolloInterno": "Desarrollo interno",
@@ -4168,10 +4201,38 @@
             "nombre": ""
           },
           "registroFuenteNro": "32"
+        },
+        {
+          "sistemaId": "sistema-snat-simplificado-carga-de-nuevos-programas",
+          "sistema": "SNAT Simplificado - Carga de nuevos Programas",
+          "jefeProyecto": {
+            "id": "jp-mmiola-minvu-cl",
+            "nombre": "Marcelo Miola Rosales",
+            "correo": "mmiola@minvu.cl",
+            "tipoContrato": "Contrata",
+            "dedicacionSistema": "20%"
+          },
+          "jefeProyectoSuplente": {
+            "id": "jp-marisol-riveros-villalobos",
+            "nombre": "Marisol Riveros Villalobos"
+          },
+          "proveedor": "",
+          "desarrolloInterno": "Desarrollo interno",
+          "tipo": "Mantención",
+          "planTrabajoPOL": "Desarrollo – TD - SNAT Mejoras evolutivas motor de carga DITEC",
+          "fechaInicio": "06-04-2026",
+          "fechaTermino": "27-04-2026",
+          "dedicacionAnalista": "80%",
+          "incidentes": "20%",
+          "analistaSuplente": {
+            "id": "",
+            "nombre": ""
+          },
+          "registroFuenteNro": "37"
         }
       ],
-      "totalSistemasAsignados": 4,
-      "totalRegistrosRelacionados": 4
+      "totalSistemasAsignados": 5,
+      "totalRegistrosRelacionados": 5
     },
     {
       "id": "an-no-aplica",
@@ -4190,8 +4251,8 @@
             "dedicacionSistema": "15%"
           },
           "jefeProyectoSuplente": {
-            "id": "",
-            "nombre": ""
+            "id": "jp-marisol-riveros-villalobos",
+            "nombre": "Marisol Riveros Villalobos"
           },
           "proveedor": "Concordia SPA",
           "desarrolloInterno": "Desarrollo externo",
@@ -4228,8 +4289,8 @@
             "dedicacionSistema": "15%"
           },
           "jefeProyectoSuplente": {
-            "id": "",
-            "nombre": ""
+            "id": "jp-marisol-riveros-villalobos",
+            "nombre": "Marisol Riveros Villalobos"
           },
           "proveedor": "",
           "desarrolloInterno": "Desarrollo interno",
@@ -4238,10 +4299,10 @@
           "fechaInicio": "",
           "fechaTermino": "",
           "dedicacionAnalista": "10%",
-          "incidentes": "",
+          "incidentes": "10%",
           "analistaSuplente": {
-            "id": "",
-            "nombre": ""
+            "id": "an-johanna-toledo-varela",
+            "nombre": "Johanna Toledo Varela"
           },
           "registroFuenteNro": "12"
         },
@@ -4256,8 +4317,8 @@
             "dedicacionSistema": "15%"
           },
           "jefeProyectoSuplente": {
-            "id": "",
-            "nombre": ""
+            "id": "jp-marisol-riveros-villalobos",
+            "nombre": "Marisol Riveros Villalobos"
           },
           "proveedor": "",
           "desarrolloInterno": "Desarrollo interno",
@@ -4266,10 +4327,10 @@
           "fechaInicio": "",
           "fechaTermino": "",
           "dedicacionAnalista": "5%",
-          "incidentes": "",
+          "incidentes": "5%",
           "analistaSuplente": {
-            "id": "",
-            "nombre": ""
+            "id": "an-johanna-toledo-varela",
+            "nombre": "Johanna Toledo Varela"
           },
           "registroFuenteNro": "14"
         },
@@ -4284,8 +4345,8 @@
             "dedicacionSistema": "5%"
           },
           "jefeProyectoSuplente": {
-            "id": "",
-            "nombre": ""
+            "id": "jp-marisol-riveros-villalobos",
+            "nombre": "Marisol Riveros Villalobos"
           },
           "proveedor": "",
           "desarrolloInterno": "Desarrollo interno",
@@ -4294,10 +4355,10 @@
           "fechaInicio": "",
           "fechaTermino": "",
           "dedicacionAnalista": "5%",
-          "incidentes": "",
+          "incidentes": "5%",
           "analistaSuplente": {
-            "id": "",
-            "nombre": ""
+            "id": "an-johanna-toledo-varela",
+            "nombre": "Johanna Toledo Varela"
           },
           "registroFuenteNro": "15"
         },
@@ -4309,23 +4370,23 @@
             "nombre": "Gonzalo Osorio Duque",
             "correo": "gosoriod@minvu.cl",
             "tipoContrato": "Por Producto",
-            "dedicacionSistema": "20%"
+            "dedicacionSistema": "15%"
           },
           "jefeProyectoSuplente": {
-            "id": "",
-            "nombre": ""
+            "id": "jp-marcelo-miola-rosales",
+            "nombre": "Marcelo Miola Rosales"
           },
           "proveedor": "",
           "desarrolloInterno": "Desarrollo interno",
           "tipo": "Proyecto",
           "planTrabajoPOL": "TD - Recuperación de Prestamos DS19 / Sprint 25",
           "fechaInicio": "06-04-2026",
-          "fechaTermino": "06-05-2026",
+          "fechaTermino": "18-05-2026",
           "dedicacionAnalista": "80%",
           "incidentes": "",
           "analistaSuplente": {
-            "id": "",
-            "nombre": ""
+            "id": "an-pablo-quijano-urrutia",
+            "nombre": "Pablo Quijano Urrutia"
           },
           "registroFuenteNro": "23"
         }
@@ -4350,8 +4411,8 @@
             "dedicacionSistema": "5%"
           },
           "jefeProyectoSuplente": {
-            "id": "",
-            "nombre": ""
+            "id": "jp-marisol-riveros-villalobos",
+            "nombre": "Marisol Riveros Villalobos"
           },
           "proveedor": "",
           "desarrolloInterno": "Desarrollo interno",
@@ -4360,10 +4421,10 @@
           "fechaInicio": "",
           "fechaTermino": "",
           "dedicacionAnalista": "10%",
-          "incidentes": "",
+          "incidentes": "10%",
           "analistaSuplente": {
-            "id": "",
-            "nombre": ""
+            "id": "an-johanna-toledo-varela",
+            "nombre": "Johanna Toledo Varela"
           },
           "registroFuenteNro": "13"
         },
@@ -4400,26 +4461,26 @@
           "sistema": "Encuentra tu vivienda",
           "jefeProyecto": {
             "id": "jp-iprojasm-minvu-cl",
-            "nombre": "Iván Rojas",
+            "nombre": "Iván Rojas Marchant",
             "correo": "iprojasm@minvu.cl",
             "tipoContrato": "Contrata",
             "dedicacionSistema": "20%"
           },
           "jefeProyectoSuplente": {
-            "id": "",
-            "nombre": ""
+            "id": "jp-fabian-hernandez-gallardo",
+            "nombre": "Fabián Hernández Gallardo"
           },
-          "proveedor": "",
+          "proveedor": "N/A",
           "desarrolloInterno": "Desarrollo interno",
           "tipo": "Proyecto",
-          "planTrabajoPOL": "",
-          "fechaInicio": "",
-          "fechaTermino": "",
+          "planTrabajoPOL": "DESARROLLO – Modificaciones a Encuentra tu Vivienda 2026 – DPH",
+          "fechaInicio": "26-03-2026",
+          "fechaTermino": "30-06-2026",
           "dedicacionAnalista": "80%",
-          "incidentes": "",
+          "incidentes": "N/A",
           "analistaSuplente": {
-            "id": "",
-            "nombre": ""
+            "id": "an-francisco-lemus",
+            "nombre": "Francisco Lemus"
           },
           "registroFuenteNro": "42"
         }
@@ -4441,11 +4502,11 @@
             "nombre": "Felipe Piña Bandera",
             "correo": "lpina@minvu.cl",
             "tipoContrato": "Contrata",
-            "dedicacionSistema": "20%"
+            "dedicacionSistema": "10%"
           },
           "jefeProyectoSuplente": {
-            "id": "",
-            "nombre": ""
+            "id": "jp-marcelo-miola-rosales",
+            "nombre": "Marcelo Miola Rosales"
           },
           "proveedor": "",
           "desarrolloInterno": "Desarrollo interno",
@@ -4454,10 +4515,10 @@
           "fechaInicio": "07-01-2026",
           "fechaTermino": "Permanente",
           "dedicacionAnalista": "50%",
-          "incidentes": "",
+          "incidentes": "N/A",
           "analistaSuplente": {
-            "id": "",
-            "nombre": ""
+            "id": "an-n-a",
+            "nombre": "N/A"
           },
           "registroFuenteNro": "16"
         }
@@ -4482,8 +4543,8 @@
             "dedicacionSistema": "15%"
           },
           "jefeProyectoSuplente": {
-            "id": "",
-            "nombre": ""
+            "id": "jp-marcelo-miola-rosales",
+            "nombre": "Marcelo Miola Rosales"
           },
           "proveedor": "",
           "desarrolloInterno": "Desarrollo interno",
@@ -4491,14 +4552,24 @@
           "planTrabajoPOL": "",
           "fechaInicio": "",
           "fechaTermino": "Permanente",
-          "dedicacionAnalista": "80%",
+          "dedicacionAnalista": "100%",
           "incidentes": "",
           "analistaSuplente": {
-            "id": "",
-            "nombre": ""
+            "id": "an-hernan-silva-jimenez",
+            "nombre": "Hernan Silva Jimenez"
           },
           "registroFuenteNro": "18"
-        },
+        }
+      ],
+      "totalSistemasAsignados": 1,
+      "totalRegistrosRelacionados": 1
+    },
+    {
+      "id": "an-bprietop-minvu-cl",
+      "nombre": "Bastian Prieto Puga",
+      "correo": "bprietop@minvu.cl",
+      "tipoContrato": "Contrata",
+      "sistemas": [
         {
           "sistemaId": "sistema-pago-subsidios",
           "sistema": "Pago Subsidios",
@@ -4507,29 +4578,29 @@
             "nombre": "Gonzalo Osorio Duque",
             "correo": "gosoriod@minvu.cl",
             "tipoContrato": "Por Producto",
-            "dedicacionSistema": "10%"
+            "dedicacionSistema": "15%"
           },
           "jefeProyectoSuplente": {
-            "id": "",
-            "nombre": ""
+            "id": "jp-marcelo-miola-rosales",
+            "nombre": "Marcelo Miola Rosales"
           },
           "proveedor": "",
           "desarrolloInterno": "Desarrollo interno",
           "tipo": "Proyecto",
-          "planTrabajoPOL": "TD-SPS Mantención Evolutiva 2026/ Sprint 1",
-          "fechaInicio": "01-04-2026",
-          "fechaTermino": "13-04-2026",
-          "dedicacionAnalista": "20%",
-          "incidentes": "",
+          "planTrabajoPOL": "TD-SPS Mantención Evolutiva 2026 / SPRINT5 y SPRINT6 - DS19 Llamados 2024 2025",
+          "fechaInicio": "20-04-2026",
+          "fechaTermino": "05-06-2026",
+          "dedicacionAnalista": "80%",
+          "incidentes": "20",
           "analistaSuplente": {
-            "id": "",
-            "nombre": ""
+            "id": "an-hernan-silva-jimenez",
+            "nombre": "Hernan Silva Jimenez"
           },
-          "registroFuenteNro": "19"
+          "registroFuenteNro": "20"
         }
       ],
-      "totalSistemasAsignados": 2,
-      "totalRegistrosRelacionados": 2
+      "totalSistemasAsignados": 1,
+      "totalRegistrosRelacionados": 1
     },
     {
       "id": "an-hsilvaj-minvu-cl",
@@ -4545,23 +4616,23 @@
             "nombre": "Gonzalo Osorio Duque",
             "correo": "gosoriod@minvu.cl",
             "tipoContrato": "Por Producto",
-            "dedicacionSistema": "10%"
+            "dedicacionSistema": "20%"
           },
           "jefeProyectoSuplente": {
-            "id": "",
-            "nombre": ""
+            "id": "jp-marcelo-miola-rosales",
+            "nombre": "Marcelo Miola Rosales"
           },
           "proveedor": "",
           "desarrolloInterno": "Desarrollo interno",
           "tipo": "Proyecto",
-          "planTrabajoPOL": "TD-SPS Mantención Evolutiva 2026 / Sprint 2",
-          "fechaInicio": "06-04-2026",
-          "fechaTermino": "20-04-2026",
+          "planTrabajoPOL": "TD_MIGRACION BBDD SPS v2008 a v2019 // SPRINT 5 - TEST VALIDACIONES SPS",
+          "fechaInicio": "20-04-2026",
+          "fechaTermino": "05-05-2026",
           "dedicacionAnalista": "80%",
           "incidentes": "",
           "analistaSuplente": {
-            "id": "",
-            "nombre": ""
+            "id": "an-claudio-lara-moreno",
+            "nombre": "Claudio Lara Moreno"
           },
           "registroFuenteNro": "21"
         },
@@ -4573,11 +4644,11 @@
             "nombre": "Gonzalo Osorio Duque",
             "correo": "gosoriod@minvu.cl",
             "tipoContrato": "Por Producto",
-            "dedicacionSistema": "25%"
+            "dedicacionSistema": "15%"
           },
           "jefeProyectoSuplente": {
-            "id": "",
-            "nombre": ""
+            "id": "jp-marcelo-miola-rosales",
+            "nombre": "Marcelo Miola Rosales"
           },
           "proveedor": "",
           "desarrolloInterno": "Desarrollo interno",
@@ -4588,8 +4659,8 @@
           "dedicacionAnalista": "20%",
           "incidentes": "",
           "analistaSuplente": {
-            "id": "",
-            "nombre": ""
+            "id": "an-felipe-ahumada-romero",
+            "nombre": "Felipe Ahumada Romero"
           },
           "registroFuenteNro": "22"
         }
@@ -4832,8 +4903,8 @@
             "dedicacionSistema": "25%"
           },
           "jefeProyectoSuplente": {
-            "id": "",
-            "nombre": ""
+            "id": "jp-humberto-jeldres-palacios",
+            "nombre": "Humberto Jeldres Palacios"
           },
           "proveedor": "",
           "desarrolloInterno": "Desarrollo interno",
@@ -4841,17 +4912,45 @@
           "planTrabajoPOL": "TD - Valores Monetarios Captcha",
           "fechaInicio": "18-11-2025",
           "fechaTermino": "20-04-2026",
-          "dedicacionAnalista": "80%",
-          "incidentes": "",
+          "dedicacionAnalista": "60%",
+          "incidentes": "20%",
           "analistaSuplente": {
-            "id": "",
-            "nombre": ""
+            "id": "an-johanna-toledo-varela",
+            "nombre": "Johanna Toledo Varela"
           },
           "registroFuenteNro": "33"
+        },
+        {
+          "sistemaId": "sistema-sibis",
+          "sistema": "SIBIS",
+          "jefeProyecto": {
+            "id": "jp-mriveros-minvu-cl",
+            "nombre": "Marisol Riveros Villalobos",
+            "correo": "mriveros@minvu.cl",
+            "tipoContrato": "Contrata",
+            "dedicacionSistema": "25%"
+          },
+          "jefeProyectoSuplente": {
+            "id": "jp-humberto-jeldres-palacios",
+            "nombre": "Humberto Jeldres Palacios"
+          },
+          "proveedor": "",
+          "desarrolloInterno": "Desarrollo interno",
+          "tipo": "Proyecto Mantención",
+          "planTrabajoPOL": "TD - SIBIS Etapa 2 Polígonos",
+          "fechaInicio": "14-04-2026",
+          "fechaTermino": "13-05-2026",
+          "dedicacionAnalista": "60%",
+          "incidentes": "20%",
+          "analistaSuplente": {
+            "id": "an-johanna-toledo-varela",
+            "nombre": "Johanna Toledo Varela"
+          },
+          "registroFuenteNro": "44"
         }
       ],
-      "totalSistemasAsignados": 1,
-      "totalRegistrosRelacionados": 1
+      "totalSistemasAsignados": 2,
+      "totalRegistrosRelacionados": 2
     },
     {
       "id": "an-mmamani-minvu-cl",
@@ -4860,98 +4959,32 @@
       "tipoContrato": "Contrata",
       "sistemas": [
         {
-          "sistemaId": "sistema-plataforma-de-rendiciones-asentamientos-precarios-prap",
-          "sistema": "Plataforma de Rendiciones Asentamientos Precarios PRAP",
+          "sistemaId": "sistema-sistema-de-gestion-de-reserva-de-hora-sgrh",
+          "sistema": "Sistema de Gestión de Reserva de Hora (SGRH)",
           "jefeProyecto": {
             "id": "jp-mmiola-minvu-cl",
             "nombre": "Marcelo Miola Rosales",
             "correo": "mmiola@minvu.cl",
             "tipoContrato": "Contrata",
-            "dedicacionSistema": "10%"
+            "dedicacionSistema": "20%"
           },
           "jefeProyectoSuplente": {
             "id": "",
             "nombre": ""
           },
-          "proveedor": "",
+          "proveedor": "N/A",
           "desarrolloInterno": "Desarrollo interno",
           "tipo": "Mantención",
-          "planTrabajoPOL": "Cierre mensual y carga de rendiciones por meses PRAP",
-          "fechaInicio": "En tramite",
-          "fechaTermino": "",
-          "dedicacionAnalista": "60%",
-          "incidentes": "10%",
-          "analistaSuplente": {
-            "id": "",
-            "nombre": ""
-          },
-          "registroFuenteNro": "36"
-        },
-        {
-          "sistemaId": "sistema-snat-simplificado-carga-de-nuevos-programas",
-          "sistema": "SNAT Simplificado - Carga de nuevos Programas",
-          "jefeProyecto": {
-            "id": "jp-mmiola-minvu-cl",
-            "nombre": "Marcelo Miola Rosales",
-            "correo": "mmiola@minvu.cl",
-            "tipoContrato": "Contrata",
-            "dedicacionSistema": "10%"
-          },
-          "jefeProyectoSuplente": {
-            "id": "",
-            "nombre": ""
-          },
-          "proveedor": "",
-          "desarrolloInterno": "Desarrollo interno",
-          "tipo": "Mantención",
-          "planTrabajoPOL": "Motor de carga de proyecto en SNAT",
-          "fechaInicio": "En tramite",
-          "fechaTermino": "",
-          "dedicacionAnalista": "20%",
-          "incidentes": "10%",
-          "analistaSuplente": {
-            "id": "",
-            "nombre": ""
-          },
-          "registroFuenteNro": "37"
-        }
-      ],
-      "totalSistemasAsignados": 2,
-      "totalRegistrosRelacionados": 2
-    },
-    {
-      "id": "an-bprietop-minvu-cl",
-      "nombre": "Bastian Prieto Puga",
-      "correo": "bprietop@minvu.cl",
-      "tipoContrato": "Contrata",
-      "sistemas": [
-        {
-          "sistemaId": "sistema-plataforma-prap-incorporacion-de-barrios-y-pago",
-          "sistema": "Plataforma  PRAP Incorporación de Barrios y Pago.",
-          "jefeProyecto": {
-            "id": "jp-mmiola-minvu-cl",
-            "nombre": "Marcelo Miola Rosales",
-            "correo": "mmiola@minvu.cl",
-            "tipoContrato": "Contrata",
-            "dedicacionSistema": "10%"
-          },
-          "jefeProyectoSuplente": {
-            "id": "",
-            "nombre": ""
-          },
-          "proveedor": "",
-          "desarrolloInterno": "Desarrollo interno",
-          "tipo": "Mantención",
-          "planTrabajoPOL": "TD - Mejoras e integración con SPS",
-          "fechaInicio": "En tramite",
-          "fechaTermino": "",
+          "planTrabajoPOL": "Desarrollo – SGRH Mejoras evolutivas - 2026 – SIAC",
+          "fechaInicio": "20-04-2026",
+          "fechaTermino": "29-05-2026",
           "dedicacionAnalista": "80%",
           "incidentes": "20%",
           "analistaSuplente": {
             "id": "",
             "nombre": ""
           },
-          "registroFuenteNro": "38"
+          "registroFuenteNro": "36"
         }
       ],
       "totalSistemasAsignados": 1,
@@ -4980,48 +5013,20 @@
           "proveedor": "",
           "desarrolloInterno": "Desarrollo interno",
           "tipo": "Mantención",
-          "planTrabajoPOL": "Calificación Energética de Vivienda WEB",
-          "fechaInicio": "En tramite",
-          "fechaTermino": "",
-          "dedicacionAnalista": "50%",
-          "incidentes": "10%",
+          "planTrabajoPOL": "Desarrollo – CEW Mejoras evolutivas - 2026 – DITEC",
+          "fechaInicio": "20-04-2026",
+          "fechaTermino": "18-05-2026",
+          "dedicacionAnalista": "80%",
+          "incidentes": "20%",
           "analistaSuplente": {
             "id": "",
             "nombre": ""
           },
           "registroFuenteNro": "39"
-        },
-        {
-          "sistemaId": "sistema-carga-de-fichas-de-reconstruccion",
-          "sistema": "Carga de fichas de Reconstrucción",
-          "jefeProyecto": {
-            "id": "jp-mmiola-minvu-cl",
-            "nombre": "Marcelo Miola Rosales",
-            "correo": "mmiola@minvu.cl",
-            "tipoContrato": "Contrata",
-            "dedicacionSistema": "10%"
-          },
-          "jefeProyectoSuplente": {
-            "id": "",
-            "nombre": ""
-          },
-          "proveedor": "",
-          "desarrolloInterno": "Desarrollo interno",
-          "tipo": "Mantención",
-          "planTrabajoPOL": "Fichas de Reconstrucción",
-          "fechaInicio": "En tramite",
-          "fechaTermino": "",
-          "dedicacionAnalista": "30%",
-          "incidentes": "10%",
-          "analistaSuplente": {
-            "id": "",
-            "nombre": ""
-          },
-          "registroFuenteNro": "40"
         }
       ],
-      "totalSistemasAsignados": 2,
-      "totalRegistrosRelacionados": 2
+      "totalSistemasAsignados": 1,
+      "totalRegistrosRelacionados": 1
     },
     {
       "id": "an-smamanil-minvu-cl",
@@ -5037,7 +5042,7 @@
             "nombre": "Marcelo Miola Rosales",
             "correo": "mmiola@minvu.cl",
             "tipoContrato": "Contrata",
-            "dedicacionSistema": "30%"
+            "dedicacionSistema": "60%"
           },
           "jefeProyectoSuplente": {
             "id": "",
@@ -5046,7 +5051,7 @@
           "proveedor": "",
           "desarrolloInterno": "Desarrollo externo",
           "tipo": "Proyecto",
-          "planTrabajoPOL": "TD - DAP Nuevo Sistema DAP Etapa3 - ASIMOV",
+          "planTrabajoPOL": "Desarrollo – Sistemas Asentamientos Precarios - Etapa 3 – DITEC",
           "fechaInicio": "02-03-2026",
           "fechaTermino": "31-12-2026",
           "dedicacionAnalista": "80%",
